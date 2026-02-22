@@ -142,25 +142,101 @@ function buildMediaUnit(dirPath, folderName) {
   };
 }
 
+// Extract season number from a folder name
+function extractSeasonNumber(name) {
+  const m = name.match(/^(?:season|temporada)\s*(\d+)$/i)
+    || name.match(/^s(\d{1,4})$/i)
+    || name.match(/^t(\d{1,2})$/i);
+  return m ? parseInt(m[1], 10) : 0;
+}
+
+// Clean episode filename into a readable name
+function cleanEpisodeName(fileName) {
+  let n = fileName.replace(/\.[^.]+$/, ''); // remove extension
+  // Try to extract episode title after SxxExx pattern
+  const epMatch = n.match(/S\d{1,2}E\d{1,3}\s*-?\s*(.*)/i);
+  if (epMatch && epMatch[1].trim()) {
+    // Clean codec/quality junk from the episode title
+    let title = epMatch[1].trim();
+    title = title.replace(/\(.*?\)/g, '');
+    title = title.replace(/\b(720p|1080p|2160p|bluray|x264|x265|hevc|aac|ac3|dts|10bit)\b.*/gi, '');
+    title = title.replace(/[._]+/g, ' ').replace(/\s+/g, ' ').trim();
+    if (title.length > 1) return title;
+  }
+  // Fallback: clean the full filename
+  n = n.replace(/[._]+/g, ' ').replace(/\s+/g, ' ').trim();
+  return n;
+}
+
+// Extract episode number from filename (e.g. S01E03 → 3, or fallback to position)
+function extractEpisodeNumber(fileName) {
+  const m = fileName.match(/S\d{1,2}E(\d{1,3})/i);
+  return m ? parseInt(m[1], 10) : null;
+}
+
 // Build a series unit from a folder whose videos live in season subfolders
 function buildSeriesUnit(dirPath, folderName) {
-  const allVideos = collectVideos(dirPath);
-  if (!allVideos.length) return null;
+  let entries;
+  try { entries = fs.readdirSync(dirPath, { withFileTypes: true }); }
+  catch (e) { return null; }
 
-  // First episode (sorted by path = season + episode order)
-  allVideos.sort((a, b) => a.path.localeCompare(b.path));
-  const mainFile = allVideos[0];
+  const seasonDirs = entries.filter(e => e.isDirectory() && isSeasonLike(e.name));
+  const supplementDirs = entries.filter(e => e.isDirectory() && isSupplementFolder(e.name));
 
+  // Build seasons array with episodes organized per season
+  const seasons = [];
+  let totalEpisodes = 0;
+
+  for (const sd of seasonDirs) {
+    const seasonPath = path.join(dirPath, sd.name);
+    const seasonNum = extractSeasonNumber(sd.name);
+    const videos = collectVideos(seasonPath);
+    if (!videos.length) continue;
+
+    // Sort by episode number or filename
+    videos.sort((a, b) => {
+      const ea = extractEpisodeNumber(a.name);
+      const eb = extractEpisodeNumber(b.name);
+      if (ea != null && eb != null) return ea - eb;
+      return a.name.localeCompare(b.name);
+    });
+
+    const episodes = videos.map((v, idx) => ({
+      number: extractEpisodeNumber(v.name) || (idx + 1),
+      name: cleanEpisodeName(v.name),
+      fileName: v.name,
+      path: v.path
+    }));
+
+    seasons.push({ number: seasonNum, name: sd.name, episodes });
+    totalEpisodes += episodes.length;
+  }
+
+  seasons.sort((a, b) => a.number - b.number);
+
+  if (totalEpisodes === 0) return null;
+
+  // Collect extras from supplement folders
+  const extras = [];
+  for (const sd of supplementDirs) {
+    const videos = collectVideos(path.join(dirPath, sd.name));
+    for (const v of videos) {
+      extras.push({ name: cleanExtraName(v.name), fileName: v.name, path: v.path, size: v.size });
+    }
+  }
+
+  const mainFile = seasons[0].episodes[0];
   const cleanName = cleanFolderName(folderName);
   if (cleanName.length < 2) return null;
 
   return {
     folderPath: dirPath, folderName, cleanName,
     year: extractYear(folderName),
-    mainFile: { name: mainFile.name, path: mainFile.path, size: mainFile.size },
-    extras: [],               // episodes are not "extras"
-    isSeriesFolder: true,     // hint: search TV first
-    localEpisodeCount: allVideos.length
+    mainFile: { name: mainFile.fileName, path: mainFile.path, size: 0 },
+    extras,
+    seasons,
+    isSeriesFolder: true,
+    localEpisodeCount: totalEpisodes
   };
 }
 
@@ -546,6 +622,7 @@ function buildEntry(mediaUnit, tmdbBasic, tmdbDetails) {
     numberOfSeasons: details.number_of_seasons || null,
     numberOfEpisodes: details.number_of_episodes || null,
     status: details.status || null,
+    seasons: mediaUnit.seasons || null,
     // User data
     dateAdded: new Date().toISOString(),
     watched: false,
@@ -677,6 +754,104 @@ app.post('/api/identify', async (req, res) => {
   }
 
   res.json({ found: true, entry, episodeWarning });
+});
+
+// Search TMDB manually (returns multiple results for user to choose)
+app.post('/api/tmdb-search', async (req, res) => {
+  const cfg = loadConfig();
+  if (!cfg.tmdbApiKey) return res.status(400).json({ error: 'Falta API key de TMDB' });
+  const { query, mediaType } = req.body; // mediaType: 'movie' | 'tv' | 'both'
+  if (!query) return res.status(400).json({ error: 'Falta query' });
+
+  try {
+    const results = [];
+    if (mediaType !== 'tv') {
+      const mr = await tmdbRequest(cfg.tmdbApiKey, `/search/movie?query=${encodeURIComponent(query)}&language=en-US`);
+      (mr.results || []).forEach(r => results.push({ ...r, mediaType: 'movie' }));
+    }
+    if (mediaType !== 'movie') {
+      const tr = await tmdbRequest(cfg.tmdbApiKey, `/search/tv?query=${encodeURIComponent(query)}&language=en-US`);
+      (tr.results || []).forEach(r => results.push({ ...r, mediaType: 'tv' }));
+    }
+    // Return top 10 sorted by popularity
+    results.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
+    res.json({
+      results: results.slice(0, 10).map(r => ({
+        id: r.id,
+        mediaType: r.mediaType,
+        title: r.title || r.name || '',
+        originalTitle: r.original_title || r.original_name || '',
+        year: (r.release_date || r.first_air_date || '').substring(0, 4),
+        posterPath: r.poster_path,
+        overview: (r.overview || '').substring(0, 200),
+        popularity: r.popularity
+      }))
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// Rematch: re-identify a library entry with a specific TMDB ID or new search
+app.post('/api/rematch', async (req, res) => {
+  const cfg = loadConfig();
+  if (!cfg.tmdbApiKey) return res.status(400).json({ error: 'Falta API key de TMDB' });
+  const { entryId, tmdbId, mediaType } = req.body;
+  if (!entryId || !tmdbId || !mediaType) return res.status(400).json({ error: 'Faltan parámetros' });
+
+  const lib = loadLibrary();
+  const idx = lib.findIndex(e => e.id === entryId);
+  if (idx < 0) return res.status(404).json({ error: 'Entrada no encontrada' });
+
+  const existing = lib[idx];
+
+  try {
+    let details;
+    if (mediaType === 'tv') {
+      details = await getTVDetails(cfg.tmdbApiKey, tmdbId);
+    } else {
+      details = await getMovieDetails(cfg.tmdbApiKey, tmdbId);
+    }
+    if (!details) return res.status(404).json({ error: 'No se encontró en TMDB' });
+
+    // Build a minimal mediaUnit from existing entry to pass to buildEntry
+    const mediaUnit = {
+      folderPath: existing.folderPath,
+      folderName: existing.folderName,
+      mainFile: existing.mainFile,
+      extras: existing.extras || [],
+      seasons: existing.seasons || null,
+      cleanName: cleanFolderName(existing.folderName || ''),
+      year: extractYear(existing.folderName || ''),
+    };
+
+    const basic = { ...details, mediaType };
+    const entry = buildEntry(mediaUnit, basic, details);
+
+    // Preserve user data
+    entry.id = existing.id;
+    entry.watched = existing.watched;
+    entry.watchedDate = existing.watchedDate;
+    entry.rating = existing.rating;
+    entry.favorite = existing.favorite;
+    entry.notes = existing.notes;
+    entry.dateAdded = existing.dateAdded;
+    entry.versions = existing.versions || null;
+
+    // Original language poster
+    const origLang = details.original_language;
+    if (origLang) {
+      const origPoster = await getOriginalPoster(cfg.tmdbApiKey, tmdbId, mediaType, origLang);
+      if (origPoster) entry.posterPath = origPoster;
+    }
+
+    lib[idx] = entry;
+    saveLibrary(lib);
+    console.log(`  Rematch: "${existing.title}" → "${entry.title}" (${entry.year}) [${mediaType}]`);
+    res.json({ ok: true, entry });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
 });
 
 app.post('/api/library/add', (req, res) => {
