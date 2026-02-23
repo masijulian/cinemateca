@@ -94825,7 +94825,7 @@
     "watched": false,
     "watchedDate": null,
     "rating": null,
-    "favorite": false,
+    "favorite": true,
     "notes": ""
   },
   {
@@ -95922,71 +95922,6 @@
     "status": "Released",
     "seasons": null,
     "dateAdded": "2026-02-23T04:00:57.172Z",
-    "watched": false,
-    "watchedDate": null,
-    "rating": null,
-    "favorite": false,
-    "notes": ""
-  },
-  {
-    "id": "mu_1771819258310_l5ozax",
-    "folderPath": "Z:\\Documentaries\\BIOS",
-    "folderName": "BIOS",
-    "mainFile": {
-      "name": "BIOS Spinetta (2019).mp4",
-      "path": "Z:\\Documentaries\\BIOS\\BIOS Spinetta (2019).mp4",
-      "size": 8058836298
-    },
-    "extras": [
-      {
-        "name": "#BiosCerati (Parte 1) Biografía de Gustavo Cerati National Geographic (1080p 30fps H264 128kbit AAC)",
-        "fileName": "#BiosCerati (Parte 1) _ Biografía de Gustavo Cerati _ National Geographic (1080p_30fps_H264-128kbit_AAC).mp4",
-        "path": "Z:\\Documentaries\\BIOS\\#BiosCerati (Parte 1) _ Biografía de Gustavo Cerati _ National Geographic\\#BiosCerati (Parte 1) _ Biografía de Gustavo Cerati _ National Geographic (1080p_30fps_H264-128kbit_AAC).mp4",
-        "size": 772868270
-      },
-      {
-        "name": "#BiosCharly (Parte 1) Biografía de Charly García National Geographic (1080p 30fps H264 128kbit AAC)",
-        "fileName": "#BiosCharly (Parte 1) _ Biografía de Charly García _ National Geographic (1080p_30fps_H264-128kbit_AAC).mp4",
-        "path": "Z:\\Documentaries\\BIOS\\#BiosCharly (Parte 1) _ Biografía de Charly García _ National Geographic\\#BiosCharly (Parte 1) _ Biografía de Charly García _ National Geographic (1080p_30fps_H264-128kbit_AAC).mp4",
-        "size": 745575355
-      }
-    ],
-    "mediaType": "tv",
-    "tmdbId": 89619,
-    "imdbId": null,
-    "title": "Bios",
-    "originalTitle": "Bios: Vidas que marcaron la tuya",
-    "overview": "A fascinating journey through the life and work of many Latin American music idols, by the curious gaze of young chroniclers, with access to exclusive footage.",
-    "tagline": "",
-    "releaseDate": "2018-11-11",
-    "year": "2018",
-    "runtime": 47,
-    "voteAverage": 2,
-    "voteCount": 1,
-    "popularity": 0.4857,
-    "posterPath": "/gZc3A5nuO72lqyrIqyqxlAQpdAA.jpg",
-    "backdropPath": "/qo1BYpQItnxPwdmAqQIHz8GL4VB.jpg",
-    "genres": [
-      "Documentary"
-    ],
-    "directors": [],
-    "cast": [],
-    "writers": [],
-    "productionCountries": [
-      "Argentina",
-      "Brazil",
-      "Mexico"
-    ],
-    "language": "es",
-    "keywords": [
-      "biography"
-    ],
-    "trailerKey": null,
-    "numberOfSeasons": 2,
-    "numberOfEpisodes": 6,
-    "status": "Ended",
-    "seasons": null,
-    "dateAdded": "2026-02-23T04:00:58.310Z",
     "watched": false,
     "watchedDate": null,
     "rating": null,
@@ -100381,6 +100316,225 @@
     "status": "Released",
     "seasons": null,
     "dateAdded": "2026-02-23T06:13:34.146Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771828194030_junwy6",
+    "folderPath": "Z:\\Documentaries\\BIOS",
+    "folderName": "BIOS",
+    "mainFile": {
+      "name": "T2.E2 ∙ Luis Alberto Spinetta.mp4",
+      "path": "Z:\\Documentaries\\BIOS\\T2.E2 ∙ Luis Alberto Spinetta.mp4",
+      "size": 8058836298
+    },
+    "extras": [
+      {
+        "name": "T1 E1 ∙ Charly Garcia",
+        "fileName": "T1.E1 ∙ Charly Garcia.mp4",
+        "path": "Z:\\Documentaries\\BIOS\\T1.E1 ∙ Charly Garcia.mp4",
+        "size": 745575355
+      },
+      {
+        "name": "T1 E3 ∙ Gustavo Cerati",
+        "fileName": "T1.E3 ∙ Gustavo Cerati.mp4",
+        "path": "Z:\\Documentaries\\BIOS\\T1.E3 ∙ Gustavo Cerati.mp4",
+        "size": 772868270
+      }
+    ],
+    "mediaType": "tv",
+    "tmdbId": 89619,
+    "imdbId": null,
+    "title": "Bios",
+    "originalTitle": "Bios: Vidas que marcaron la tuya",
+    "overview": "A fascinating journey through the life and work of many Latin American music idols, by the curious gaze of young chroniclers, with access to exclusive footage.",
+    "tagline": "",
+    "releaseDate": "2018-11-11",
+    "year": "2018",
+    "runtime": 47,
+    "voteAverage": 2,
+    "voteCount": 1,
+    "popularity": 0.4238,
+    "posterPath": "/gZc3A5nuO72lqyrIqyqxlAQpdAA.jpg",
+    "backdropPath": "/qo1BYpQItnxPwdmAqQIHz8GL4VB.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [],
+    "cast": [],
+    "writers": [],
+    "productionCountries": [
+      "Argentina",
+      "Brazil",
+      "Mexico"
+    ],
+    "language": "es",
+    "keywords": [
+      "biography"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": 2,
+    "numberOfEpisodes": 6,
+    "status": "Ended",
+    "seasons": null,
+    "dateAdded": "2026-02-23T06:29:54.030Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771830286802_sr58j0",
+    "folderPath": "Z:\\Unsorted Movies\\Cat.on.a.Hot.Tin.Roof.1958.1080p.BluRay.X264-AMIABLE",
+    "folderName": "Cat.on.a.Hot.Tin.Roof.1958.1080p.BluRay.X264-AMIABLE",
+    "mainFile": {
+      "name": "Cat.on.a.Hot.Tin.Roof.1958.1080p.BluRay.X264-AMIABLE.mkv",
+      "path": "Z:\\Unsorted Movies\\Cat.on.a.Hot.Tin.Roof.1958.1080p.BluRay.X264-AMIABLE\\Cat.on.a.Hot.Tin.Roof.1958.1080p.BluRay.X264-AMIABLE.mkv",
+      "size": 11740021273
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 261,
+    "imdbId": "tt0051459",
+    "title": "Cat on a Hot Tin Roof",
+    "originalTitle": "Cat on a Hot Tin Roof",
+    "overview": "An alcoholic ex-football player drinks his days away, having failed to come to terms with his sexuality and his real feelings for his football buddy who died after an ambiguous accident. His wife is crucified by her desperation to make him desire her: but he resists the affections of his wife. His reunion with his father—who is dying of cancer—jogs a host of memories and revelations for both father and son.",
+    "tagline": "Just one pillow on her bed... and just one desire in her heart.",
+    "releaseDate": "1958-08-29",
+    "year": "1958",
+    "runtime": 108,
+    "voteAverage": 7.631,
+    "voteCount": 819,
+    "popularity": 1.1856,
+    "posterPath": "/5djZZECgqDGuSI1INmrdAcGRBb0.jpg",
+    "backdropPath": "/3Yz8IcUBPZ8zDff0ktHZk24Rot0.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "directors": [
+      {
+        "id": 3632,
+        "name": "Richard Brooks",
+        "profile_path": "/2ugZnGBTTK6CA9GEiScX4QHuFkl.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 3636,
+        "name": "Paul Newman",
+        "character": "Brick",
+        "profile_path": "/bP2fByqNR7BorsUNuD6nSm0u2vJ.jpg"
+      },
+      {
+        "id": 3635,
+        "name": "Elizabeth Taylor",
+        "character": "Maggie",
+        "profile_path": "/pIq0rsj0XHKFemnvMjq5q6nAseo.jpg"
+      },
+      {
+        "id": 2753,
+        "name": "Burl Ives",
+        "character": "Harvey 'Big Daddy' Pollitt",
+        "profile_path": "/qRefQVFPdXwkHLLgDLFPeRgcLu4.jpg"
+      },
+      {
+        "id": 3362,
+        "name": "Judith Anderson",
+        "character": "Big Momma",
+        "profile_path": "/33Ree0GhYJoxQuh1vAjyGsoKiS4.jpg"
+      },
+      {
+        "id": 2672,
+        "name": "Jack Carson",
+        "character": "Gooper",
+        "profile_path": "/lOYGfx1zbsrhpqzL1svLE1LmFYe.jpg"
+      },
+      {
+        "id": 3639,
+        "name": "Madeleine Sherwood",
+        "character": "Mae",
+        "profile_path": "/bDwZn45GRRb4eS99bFrYLcdofAA.jpg"
+      },
+      {
+        "id": 3641,
+        "name": "Vaughn Taylor",
+        "character": "Deacon Davis",
+        "profile_path": "/qX7jGnLyveGDBRy9nRgzBJFMqTH.jpg"
+      },
+      {
+        "id": 3640,
+        "name": "Larry Gates",
+        "character": "Dr. Baugh",
+        "profile_path": "/g9ovDZYmccbsuDNsdzaHEcjz3Zl.jpg"
+      },
+      {
+        "id": 195830,
+        "name": "Brian Corcoran",
+        "character": "Boy",
+        "profile_path": "/7BgaSOzYPDvBwz8TyxRT05XvukN.jpg"
+      },
+      {
+        "id": 3752,
+        "name": "Zelda Cleaver",
+        "character": "Servant",
+        "profile_path": null
+      },
+      {
+        "id": 274868,
+        "name": "Robert 'Rusty' Stevens",
+        "character": "Sonny Pollitt",
+        "profile_path": "/47OCUlSlkyVGo9G57fW4R67cps0.jpg"
+      },
+      {
+        "id": 193032,
+        "name": "Hugh Corcoran",
+        "character": "Buster Pollitt",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 3632,
+        "name": "Richard Brooks",
+        "job": "Screenplay"
+      },
+      {
+        "id": 3638,
+        "name": "James Poe",
+        "job": "Screenplay"
+      },
+      {
+        "id": 3634,
+        "name": "Tennessee Williams",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "dying and death",
+      "depression",
+      "individual",
+      "suicide",
+      "jealousy",
+      "husband wife relationship",
+      "southern usa",
+      "mississippi river",
+      "plantation",
+      "patriarch"
+    ],
+    "trailerKey": "SGvJZLJi9sU",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T07:04:46.802Z",
     "watched": false,
     "watchedDate": null,
     "rating": null,

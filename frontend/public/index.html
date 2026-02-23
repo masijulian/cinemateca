@@ -25,7 +25,7 @@
   --ease:cubic-bezier(.4,0,.2,1);--t:.2s;
 }
 html{font-size:14px}
-body{background:var(--bg);color:var(--text);font-family:var(--font-b);min-height:100vh;overflow-x:hidden}
+body{background:var(--bg);color:var(--text);font-family:var(--font-b);min-height:100vh;overflow-x:hidden;user-select:none;cursor:default}
 ::-webkit-scrollbar{width:6px;height:6px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--surface2);border-radius:3px}
@@ -234,7 +234,7 @@ input,select{font-family:inherit}
 .mchip.g{color:var(--accent);border-color:rgba(212,169,75,.25)}
 .mchip.tv-badge{color:var(--blue);border-color:rgba(88,166,255,.3);font-weight:600}
 .mtag{font-family:var(--font-d);font-style:italic;font-size:.95rem;color:var(--text3);margin-bottom:10px}
-.mover{font-size:.84rem;color:var(--text2);line-height:1.65;margin-bottom:16px}
+.mover{font-size:.84rem;color:var(--text2);line-height:1.65;margin-bottom:16px;user-select:text;cursor:text}
 .mcrew{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
 .crw{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:6px 12px;cursor:pointer;transition:all var(--t)}
 .crw:hover{border-color:var(--accent)}
