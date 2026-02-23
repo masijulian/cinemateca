@@ -1,6 +1,6 @@
 # 🎬 CINEMATECA
 
-Tu colección personal de películas — estilo Letterboxd, con la comodidad de Netflix.
+Tu colección personal de películas.
 
 ---
 
