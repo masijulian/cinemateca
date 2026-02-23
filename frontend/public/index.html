@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="/img/alfred-hitchcock-icon-7866747-512.png">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -331,6 +332,9 @@ input,select{font-family:inherit}
 .mfp{margin-top:6px;padding:8px 12px;background:var(--bg);border:1px solid var(--border);border-radius:var(--r);font-family:var(--font-m);font-size:.68rem;color:var(--text3);word-break:break-all}
 .mimdb{display:inline-flex;padding:2px 8px;background:#f5c518;color:#000;border-radius:3px;font-size:.7rem;font-weight:700;cursor:pointer;transition:opacity var(--t)}
 .mimdb:hover{opacity:.85}
+.mcert{display:inline-flex;align-items:center;gap:3px;padding:2px 7px;background:var(--surface2);color:var(--text);border:1px solid var(--border2);border-radius:3px;font-size:.7rem;font-weight:700;cursor:pointer;transition:opacity var(--t)}
+.mcert:hover{opacity:.75}
+.mcert-cc{font-size:.58rem;font-weight:400;opacity:.6;text-transform:uppercase;letter-spacing:.03em}
 
 /* SETUP */
 #setup{position:fixed;inset:0;background:var(--bg);z-index:500;display:flex;align-items:center;justify-content:center;padding:40px}
@@ -872,6 +876,14 @@ function openMod(id){
   let ratingH='';
   if(m.voteAverage)ratingH=`<div style="text-align:center"><div class="minf-rb">${m.voteAverage.toFixed(1)}</div>${m.voteCount?`<div class="minf-rs">${m.voteCount.toLocaleString()} votos</div>`:''}</div>`;
   let imdbH=m.imdbId?`<span class="mimdb" onclick="window.open('https://www.imdb.com/title/${m.imdbId}/','_blank')">IMDb</span>`:'';
+  const certLink=m.imdbId?`https://www.imdb.com/title/${m.imdbId}/parentalguide`:'';
+  const certClick=certLink?`window.open('${certLink}','_blank')`:'';
+  let certH='';
+  if(m.certificationAR||m.certificationUS){
+    const ar=m.certificationAR?`<span class="mcert"${certClick?` onclick="${certClick}"`:''}  title="Clasificación Argentina"><span class="mcert-cc">AR</span>${esc(m.certificationAR)}</span>`:'';
+    const us=m.certificationUS?`<span class="mcert"${certClick?` onclick="${certClick}"`:''}  title="Clasificación EE.UU."><span class="mcert-cc">US</span>${esc(m.certificationUS)}</span>`:'';
+    certH=ar+us;
+  }
   let tvBadge=m.mediaType==='tv'?`<span class="mchip tv-badge">Serie TV</span>`:'';
   let tvInfo='';
   if(m.mediaType==='tv'){

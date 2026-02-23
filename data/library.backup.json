@@ -1,5 +1,967 @@
 [
   {
+    "id": "mu_1771827215718_er821x",
+    "folderPath": "Z:\\Documentaries\\angel faretta duro de matar",
+    "folderName": "angel faretta duro de matar",
+    "mainFile": {
+      "name": "CLASE 2 (1080p with 23.98fps).mp4",
+      "path": "Z:\\Documentaries\\angel faretta duro de matar\\CLASE 2 (1080p with 23.98fps).mp4",
+      "size": 2120438117
+    },
+    "extras": [
+      {
+        "name": "CLASE 1 (1080p with 23 98fps)",
+        "fileName": "CLASE 1 (1080p with 23.98fps).mp4",
+        "path": "Z:\\Documentaries\\angel faretta duro de matar\\CLASE 1 (1080p with 23.98fps).mp4",
+        "size": 1927399065
+      },
+      {
+        "name": "CLASE 3 (1080p with 23 98fps)",
+        "fileName": "CLASE 3 (1080p with 23.98fps).mp4",
+        "path": "Z:\\Documentaries\\angel faretta duro de matar\\CLASE 3 (1080p with 23.98fps).mp4",
+        "size": 1910212760
+      },
+      {
+        "name": "CLASE 4 (1080p with 29 98fps)",
+        "fileName": "CLASE 4 (1080p with 29.98fps).mp4",
+        "path": "Z:\\Documentaries\\angel faretta duro de matar\\CLASE 4 (1080p with 29.98fps).mp4",
+        "size": 1841878198
+      }
+    ],
+    "seasons": null,
+    "mediaType": "movie",
+    "tmdbId": null,
+    "title": "angel faretta duro de matar",
+    "year": "",
+    "posterPath": null,
+    "backdropPath": null,
+    "genres": [],
+    "directors": [],
+    "cast": [],
+    "writers": [],
+    "overview": "",
+    "tagline": "",
+    "releaseDate": "",
+    "runtime": null,
+    "voteAverage": null,
+    "voteCount": 0,
+    "popularity": 0,
+    "productionCountries": [],
+    "language": "",
+    "keywords": [],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": null,
+    "imdbId": null,
+    "originalTitle": "",
+    "dateAdded": "2026-02-23T06:13:35.718Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819255127_6tjew6",
+    "folderPath": "Z:\\Documentaries\\Alive _ A Survivors Documentary & Making Of",
+    "folderName": "Alive _ A Survivors Documentary & Making Of",
+    "mainFile": {
+      "name": "Alive _ A Survivors Documentary & Making Of (480p_30fps_H264-128kbit_AAC).mp4",
+      "path": "Z:\\Documentaries\\Alive _ A Survivors Documentary & Making Of\\Alive _ A Survivors Documentary & Making Of (480p_30fps_H264-128kbit_AAC).mp4",
+      "size": 322837998
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 458401,
+    "imdbId": "tt0206544",
+    "title": "Alive: 20 Years Later",
+    "originalTitle": "Alive: 20 Years Later",
+    "overview": "Documentary looking at the making of the 1993 film Alive about the 1972 plane crash in the Andes, and also interviews with the real survivors.",
+    "tagline": "Now, for the first time ever, the true story as told by the actual survivors!",
+    "releaseDate": "1993-12-31",
+    "year": "1993",
+    "runtime": 51,
+    "voteAverage": 7.5,
+    "voteCount": 2,
+    "popularity": 0.24,
+    "posterPath": "/jsrg1efNHgVSfSsHWRxANsMHyTf.jpg",
+    "backdropPath": null,
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 3683428,
+        "name": "Jill Fullerton-Smith",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 8349,
+        "name": "Martin Sheen",
+        "character": "Narrator (voice)",
+        "profile_path": "/m2Y3Q0uyuW6htrn2W9UWCWMkpZu.jpg"
+      },
+      {
+        "id": 489,
+        "name": "Kathleen Kennedy",
+        "character": "Self - Producer",
+        "profile_path": "/ndgYlie0PHkyqEiEBGM8SqrPOkr.jpg"
+      },
+      {
+        "id": 664,
+        "name": "Frank Marshall",
+        "character": "Self - Director",
+        "profile_path": "/fgEuoFGqnIWWH8RSb3PJJmPQvnu.jpg"
+      },
+      {
+        "id": 5708,
+        "name": "Peter James",
+        "character": "Self - Director of Photography",
+        "profile_path": "/mU0XpJIPLwvM6nxIetz4KAYClSb.jpg"
+      }
+    ],
+    "writers": [],
+    "productionCountries": [],
+    "language": "en",
+    "keywords": [],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:00:55.127Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": "",
+    "versions": null,
+    "manualMatch": true
+  },
+  {
+    "id": "mu_1771819261868_ps8akg",
+    "folderPath": "Z:\\Documentaries\\Construcción de un imperio\\10  L C I  - China\\10. L.C.I. - China",
+    "folderName": "10. L.C.I. - China",
+    "mainFile": {
+      "name": "La Construccion de un Imperio - (China).avi",
+      "path": "Z:\\Documentaries\\Construcción de un imperio\\10  L C I  - China\\10. L.C.I. - China\\La Construccion de un Imperio - (China).avi",
+      "size": 526426112
+    },
+    "extras": [],
+    "mediaType": "tv",
+    "tmdbId": 6558,
+    "imdbId": null,
+    "title": "Engineering an Empire",
+    "originalTitle": "Engineering an Empire",
+    "overview": "Engineering an Empire is a program on The History Channel that explores the engineering and/or architectural feats that were characteristic of some of the greatest societies on this planet. It is hosted by Peter Weller, famous for his acting role as RoboCop but also a lecturer at Syracuse University, where he completed his Master's in Roman and Renaissance Art. The executive producer is Delores Gavin. The show started as a documentary about the engineering feats of Ancient Rome and later evolved into a series. It originally ran for one full season of weekly episodes.",
+    "tagline": "",
+    "releaseDate": "2005-09-13",
+    "year": "2005",
+    "runtime": 90,
+    "voteAverage": 8,
+    "voteCount": 14,
+    "popularity": 1.4276,
+    "posterPath": "/8NLurUWsv3nRTbhPFPPV3aD2GtV.jpg",
+    "backdropPath": "/pmmkrkdnW9PUA3REzildJR5CFrv.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 1331419,
+        "name": "Mark Cannon",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 27811,
+        "name": "Peter Weller",
+        "character": "Himself / Host",
+        "profile_path": "/mVRJX38zabRadVPJe0XOTObVzhp.jpg"
+      },
+      {
+        "id": 1226484,
+        "name": "Michael Carroll",
+        "character": " Narrator",
+        "profile_path": null
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "history"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": 1,
+    "numberOfEpisodes": 14,
+    "status": "Ended",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:01.868Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": "",
+    "versions": [
+      {
+        "folderPath": "Z:\\Documentaries\\Construcción de un imperio\\10  L C I  - China\\10. L.C.I. - China",
+        "folderName": "10. L.C.I. - China",
+        "mainFile": {
+          "name": "La Construccion de un Imperio - (China).avi",
+          "path": "Z:\\Documentaries\\Construcción de un imperio\\10  L C I  - China\\10. L.C.I. - China\\La Construccion de un Imperio - (China).avi",
+          "size": 526426112
+        },
+        "extras": []
+      },
+      {
+        "folderPath": "Z:\\Documentaries\\Construcción de un imperio\\11  L C I  - Renacimiento\\11. L.C.I. - Renacimiento",
+        "folderName": "11. L.C.I. - Renacimiento",
+        "mainFile": {
+          "name": "La Construccion de un Imperio - (Renacimiento. La era de los arquitectos).avi",
+          "path": "Z:\\Documentaries\\Construcción de un imperio\\11  L C I  - Renacimiento\\11. L.C.I. - Renacimiento\\La Construccion de un Imperio - (Renacimiento. La era de los arquitectos).avi",
+          "size": 526776320
+        },
+        "extras": []
+      },
+      {
+        "folderPath": "Z:\\Documentaries\\Construcción de un imperio\\12  L C I  - Rusia\\12. L.C.I. - Rusia",
+        "folderName": "12. L.C.I. - Rusia",
+        "mainFile": {
+          "name": "La.Construccion.De.Un.Imperio.-Rusia-DVD.XviD.MP3.[www.DivxTotaL.com].avi",
+          "path": "Z:\\Documentaries\\Construcción de un imperio\\12  L C I  - Rusia\\12. L.C.I. - Rusia\\La.Construccion.De.Un.Imperio.-Rusia-DVD.XviD.MP3.[www.DivxTotaL.com].avi",
+          "size": 366911488
+        },
+        "extras": []
+      },
+      {
+        "folderPath": "Z:\\Documentaries\\Construcción de un imperio\\14 L C I  - Napoleon\\14 L.C.I. - Napoleon",
+        "folderName": "14 L.C.I. - Napoleon",
+        "mainFile": {
+          "name": "La Construccion de un Imperio - (Napoleón. El Gran Constructor).avi",
+          "path": "Z:\\Documentaries\\Construcción de un imperio\\14 L C I  - Napoleon\\14 L.C.I. - Napoleon\\La Construccion de un Imperio - (Napoleón. El Gran Constructor).avi",
+          "size": 526565376
+        },
+        "extras": []
+      },
+      {
+        "folderPath": "Z:\\Documentaries\\Construcción de un imperio\\13  L C I  - Gran Bretaña\\13. L.C.I. - Gran Bretaña",
+        "folderName": "13. L.C.I. - Gran Bretaña",
+        "mainFile": {
+          "name": "La Construccion de un Imperio - (Gran Bretaña).avi",
+          "path": "Z:\\Documentaries\\Construcción de un imperio\\13  L C I  - Gran Bretaña\\13. L.C.I. - Gran Bretaña\\La Construccion de un Imperio - (Gran Bretaña).avi",
+          "size": 526364672
+        },
+        "extras": []
+      },
+      {
+        "folderPath": "Z:\\Documentaries\\Construcción de un imperio\\4  L C I  - La Grecia de Alejandro Magno\\4. L.C.I. - La Grecia de Alejandro Magno",
+        "folderName": "4. L.C.I. - La Grecia de Alejandro Magno",
+        "mainFile": {
+          "name": "La Construccion de un Imperio - (La Grecia de Alejandro Magno).avi",
+          "path": "Z:\\Documentaries\\Construcción de un imperio\\4  L C I  - La Grecia de Alejandro Magno\\4. L.C.I. - La Grecia de Alejandro Magno\\La Construccion de un Imperio - (La Grecia de Alejandro Magno).avi",
+          "size": 526596096
+        },
+        "extras": []
+      },
+      {
+        "folderPath": "Z:\\Documentaries\\Construcción de un imperio\\8  L C I  - Los Mayas\\8. L.C.I. - Los Mayas",
+        "folderName": "8. L.C.I. - Los Mayas",
+        "mainFile": {
+          "name": "La Construccion de un Imperio - (Los Mayas).avi",
+          "path": "Z:\\Documentaries\\Construcción de un imperio\\8  L C I  - Los Mayas\\8. L.C.I. - Los Mayas\\La Construccion de un Imperio - (Los Mayas).avi",
+          "size": 525223936
+        },
+        "extras": []
+      },
+      {
+        "folderPath": "Z:\\Documentaries\\Construcción de un imperio\\5  L C I  - Cartago\\5. L.C.I. - Cartago",
+        "folderName": "5. L.C.I. - Cartago",
+        "mainFile": {
+          "name": "La Construccion de un Imperio - (Cartago).avi",
+          "path": "Z:\\Documentaries\\Construcción de un imperio\\5  L C I  - Cartago\\5. L.C.I. - Cartago\\La Construccion de un Imperio - (Cartago).avi",
+          "size": 525475840
+        },
+        "extras": []
+      },
+      {
+        "folderPath": "Z:\\Documentaries\\Construcción de un imperio\\9  L C I  - Los Aztecas\\9. L.C.I. - Los Aztecas",
+        "folderName": "9. L.C.I. - Los Aztecas",
+        "mainFile": {
+          "name": "La Construccion de un Imperio - (Los Aztecas).avi",
+          "path": "Z:\\Documentaries\\Construcción de un imperio\\9  L C I  - Los Aztecas\\9. L.C.I. - Los Aztecas\\La Construccion de un Imperio - (Los Aztecas).avi",
+          "size": 525182976
+        },
+        "extras": []
+      },
+      {
+        "folderPath": "Z:\\Documentaries\\Construcción de un imperio\\2  L C I  - Los Persas\\2. L.C.I. - Los Persas",
+        "folderName": "2. L.C.I. - Los Persas",
+        "mainFile": {
+          "name": "La Construccion de un Imperio - Los Persas.avi",
+          "path": "Z:\\Documentaries\\Construcción de un imperio\\2  L C I  - Los Persas\\2. L.C.I. - Los Persas\\La Construccion de un Imperio - Los Persas.avi",
+          "size": 526352384
+        },
+        "extras": []
+      }
+    ],
+    "manualMatch": true
+  },
+  {
+    "id": "mu_1771819271573_c5sko1",
+    "folderPath": "Z:\\Documentaries\\Der.Sieg.des.Glaubens.AKA.Victory.of.the.Faith.1933.DVDRip.x264-HANDJOB.mkv",
+    "folderName": "Der.Sieg.des.Glaubens.AKA.Victory.of.the.Faith.1933.DVDRip.x264-HANDJOB.mkv",
+    "mainFile": {
+      "name": "Der.Sieg.des.Glaubens.AKA.Victory.of.the.Faith.1933.DVDRip.x264-HANDJOB.mkv.mkv",
+      "path": "Z:\\Documentaries\\Der.Sieg.des.Glaubens.AKA.Victory.of.the.Faith.1933.DVDRip.x264-HANDJOB.mkv\\Der.Sieg.des.Glaubens.AKA.Victory.of.the.Faith.1933.DVDRip.x264-HANDJOB.mkv.mkv",
+      "size": 1157605082
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 99999,
+    "imdbId": "tt0156078",
+    "title": "The Victory of Faith",
+    "originalTitle": "Der Sieg des Glaubens",
+    "overview": "Follows the Fifth Nazi Party Rally (Nuremberg, 30 August–3 September 1933) and shows the then close relationship between Adolf Hitler and Ernest Rõhm.",
+    "tagline": "",
+    "releaseDate": "1933-12-01",
+    "year": "1933",
+    "runtime": 67,
+    "voteAverage": 5.3,
+    "voteCount": 17,
+    "popularity": 0.2423,
+    "posterPath": "/qOuJJfgHwjaqHOnDxzTdjvZs9JJ.jpg",
+    "backdropPath": "/wvKxwezB7c0swrHmaJVFqqXBTiJ.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 10139,
+        "name": "Leni Riefenstahl",
+        "profile_path": "/6qBz8IVXankocpDP6pLQJFAIYYp.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 10279,
+        "name": "Adolf Hitler",
+        "character": "Self",
+        "profile_path": "/n6f81IUSes1a8jTzUIF7rJ5zZnP.jpg"
+      },
+      {
+        "id": 10280,
+        "name": "Rudolf Hess",
+        "character": "Self",
+        "profile_path": "/zwz9KJjaN2Ui2KbcjgQnJk55QI8.jpg"
+      },
+      {
+        "id": 1247941,
+        "name": "Ernst Röhm",
+        "character": "Self",
+        "profile_path": "/oYqGIXmACwCXkyVCA6kELR8q8zW.jpg"
+      },
+      {
+        "id": 1090808,
+        "name": "Joseph Goebbels",
+        "character": "Self",
+        "profile_path": "/qdvjL4rLbrumPxUwL1VGX8GYP1R.jpg"
+      },
+      {
+        "id": 1255425,
+        "name": "Hermann Göring",
+        "character": "Self",
+        "profile_path": "/srlxYR4WbfBH4KpoBptWSRduqTO.jpg"
+      },
+      {
+        "id": 11991,
+        "name": "Heinrich Himmler",
+        "character": "Self",
+        "profile_path": "/Aljparz5AOPTPrgVFDFahutWBak.jpg"
+      },
+      {
+        "id": 1022762,
+        "name": "Robert Ley",
+        "character": "Self",
+        "profile_path": "/oTx6Jgvf80hPy33ZYyxjK3mK9EH.jpg"
+      },
+      {
+        "id": 1219975,
+        "name": "Albert Speer",
+        "character": "Self",
+        "profile_path": "/yyJbtaRBKlaESmqX2h8oZz6ZtcI.jpg"
+      },
+      {
+        "id": 11992,
+        "name": "Julius Streicher",
+        "character": "Self",
+        "profile_path": "/2C649ovCwt0aPkr3MFHTCevMosM.jpg"
+      },
+      {
+        "id": 1030281,
+        "name": "Franz von Epp",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1330541,
+        "name": "Franz von Papen",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 4594103,
+        "name": "August Wilhelm von Preußen",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1491035,
+        "name": "Baldur von Schirach",
+        "character": "Self",
+        "profile_path": "/3O1OtsvG1DhIJ6mQZUa0FjJY5RN.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 10139,
+        "name": "Leni Riefenstahl",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Germany"
+    ],
+    "language": "de",
+    "keywords": [
+      "nazi",
+      "nuremberg, germany",
+      "woman director",
+      "nsdap (nazi party)",
+      "nazi propaganda",
+      "political rally",
+      "rediscovered film"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:11.573Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": "",
+    "versions": null,
+    "manualMatch": true
+  },
+  {
+    "id": "mu_1771819273801_ju372n",
+    "folderPath": "Z:\\Documentaries\\Gaza.Fights.for.Freedom.1080p.WEB-DL.x264.AAC.MVGroup.Forum",
+    "folderName": "Gaza.Fights.for.Freedom.1080p.WEB-DL.x264.AAC.MVGroup.Forum",
+    "mainFile": {
+      "name": "Gaza.Fights.for.Freedom.1080p.WEB-DL.x264.AAC.MVGroup.Forum.mkv",
+      "path": "Z:\\Documentaries\\Gaza.Fights.for.Freedom.1080p.WEB-DL.x264.AAC.MVGroup.Forum\\Gaza.Fights.for.Freedom.1080p.WEB-DL.x264.AAC.MVGroup.Forum.mkv",
+      "size": 3085672314
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 613694,
+    "imdbId": "tt10825504",
+    "title": "Gaza Fights for Freedom",
+    "originalTitle": "Gaza Fights for Freedom",
+    "overview": "Gaza Fights for Freedom depicts the ongoing Great March of Return protests in the Gaza Strip, occupied Palestine, that began in 2018.",
+    "tagline": "",
+    "releaseDate": "2019-06-20",
+    "year": "2019",
+    "runtime": 84,
+    "voteAverage": 8,
+    "voteCount": 11,
+    "popularity": 0.1662,
+    "posterPath": "/5OaFeewCLw6zBvU1NLrLNlNkTbh.jpg",
+    "backdropPath": "/4v3tEuJV8DMjCHEd2jWSwEC5WhI.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 1509015,
+        "name": "Abby Martin",
+        "profile_path": null
+      }
+    ],
+    "cast": [],
+    "writers": [
+      {
+        "id": 1509015,
+        "name": "Abby Martin",
+        "job": "Writer"
+      },
+      {
+        "id": 2934252,
+        "name": "Mike Prysner",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Palestinian Territory",
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "israel",
+      "palestine",
+      "war crimes",
+      "apartheid",
+      "invasion",
+      "home invasion",
+      "israeli defense force",
+      "war",
+      "gaza",
+      "documentary"
+    ],
+    "trailerKey": "Pc1NxW5loTk",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:13.801Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": "",
+    "versions": null,
+    "manualMatch": true
+  },
+  {
+    "id": "mu_1771819274912_0sjjyi",
+    "folderPath": "Z:\\Documentaries\\Going to Pieces꞉ The Rise and Fall of the Slasher Film (2006) (480p DVD x265 HEVC 10bit AC3 2.0 Ghost)",
+    "folderName": "Going to Pieces꞉ The Rise and Fall of the Slasher Film (2006) (480p DVD x265 HEVC 10bit AC3 2.0 Ghost)",
+    "mainFile": {
+      "name": "Going to Pieces꞉ The Rise and Fall of the Slasher Film (2006) (480p DVD x265 Ghost).mkv",
+      "path": "Z:\\Documentaries\\Going to Pieces꞉ The Rise and Fall of the Slasher Film (2006) (480p DVD x265 HEVC 10bit AC3 2.0 Ghost)\\Going to Pieces꞉ The Rise and Fall of the Slasher Film (2006) (480p DVD x265 Ghost).mkv",
+      "size": 1251153405
+    },
+    "extras": [
+      {
+        "name": "Extended Interviews",
+        "fileName": "Extended Interviews.mkv",
+        "path": "Z:\\Documentaries\\Going to Pieces꞉ The Rise and Fall of the Slasher Film (2006) (480p DVD x265 HEVC 10bit AC3 2.0 Ghost)\\Featurettes\\Extended Interviews.mkv",
+        "size": 406325693
+      },
+      {
+        "name": "Written Message from Adam Rockoff (Author)",
+        "fileName": "Written Message from Adam Rockoff (Author).mkv",
+        "path": "Z:\\Documentaries\\Going to Pieces꞉ The Rise and Fall of the Slasher Film (2006) (480p DVD x265 HEVC 10bit AC3 2.0 Ghost)\\Featurettes\\Written Message from Adam Rockoff (Author).mkv",
+        "size": 7339846
+      }
+    ],
+    "mediaType": "movie",
+    "tmdbId": 50787,
+    "imdbId": "tt0489062",
+    "title": "Going to Pieces: The Rise and Fall of the Slasher Film",
+    "originalTitle": "Going to Pieces: The Rise and Fall of the Slasher Film",
+    "overview": "This historical and critical look at slasher films, which includes dozens of clips, begins with Halloween, Friday the 13th, and Prom Night. The films' directors, writers, producers, and special effects creators comment on the films' making and success. During the Reagan years, the films get gorier, budgets get smaller, and their appeal wanes. Then, Nightmare on Elm Street revives the genre. Jump to the late 90s, when Scream brings humor and TV stars into the mix.",
+    "tagline": "Every Evil, Every Nightmare, Together in One Film",
+    "releaseDate": "2006-10-13",
+    "year": "2006",
+    "runtime": 88,
+    "voteAverage": 6.801,
+    "voteCount": 93,
+    "popularity": 0.5009,
+    "posterPath": "/yztO70IoLnK5bRhRUn8gJ7meiGN.jpg",
+    "backdropPath": "/zC0fwAHdQnR7lb1xOc370U95jh5.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 551926,
+        "name": "Jeff McQueen",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 551928,
+        "name": "Ed Green",
+        "character": "Narrator (voice)",
+        "profile_path": null
+      },
+      {
+        "id": 2072,
+        "name": "Lilyan Chauvin",
+        "character": "Self",
+        "profile_path": "/XUGyxAQHL52cteFsdDD7sMr0HU.jpg"
+      },
+      {
+        "id": 11770,
+        "name": "John Carpenter",
+        "character": "Self",
+        "profile_path": "/3Qp0mg61u1qSZNJh30BFEUZrIMG.jpg"
+      },
+      {
+        "id": 16848,
+        "name": "Rob Zombie",
+        "character": "Self",
+        "profile_path": "/kkl4gjIJ1pyEJhNp2B2HricD2v7.jpg"
+      },
+      {
+        "id": 37469,
+        "name": "Betsy Palmer",
+        "character": "Self",
+        "profile_path": "/isZD80T79h8xptSI91sQM69lZVi.jpg"
+      },
+      {
+        "id": 102352,
+        "name": "Malek Akkad",
+        "character": "Self",
+        "profile_path": "/g6LQotLRYGHenmFICjKyl4vdbOv.jpg"
+      },
+      {
+        "id": 5140,
+        "name": "Wes Craven",
+        "character": "Self",
+        "profile_path": "/eqwl6owrYykeTGTpKxwcAkbEJmg.jpg"
+      },
+      {
+        "id": 35475,
+        "name": "Sean S. Cunningham",
+        "character": "Self",
+        "profile_path": "/kPELY44haoAnj0D7dxAo3jDsCmU.jpg"
+      },
+      {
+        "id": 22423,
+        "name": "Herb Freed",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 551929,
+        "name": "Chela Johnson",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 21371,
+        "name": "Amy Holden Jones",
+        "character": "Self",
+        "profile_path": "/rPP8TdPAkhcEb5l4YGC7JNm6nbW.jpg"
+      },
+      {
+        "id": 34969,
+        "name": "Jeff Katz",
+        "character": "Self",
+        "profile_path": "/9OQLdnpbeOIOmbFu1idVbAfm1z0.jpg"
+      },
+      {
+        "id": 44130,
+        "name": "Paul Lynch",
+        "character": "Self",
+        "profile_path": "/arkyMLYttuJEj5mTrwVhXJsROE1.jpg"
+      },
+      {
+        "id": 20953,
+        "name": "Harry Manfredini",
+        "character": "Self",
+        "profile_path": "/tKHjAYbjTti0YaIHrxeDpHjqKAb.jpg"
+      },
+      {
+        "id": 128639,
+        "name": "Armand Mastroianni",
+        "character": "Self",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 551915,
+        "name": "Rudy Scalese",
+        "job": "Writer"
+      },
+      {
+        "id": 551913,
+        "name": "J. Albert Bell",
+        "job": "Writer"
+      },
+      {
+        "id": 83332,
+        "name": "Rachel Belofsky",
+        "job": "Writer"
+      },
+      {
+        "id": 551912,
+        "name": "Adam Rockoff",
+        "job": "Novel"
+      },
+      {
+        "id": 551914,
+        "name": "Michael Derek Bohusz",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "movie business",
+      "interview",
+      "slasher",
+      "filmmaking",
+      "horror filmmaking"
+    ],
+    "trailerKey": "C4WJDFFNub0",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:14.912Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": "",
+    "versions": null,
+    "manualMatch": true
+  },
+  {
+    "id": "mu_1771819275698_zcfrgk",
+    "folderPath": "Z:\\Documentaries\\Hands On A Hard Body",
+    "folderName": "Hands On A Hard Body",
+    "mainFile": {
+      "name": "Hands On A Hard Body.avi",
+      "path": "Z:\\Documentaries\\Hands On A Hard Body\\Hands On A Hard Body.avi",
+      "size": 732399616
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 18603,
+    "imdbId": "tt0116481",
+    "title": "Hands on a Hardbody: The Documentary",
+    "originalTitle": "Hands on a Hardbody: The Documentary",
+    "overview": "Filmmaker S.R. Bindler profiles Texas contestants trying to win a truck by keeping one hand on it longer than everyone else.",
+    "tagline": "",
+    "releaseDate": "1997-06-01",
+    "year": "1997",
+    "runtime": 98,
+    "voteAverage": 7.559,
+    "voteCount": 34,
+    "popularity": 0.3209,
+    "posterPath": "/vr7oIAd9eRdQuicAX8mKi61xzBv.jpg",
+    "backdropPath": "/t4HWzRhhcmPCARtVh0Hr8o9OSK8.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 75882,
+        "name": "S.R. Bindler",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 2235393,
+        "name": "Brent Baskin",
+        "character": "Himself (Contest Judge)",
+        "profile_path": null
+      },
+      {
+        "id": 2235394,
+        "name": "David Grotheim",
+        "character": "Himself (Contest Judge)",
+        "profile_path": null
+      },
+      {
+        "id": 2235395,
+        "name": "Benny Perkins",
+        "character": "Himself (1992 winner / contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 2235396,
+        "name": "J.D. Drew",
+        "character": "Himself (contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 2235397,
+        "name": "Norma Valverde",
+        "character": "Herself (contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 2235398,
+        "name": "Angie Turner",
+        "character": "Herself (contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 2235400,
+        "name": "Paul Prince",
+        "character": "Himself (contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 2235401,
+        "name": "Ronald McCowan",
+        "character": "Himself (contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 2235402,
+        "name": "Kerri Parker",
+        "character": "Herself (contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 2235403,
+        "name": "Raul Martinez",
+        "character": "Himself (contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 2235404,
+        "name": "Kelli Mangrum",
+        "character": "Herself (contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 2235405,
+        "name": "Tom Felker",
+        "character": "Himself (contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 2235406,
+        "name": "Janis Curtis",
+        "character": "Herself (contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 2235407,
+        "name": "Greg Cox",
+        "character": "Himself (contestant)",
+        "profile_path": null
+      },
+      {
+        "id": 1707324,
+        "name": "Russell Welch",
+        "character": "Himself (contestant)",
+        "profile_path": null
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "competition",
+      "texas",
+      "based on true story",
+      "contest",
+      "endurance",
+      "pickup truck",
+      "documentary"
+    ],
+    "trailerKey": "TgA3DvoBVb8",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:15.698Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": "",
+    "versions": null,
+    "manualMatch": true
+  },
+  {
+    "id": "mu_1771819281424_dz9gd2",
+    "folderPath": "Z:\\Documentaries\\Imax_Extreme.Adventure-Hidden.Universe.2018.Multi.UHD.2160p.Bluray.x265.HDR.DTS-HDMA.5.1-DTOne",
+    "folderName": "Imax_Extreme.Adventure-Hidden.Universe.2018.Multi.UHD.2160p.Bluray.x265.HDR.DTS-HDMA.5.1-DTOne",
+    "mainFile": {
+      "name": "Imax_Extreme.Adventure-Hidden.Universe.2018.Multi.UHD.2160p.Bluray.x265.HDR.DTS-HDMA.5.1-DTOne.mkv",
+      "path": "Z:\\Documentaries\\Imax_Extreme.Adventure-Hidden.Universe.2018.Multi.UHD.2160p.Bluray.x265.HDR.DTS-HDMA.5.1-DTOne\\Imax_Extreme.Adventure-Hidden.Universe.2018.Multi.UHD.2160p.Bluray.x265.HDR.DTS-HDMA.5.1-DTOne.mkv",
+      "size": 3857215937
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 251522,
+    "imdbId": "tt3041334",
+    "title": "Hidden Universe",
+    "originalTitle": "Hidden Universe",
+    "overview": "An extraordinary journey deep into space offering fresh insight into the origins and evolution of the universe.",
+    "tagline": "",
+    "releaseDate": "2013-06-29",
+    "year": "2013",
+    "runtime": 36,
+    "voteAverage": 6.8,
+    "voteCount": 12,
+    "popularity": 0.2157,
+    "posterPath": "/gVr5WiVAeumBUJOXQFay8cBBUn7.jpg",
+    "backdropPath": "/lwZr5NzHTdfJPmRX1GPKshsDjqv.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 1367780,
+        "name": "Russel Scott",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 1367781,
+        "name": "Jonathan Whitmore",
+        "character": "",
+        "profile_path": null
+      },
+      {
+        "id": 1367782,
+        "name": "Greg Poole",
+        "character": "",
+        "profile_path": null
+      },
+      {
+        "id": 8436,
+        "name": "Miranda Richardson",
+        "character": "",
+        "profile_path": "/2IEW3fxqHb4AHBl5xU8JuipJbNK.jpg"
+      }
+    ],
+    "writers": [],
+    "productionCountries": [],
+    "language": "en",
+    "keywords": [],
+    "trailerKey": "wivi6-Sgl1E",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:21.424Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": "",
+    "versions": null,
+    "manualMatch": true
+  },
+  {
     "id": "mu_1771815617282_9t96hq",
     "folderPath": "Z:\\Directors\\Anthony Mann\\T-Men.1947.1080p.BluRay.x264-SADPANDA[rarbg]",
     "folderName": "T-Men.1947.1080p.BluRay.x264-SADPANDA[rarbg]",
@@ -5015,50 +5977,6 @@
     "notes": "",
     "versions": null,
     "manualMatch": true
-  },
-  {
-    "id": "mu_1771816512873_x4wgg5",
-    "folderPath": "Z:\\Unsorted Movies\\What's Inside Hitler's Death Camp",
-    "folderName": "What's Inside Hitler's Death Camp",
-    "mainFile": {
-      "name": "What's Inside Hitler's Death Camp.mp4",
-      "path": "Z:\\Unsorted Movies\\What's Inside Hitler's Death Camp\\What's Inside Hitler's Death Camp.mp4",
-      "size": 501151727
-    },
-    "extras": [],
-    "seasons": null,
-    "mediaType": "movie",
-    "tmdbId": null,
-    "title": "What's Inside Hitler's Death Camp",
-    "year": "",
-    "posterPath": null,
-    "backdropPath": null,
-    "genres": [],
-    "directors": [],
-    "cast": [],
-    "writers": [],
-    "overview": "",
-    "tagline": "",
-    "releaseDate": "",
-    "runtime": null,
-    "voteAverage": null,
-    "voteCount": 0,
-    "popularity": 0,
-    "productionCountries": [],
-    "language": "",
-    "keywords": [],
-    "trailerKey": null,
-    "numberOfSeasons": null,
-    "numberOfEpisodes": null,
-    "status": null,
-    "imdbId": null,
-    "originalTitle": "",
-    "dateAdded": "2026-02-23T03:15:12.873Z",
-    "watched": false,
-    "watchedDate": null,
-    "rating": null,
-    "favorite": false,
-    "notes": ""
   },
   {
     "id": "mu_1771816519879_dsr7do",
@@ -25340,142 +26258,6 @@
             "size": 24109958
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "mu_1771815775397_lbg6ks",
-    "folderPath": "Z:\\Directors\\F. W. Murnau\\Tabu.a.Story.of.the.South.Seas.1931.1080p.BluRay.x264-PHOBOS[rarbg]",
-    "folderName": "Tabu.a.Story.of.the.South.Seas.1931.1080p.BluRay.x264-PHOBOS[rarbg]",
-    "mainFile": {
-      "name": "Tabu.a.Story.of.the.South.Seas.1931.1080p.BluRay.x264-PHOBOS.mkv",
-      "path": "Z:\\Directors\\F. W. Murnau\\Tabu.a.Story.of.the.South.Seas.1931.1080p.BluRay.x264-PHOBOS[rarbg]\\Tabu.a.Story.of.the.South.Seas.1931.1080p.BluRay.x264-PHOBOS.mkv",
-      "size": 8215588902
-    },
-    "extras": [],
-    "mediaType": "movie",
-    "tmdbId": 977,
-    "imdbId": "tt0022458",
-    "title": "Tabu: A Story of the South Seas",
-    "originalTitle": "Tabu: A Story of the South Seas",
-    "overview": "On the South Pacific island of Bora Bora, a young couple's love is threatened when the tribal chief declares the girl a sacred virgin.",
-    "tagline": "",
-    "releaseDate": "1931-07-30",
-    "year": "1931",
-    "runtime": 86,
-    "voteAverage": 7.067,
-    "voteCount": 178,
-    "popularity": 0.5795,
-    "posterPath": "/c4zfawkB8Jsp5lhWl62QCzczR3M.jpg",
-    "backdropPath": "/jLtiBuYhQoqAEACLyyhO3mo4JHx.jpg",
-    "genres": [
-      "Romance",
-      "Drama",
-      "Adventure"
-    ],
-    "directors": [
-      {
-        "id": 9076,
-        "name": "F. W. Murnau",
-        "profile_path": "/keLp43iiIkkllroUwExIJITeR7a.jpg"
-      }
-    ],
-    "cast": [
-      {
-        "id": 14582,
-        "name": "Matahi",
-        "character": "The Boy",
-        "profile_path": null
-      },
-      {
-        "id": 14583,
-        "name": "Anne Chevalier",
-        "character": "The Girl (as Reri)",
-        "profile_path": "/1BFbKmo4Xz2zwKMrJudy4AAxyxE.jpg"
-      },
-      {
-        "id": 14584,
-        "name": "Bill Bambridge",
-        "character": "The Policeman (as Jean)",
-        "profile_path": null
-      },
-      {
-        "id": 14585,
-        "name": "Hitu",
-        "character": "The Old Warrior",
-        "profile_path": null
-      },
-      {
-        "id": 14586,
-        "name": "Jules",
-        "character": "The Captain (uncredited)",
-        "profile_path": null
-      }
-    ],
-    "writers": [
-      {
-        "id": 9076,
-        "name": "F. W. Murnau",
-        "job": "Screenplay"
-      },
-      {
-        "id": 10092,
-        "name": "Robert Flaherty",
-        "job": "Screenplay"
-      },
-      {
-        "id": 5030,
-        "name": "Edgar G. Ulmer",
-        "job": "Screenplay"
-      }
-    ],
-    "productionCountries": [
-      "United States of America"
-    ],
-    "language": "en",
-    "keywords": [
-      "exotic island",
-      "love of one's life",
-      "escape",
-      "sacrifice",
-      "south seas",
-      "civilization",
-      "tahiti",
-      "romance",
-      "black and white",
-      "shark"
-    ],
-    "trailerKey": "BmHQjE_YCGw",
-    "numberOfSeasons": null,
-    "numberOfEpisodes": null,
-    "status": "Released",
-    "seasons": null,
-    "dateAdded": "2026-02-23T03:02:55.397Z",
-    "watched": false,
-    "watchedDate": null,
-    "rating": null,
-    "favorite": false,
-    "notes": "",
-    "versions": [
-      {
-        "folderPath": "Z:\\Directors\\F. W. Murnau\\Tabu.a.Story.of.the.South.Seas.1931.1080p.BluRay.x264-PHOBOS[rarbg]",
-        "folderName": "Tabu.a.Story.of.the.South.Seas.1931.1080p.BluRay.x264-PHOBOS[rarbg]",
-        "mainFile": {
-          "name": "Tabu.a.Story.of.the.South.Seas.1931.1080p.BluRay.x264-PHOBOS.mkv",
-          "path": "Z:\\Directors\\F. W. Murnau\\Tabu.a.Story.of.the.South.Seas.1931.1080p.BluRay.x264-PHOBOS[rarbg]\\Tabu.a.Story.of.the.South.Seas.1931.1080p.BluRay.x264-PHOBOS.mkv",
-          "size": 8215588902
-        },
-        "extras": []
-      },
-      {
-        "folderPath": "Z:\\Directors\\F. W. Murnau\\www.UIndex.org    -    Tabu A Story of the South Seas 1931 1080p BluRay x264-OFT",
-        "folderName": "www.UIndex.org    -    Tabu A Story of the South Seas 1931 1080p BluRay x264-OFT",
-        "mainFile": {
-          "name": "Tabu A Story of the South Seas 1931 1080p BluRay x264-OFT.mkv",
-          "path": "Z:\\Directors\\F. W. Murnau\\www.UIndex.org    -    Tabu A Story of the South Seas 1931 1080p BluRay x264-OFT\\Tabu A Story of the South Seas 1931 1080p BluRay x264-OFT.mkv",
-          "size": 1012137984
-        },
-        "extras": []
       }
     ]
   },
@@ -93999,7 +94781,7 @@
     "watched": false,
     "watchedDate": null,
     "rating": null,
-    "favorite": false,
+    "favorite": true,
     "notes": ""
   },
   {
@@ -94946,6 +95728,4769 @@
       }
     ],
     "dateAdded": "2026-02-23T03:15:54.444Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819257172_yudzkr",
+    "folderPath": "Z:\\Documentaries\\Bikram.Yogi.Guru.Predator.2019.1080p.NF.WEB-DL.DDP5.1.x264-NTG[EtHD]",
+    "folderName": "Bikram.Yogi.Guru.Predator.2019.1080p.NF.WEB-DL.DDP5.1.x264-NTG[EtHD]",
+    "mainFile": {
+      "name": "Bikram.Yogi.Guru.Predator.2019.1080p.NF.WEB-DL.DDP5.1.x264-NTG[EtHD].mkv",
+      "path": "Z:\\Documentaries\\Bikram.Yogi.Guru.Predator.2019.1080p.NF.WEB-DL.DDP5.1.x264-NTG[EtHD]\\Bikram.Yogi.Guru.Predator.2019.1080p.NF.WEB-DL.DDP5.1.x264-NTG[EtHD].mkv",
+      "size": 3853361517
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 621753,
+    "imdbId": "tt10883004",
+    "title": "Bikram: Yogi, Guru, Predator",
+    "originalTitle": "Bikram: Yogi, Guru, Predator",
+    "overview": "The spectacular rise and scandalous fall of hot-yoga evangelist Bikram Choudhury is chronicled through archival footage and extensive insider interviews.",
+    "tagline": "",
+    "releaseDate": "2019-09-10",
+    "year": "2019",
+    "runtime": 86,
+    "voteAverage": 6.282,
+    "voteCount": 133,
+    "popularity": 0.4004,
+    "posterPath": "/4qzgxaWtAtl19YwHvtQ1E8Kju6P.jpg",
+    "backdropPath": "/gwksBTz60lVeGWKqDr0n8ij0hfp.jpg",
+    "genres": [
+      "Documentary",
+      "Crime"
+    ],
+    "directors": [
+      {
+        "id": 1156216,
+        "name": "Eva Orner",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 2463070,
+        "name": "Larissa Anderson",
+        "character": "Self - Yoga Teacher",
+        "profile_path": null
+      },
+      {
+        "id": 2463071,
+        "name": "Francesca Asumah",
+        "character": "Self - Yoga Teacher",
+        "profile_path": null
+      },
+      {
+        "id": 2463072,
+        "name": "Sarah Baughn",
+        "character": "Self - Former Yoga Teacher",
+        "profile_path": null
+      },
+      {
+        "id": 1087489,
+        "name": "Bikram Choudhury",
+        "character": "Self (archive footage)",
+        "profile_path": null
+      },
+      {
+        "id": 2463077,
+        "name": "John Dowd",
+        "character": "Self - Former Yoga Teacher",
+        "profile_path": null
+      },
+      {
+        "id": 2463079,
+        "name": "Mukul Dutta",
+        "character": "Self - Yogi",
+        "profile_path": null
+      },
+      {
+        "id": 2463080,
+        "name": "Jafa-Bodden Micki",
+        "character": "Self - Former Head of Legal Affairs",
+        "profile_path": null
+      },
+      {
+        "id": 2463081,
+        "name": "Carla Minnard",
+        "character": "Self - Attorney",
+        "profile_path": null
+      },
+      {
+        "id": 27765,
+        "name": "Richard Nixon",
+        "character": "Self (archive footage)",
+        "profile_path": "/ab3GkU1n6En3FUIZyuopbmOTjWf.jpg"
+      },
+      {
+        "id": 1754365,
+        "name": "Mark Quigley",
+        "character": "Self - Trail Attorney",
+        "profile_path": "/o6363dRIZ0gEz0sDQPK2xtixESf.jpg"
+      },
+      {
+        "id": 2463083,
+        "name": "Val Sklar Robinson",
+        "character": "Self - Studio Owner",
+        "profile_path": null
+      },
+      {
+        "id": 2463084,
+        "name": "Mandeep Kaur Sandhu",
+        "character": "Self - Studio Owner",
+        "profile_path": null
+      },
+      {
+        "id": 2463085,
+        "name": "Jakob Schanzer",
+        "character": "Self - Former Yoga Teacher",
+        "profile_path": null
+      },
+      {
+        "id": 2463086,
+        "name": "Patrice Simon",
+        "character": "Self - Studio Owner",
+        "profile_path": null
+      },
+      {
+        "id": 2463087,
+        "name": "Liz Winfield",
+        "character": "Self - Medical Assistant",
+        "profile_path": null
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "yoga",
+      "yoga instructor",
+      "yogi"
+    ],
+    "trailerKey": "AbsaUHdxGHg",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:00:57.172Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819259811_on3mnt",
+    "folderPath": "Z:\\Documentaries\\Blackfish (2013) + Extras (1080p BluRay x265 HEVC 10bit AAC 5.1 Silence)",
+    "folderName": "Blackfish (2013) + Extras (1080p BluRay x265 HEVC 10bit AAC 5.1 Silence)",
+    "mainFile": {
+      "name": "Blackfish (2013) (1080p BluRay x265 Silence).mkv",
+      "path": "Z:\\Documentaries\\Blackfish (2013) + Extras (1080p BluRay x265 HEVC 10bit AAC 5.1 Silence)\\Blackfish (2013) (1080p BluRay x265 Silence).mkv",
+      "size": 3306872582
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 158999,
+    "imdbId": "tt2545118",
+    "title": "Blackfish",
+    "originalTitle": "Blackfish",
+    "overview": "Notorious killer whale Tilikum is responsible for the deaths of three individuals, including a top killer whale trainer. Blackfish shows the sometimes devastating consequences of keeping such intelligent and sentient creatures in captivity.",
+    "tagline": "Never capture what you can't control.",
+    "releaseDate": "2013-06-07",
+    "year": "2013",
+    "runtime": 83,
+    "voteAverage": 7.835,
+    "voteCount": 1170,
+    "popularity": 1.2648,
+    "posterPath": "/kCk4mDFE96Mn1AYfEcbxkIiw7ND.jpg",
+    "backdropPath": "/tCW0uGWwfZzRkupNFdI0yUo4A0w.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 1045176,
+        "name": "Gabriela Cowperthwaite",
+        "profile_path": "/7m6q1M49R7D3ahmwTiEl53T6rr3.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1320013,
+        "name": "Dean Gomersall",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1194603,
+        "name": "Samantha Berg",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1890826,
+        "name": "John Jett",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1320011,
+        "name": "John Hargrove",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1890827,
+        "name": "Carol Ray",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1890828,
+        "name": "Jeffrey Ventre",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1194601,
+        "name": "Kim Ashdown",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1194602,
+        "name": "Ken Balcomb",
+        "character": "Self",
+        "profile_path": "/rv7YMCHWBdyUX6KmHg314d9Mpbz.jpg"
+      },
+      {
+        "id": 1320012,
+        "name": "Mark Simmons",
+        "character": "Self",
+        "profile_path": "/9vQuRrqUAPwbaKHWafe6PbanCCX.jpg"
+      },
+      {
+        "id": 1890829,
+        "name": "Thomas Tobin",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1890830,
+        "name": "Dave Duffus",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1890831,
+        "name": "Estefania Rodriguez",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1890832,
+        "name": "Mercedes Martinez",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1890833,
+        "name": "John Crowe",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1890835,
+        "name": "Howard Garrett",
+        "character": "Self",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 1268363,
+        "name": "Eli Despres",
+        "job": "Writer"
+      },
+      {
+        "id": 1045176,
+        "name": "Gabriela Cowperthwaite",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "whale",
+      "trauma",
+      "controversy",
+      "psychological thriller",
+      "nature",
+      "killer whale",
+      "sea world",
+      "animal trainer",
+      "woman director",
+      "tenerife"
+    ],
+    "trailerKey": "w2vG_Ifu4zg",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:00:59.811Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819270277_5ruemi",
+    "folderPath": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)",
+    "folderName": "Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)",
+    "mainFile": {
+      "name": "Cosmos (1980) - S01E01 - The Shores of the Cosmic Ocean (1080p x265 Silence).mkv",
+      "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E01 - The Shores of the Cosmic Ocean (1080p x265 Silence).mkv",
+      "size": 0
+    },
+    "extras": [],
+    "mediaType": "tv",
+    "tmdbId": 1430,
+    "imdbId": null,
+    "title": "Cosmos: A Personal Voyage",
+    "originalTitle": "Cosmos: A Personal Voyage",
+    "overview": "Carl Sagan covers a wide range of scientific subjects, including the origin of life and a perspective of our place in the universe.",
+    "tagline": "If you wish to make an apple pie from scratch, you must first invent the universe.",
+    "releaseDate": "1980-09-28",
+    "year": "1980",
+    "runtime": 60,
+    "voteAverage": 8.6,
+    "voteCount": 416,
+    "popularity": 3.2986,
+    "posterPath": "/nOGArjE0WMkzY2GW1taJm8l9gxD.jpg",
+    "backdropPath": "/hjJ5XDKP7XY2ADUuMdHM5NsC32s.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 10293,
+        "name": "Carl Sagan",
+        "profile_path": "/rSNny8efG9ATfBP32UBKjVNDlz7.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 10293,
+        "name": "Carl Sagan",
+        "character": "Self - Host",
+        "profile_path": "/rSNny8efG9ATfBP32UBKjVNDlz7.jpg"
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "United Kingdom",
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "nuclear war",
+      "greenhouse effect",
+      "space travel",
+      "exploration",
+      "astronomer",
+      "scientist",
+      "universe",
+      "evolution",
+      "astronomy",
+      "solar system"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": 1,
+    "numberOfEpisodes": 13,
+    "status": "Ended",
+    "seasons": [
+      {
+        "number": 1,
+        "name": "Season 1",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "The Shores of the Cosmic Ocean",
+            "fileName": "Cosmos (1980) - S01E01 - The Shores of the Cosmic Ocean (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E01 - The Shores of the Cosmic Ocean (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 2,
+            "name": "One Voice in the Cosmic Fugue",
+            "fileName": "Cosmos (1980) - S01E02 - One Voice in the Cosmic Fugue (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E02 - One Voice in the Cosmic Fugue (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 3,
+            "name": "Harmony of the Worlds",
+            "fileName": "Cosmos (1980) - S01E03 - Harmony of the Worlds (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E03 - Harmony of the Worlds (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 4,
+            "name": "Heaven and Hell",
+            "fileName": "Cosmos (1980) - S01E04 - Heaven and Hell (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E04 - Heaven and Hell (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 5,
+            "name": "Blues for a Red Planet",
+            "fileName": "Cosmos (1980) - S01E05 - Blues for a Red Planet (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E05 - Blues for a Red Planet (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 6,
+            "name": "Travellers' Tales",
+            "fileName": "Cosmos (1980) - S01E06 - Travellers' Tales (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E06 - Travellers' Tales (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 7,
+            "name": "The Backbone of Night",
+            "fileName": "Cosmos (1980) - S01E07 - The Backbone of Night (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E07 - The Backbone of Night (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 8,
+            "name": "Journeys in Space and Time",
+            "fileName": "Cosmos (1980) - S01E08 - Journeys in Space and Time (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E08 - Journeys in Space and Time (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 9,
+            "name": "The Lives of the Stars",
+            "fileName": "Cosmos (1980) - S01E09 - The Lives of the Stars (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E09 - The Lives of the Stars (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 10,
+            "name": "The Edge of Forever",
+            "fileName": "Cosmos (1980) - S01E10 - The Edge of Forever (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E10 - The Edge of Forever (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 11,
+            "name": "The Persistence of Memory",
+            "fileName": "Cosmos (1980) - S01E11 - The Persistence of Memory (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E11 - The Persistence of Memory (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 12,
+            "name": "Encyclopaedia Galactica",
+            "fileName": "Cosmos (1980) - S01E12 - Encyclopaedia Galactica (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E12 - Encyclopaedia Galactica (1080p x265 Silence).mkv"
+          },
+          {
+            "number": 13,
+            "name": "Who Speaks for Earth",
+            "fileName": "Cosmos (1980) - S01E13 - Who Speaks for Earth (1080p x265 Silence).mkv",
+            "path": "Z:\\Documentaries\\Cosmos (1980) Season 1 S01 (1080p x265 HEVC 10bit AAC 5.1 Silence)\\Cosmos (1980) - S01E13 - Who Speaks for Earth (1080p x265 Silence).mkv"
+          }
+        ]
+      }
+    ],
+    "dateAdded": "2026-02-23T04:01:10.277Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819272853_1p0ub2",
+    "folderPath": "Z:\\Documentaries\\Far.from.Vietnam.1967.DVDRip.x264-BiPOLAR[rarbg]",
+    "folderName": "Far.from.Vietnam.1967.DVDRip.x264-BiPOLAR[rarbg]",
+    "mainFile": {
+      "name": "far.from.vietnam.1967.dvdrip.x264-bipolar.mkv",
+      "path": "Z:\\Documentaries\\Far.from.Vietnam.1967.DVDRip.x264-BiPOLAR[rarbg]\\far.from.vietnam.1967.dvdrip.x264-bipolar.mkv",
+      "size": 1331559983
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 36140,
+    "imdbId": "tt0061913",
+    "title": "Far from Vietnam",
+    "originalTitle": "Loin du Vietnam",
+    "overview": "In seven different parts, Godard, Ivens, Klein, Lelouch, Marker, Resnais, and Varda show their sympathy for the North-Vietnamese army during the Vietnam War.",
+    "tagline": "",
+    "releaseDate": "1967-10-18",
+    "year": "1967",
+    "runtime": 116,
+    "voteAverage": 7,
+    "voteCount": 22,
+    "popularity": 0.4888,
+    "posterPath": "/76dXuQiZrt5HxvoROvdCUimTepC.jpg",
+    "backdropPath": "/2mxeQ0bvXQLp2dxCZ0VRcslSOzz.jpg",
+    "genres": [
+      "Documentary",
+      "War",
+      "Drama"
+    ],
+    "directors": [
+      {
+        "id": 16862,
+        "name": "Claude Lelouch",
+        "profile_path": "/d7s7Ifc2JS0Hzm31YAgVtK5vuKc.jpg"
+      },
+      {
+        "id": 237859,
+        "name": "Joris Ivens",
+        "profile_path": "/fNUOfmwxX37zV05kkbK4EFSrAfY.jpg"
+      },
+      {
+        "id": 97083,
+        "name": "William Klein",
+        "profile_path": "/5SLqYqn6i0KjLXWkl3tvPurMv0R.jpg"
+      },
+      {
+        "id": 3776,
+        "name": "Jean-Luc Godard",
+        "profile_path": "/zP5EDY5MstfkdBmPXNCj8Y6v5KR.jpg"
+      },
+      {
+        "id": 9956,
+        "name": "Chris Marker",
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg"
+      },
+      {
+        "id": 6817,
+        "name": "Agnès Varda",
+        "profile_path": "/8XKM6DCVcH5RsgIRh9mwVaEM0YB.jpg"
+      },
+      {
+        "id": 11983,
+        "name": "Alain Resnais",
+        "profile_path": "/q5LF4OZ7BhNH44Jb9UDg3af57R9.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 18814,
+        "name": "Maurice Garrel",
+        "character": "Narrator (voice)",
+        "profile_path": "/6W9u0YxtASAmvzozXvvXfJFA3g6.jpg"
+      },
+      {
+        "id": 1007733,
+        "name": "Anne Bellec",
+        "character": "(segment \"Claude Ridder\")",
+        "profile_path": "/rJdE89UlrJpRlVBklBQ04xtGaQD.jpg"
+      },
+      {
+        "id": 35589,
+        "name": "Karen Blanguernon",
+        "character": "Claude's Girfriend (segment \"Claude Ridder\")",
+        "profile_path": "/vdhUmtLliyvnN5H0BVxR0sQe5sg.jpg"
+      },
+      {
+        "id": 24422,
+        "name": "Bernard Fresson",
+        "character": "Claude Ridder (segment \"Claude Ridder\")",
+        "profile_path": "/pzyUeeBFEXO26ErCGE4vkzooLsY.jpg"
+      },
+      {
+        "id": 28678,
+        "name": "Marie-France Mignal",
+        "character": "(segment \"Claude Ridder\") (uncredited)",
+        "profile_path": "/xCx538Ns5WqnCeFNwE64sSN19NP.jpg"
+      },
+      {
+        "id": 1090533,
+        "name": "Hồ Chí Minh",
+        "character": "Self (segment \"Flash Back\") (archive footage)",
+        "profile_path": "/cc8CN9THrMfv7qhVflrilSxmoWG.jpg"
+      },
+      {
+        "id": 6817,
+        "name": "Agnès Varda",
+        "character": "Narrator (segment \"Flash Back\") (voice)",
+        "profile_path": "/8XKM6DCVcH5RsgIRh9mwVaEM0YB.jpg"
+      },
+      {
+        "id": 3776,
+        "name": "Jean-Luc Godard",
+        "character": "Self (segment \"Camera Eye\")",
+        "profile_path": "/zP5EDY5MstfkdBmPXNCj8Y6v5KR.jpg"
+      },
+      {
+        "id": 194144,
+        "name": "Tom Paxton",
+        "character": "Self (segment \"Victor Charlie\")",
+        "profile_path": null
+      },
+      {
+        "id": 56840,
+        "name": "Michèle Ray-Gavras",
+        "character": "Narrator (segment \"Victor Charlie\") (voice)",
+        "profile_path": "/tU8QMyfEMxma2GBXZFNtrMrviHA.jpg"
+      },
+      {
+        "id": 3668847,
+        "name": "William C. Westmoreland",
+        "character": "Self (segment \"Why We Fight\") (archive footage)",
+        "profile_path": null
+      },
+      {
+        "id": 115863,
+        "name": "Fidel Castro",
+        "character": "Self (segment \"Fidel Castro\")",
+        "profile_path": "/dX5ZWCkwCzA9YfNALghFNPlRefp.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 222264,
+        "name": "François Maspero",
+        "job": "Writer"
+      },
+      {
+        "id": 1955907,
+        "name": "Jean Lacouture",
+        "job": "Writer"
+      },
+      {
+        "id": 3776,
+        "name": "Jean-Luc Godard",
+        "job": "Writer"
+      },
+      {
+        "id": 9956,
+        "name": "Chris Marker",
+        "job": "Writer"
+      },
+      {
+        "id": 39488,
+        "name": "Jacques Sternberg",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Belgium",
+      "France"
+    ],
+    "language": "fr",
+    "keywords": [
+      "woman director"
+    ],
+    "trailerKey": "XwH5W0Kj8kQ",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:12.853Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819277107_vdu1pg",
+    "folderPath": "Z:\\Documentaries\\Harlan County U.S.A. (1977) Criterion (1080p HMAX WEB-DL x265 HEVC 10bit AC3 2.0 Silence)",
+    "folderName": "Harlan County U.S.A. (1977) Criterion (1080p HMAX WEB-DL x265 HEVC 10bit AC3 2.0 Silence)",
+    "mainFile": {
+      "name": "Harlan County U.S.A. (1977) Criterion (1080p HMAX WEB-DL x265 Silence).mkv",
+      "path": "Z:\\Documentaries\\Harlan County U.S.A. (1977) Criterion (1080p HMAX WEB-DL x265 HEVC 10bit AC3 2.0 Silence)\\Harlan County U.S.A. (1977) Criterion (1080p HMAX WEB-DL x265 Silence).mkv",
+      "size": 4230394619
+    },
+    "extras": [
+      {
+        "name": "Harlan County USA at Sundance",
+        "fileName": "Harlan County USA at Sundance.mkv",
+        "path": "Z:\\Documentaries\\Harlan County U.S.A. (1977) Criterion (1080p HMAX WEB-DL x265 HEVC 10bit AC3 2.0 Silence)\\Featurettes\\Harlan County USA at Sundance.mkv",
+        "size": 75575163
+      },
+      {
+        "name": "Hazel Dickens Interview",
+        "fileName": "Hazel Dickens Interview.mkv",
+        "path": "Z:\\Documentaries\\Harlan County U.S.A. (1977) Criterion (1080p HMAX WEB-DL x265 HEVC 10bit AC3 2.0 Silence)\\Featurettes\\Hazel Dickens Interview.mkv",
+        "size": 65170566
+      },
+      {
+        "name": "John Sayles on the Film",
+        "fileName": "John Sayles on the Film.mkv",
+        "path": "Z:\\Documentaries\\Harlan County U.S.A. (1977) Criterion (1080p HMAX WEB-DL x265 HEVC 10bit AC3 2.0 Silence)\\Featurettes\\John Sayles on the Film.mkv",
+        "size": 38871395
+      },
+      {
+        "name": "Outtakes",
+        "fileName": "Outtakes.mkv",
+        "path": "Z:\\Documentaries\\Harlan County U.S.A. (1977) Criterion (1080p HMAX WEB-DL x265 HEVC 10bit AC3 2.0 Silence)\\Featurettes\\Outtakes.mkv",
+        "size": 155702465
+      },
+      {
+        "name": "The Making of 'Harlan County USA",
+        "fileName": "The Making of 'Harlan County USA.mkv",
+        "path": "Z:\\Documentaries\\Harlan County U.S.A. (1977) Criterion (1080p HMAX WEB-DL x265 HEVC 10bit AC3 2.0 Silence)\\Featurettes\\The Making of 'Harlan County USA.mkv",
+        "size": 116255449
+      }
+    ],
+    "mediaType": "movie",
+    "tmdbId": 33324,
+    "imdbId": "tt0074605",
+    "title": "Harlan County U.S.A.",
+    "originalTitle": "Harlan County U.S.A.",
+    "overview": "This film documents the coal miners' strike against the Brookside Mine of the Eastover Mining Company in Harlan County, Kentucky in June, 1973. Eastover's refusal to sign a contract (when the miners joined with the United Mine Workers of America) led to the strike, which lasted more than a year and included violent battles between gun-toting company thugs/scabs and the picketing miners and their supportive women-folk. Director Barbara Kopple puts the strike into perspective by giving us some background on the historical plight of the miners and some history of the UMWA.  Preserved by the Academy Film Archive in partnership with New York Women in Film & Television in 2004.",
+    "tagline": "Which Side Are You On?",
+    "releaseDate": "1977-01-23",
+    "year": "1977",
+    "runtime": 105,
+    "voteAverage": 7.5,
+    "voteCount": 110,
+    "popularity": 0.541,
+    "posterPath": "/p0cyMNsoP5ap0omfhakhImBWTRw.jpg",
+    "backdropPath": "/pVspyFNl8uE8jAoY3C973XkjTgB.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 22020,
+        "name": "Barbara Kopple",
+        "profile_path": "/6B3IxVoE11KPCEKS1VllDSZ374c.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 556528,
+        "name": "Norman Yarborough",
+        "character": "Self - Eastover Mining President",
+        "profile_path": null
+      },
+      {
+        "id": 556529,
+        "name": "Houston Elmore",
+        "character": "Self - UMW Organizer",
+        "profile_path": null
+      },
+      {
+        "id": 556530,
+        "name": "Phil Sparks",
+        "character": "Self - UMW Staff",
+        "profile_path": null
+      },
+      {
+        "id": 1137025,
+        "name": "Bessie Lou Cornett Parker",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1137028,
+        "name": "Sudie Crusenberry",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1137029,
+        "name": "Mary Lou Fergerson",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1137030,
+        "name": "Basil Collins",
+        "character": "Self - Mine Foreman",
+        "profile_path": null
+      },
+      {
+        "id": 1137036,
+        "name": "Florence Reece",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 3634836,
+        "name": "Lois Scott",
+        "character": "Self",
+        "profile_path": null
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "strike",
+      "kentucky",
+      "mining",
+      "working class",
+      "union",
+      "labor",
+      "labor union",
+      "woman director",
+      "miners strike",
+      "black lung"
+    ],
+    "trailerKey": "XfZbQXhVTV8",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:17.107Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819278582_mky9ek",
+    "folderPath": "Z:\\Documentaries\\I am not your negro (2016) 1080p H.264 ENG-FRE (moviesbyrizzo uploads)",
+    "folderName": "I am not your negro (2016) 1080p H.264 ENG-FRE (moviesbyrizzo uploads)",
+    "mainFile": {
+      "name": "I am not your negro 1080p H.264 ENG-FRE (moviesbyrizzo uploads).mkv",
+      "path": "Z:\\Documentaries\\I am not your negro (2016) 1080p H.264 ENG-FRE (moviesbyrizzo uploads)\\I am not your negro 1080p H.264 ENG-FRE (moviesbyrizzo uploads).mkv",
+      "size": 4146132361
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 411019,
+    "imdbId": "tt5804038",
+    "title": "I Am Not Your Negro",
+    "originalTitle": "I Am Not Your Negro",
+    "overview": "Working from the text of James Baldwin’s unfinished final novel, director Raoul Peck creates a meditation on what it means to be Black in the United States.",
+    "tagline": "",
+    "releaseDate": "2017-02-03",
+    "year": "2017",
+    "runtime": 93,
+    "voteAverage": 7.7,
+    "voteCount": 505,
+    "popularity": 1.0912,
+    "posterPath": "/zwd0Zti7BvY1mO0mTPzM0fRrtc6.jpg",
+    "backdropPath": "/1uecj8izDDjvZ4syzJQCOKRBjaa.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 40312,
+        "name": "Raoul Peck",
+        "profile_path": "/6i2uGJwj2oNXLEj2FUOmg8sw1ME.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 2231,
+        "name": "Samuel L. Jackson",
+        "character": "Narrator (voice)",
+        "profile_path": "/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg"
+      },
+      {
+        "id": 51508,
+        "name": "JoeyStarr",
+        "character": "Narrateur (voix-off)",
+        "profile_path": "/dI6M8ibHVq78gC753BTSmdwNPZo.jpg"
+      },
+      {
+        "id": 1100,
+        "name": "Arnold Schwarzenegger",
+        "character": "Self",
+        "profile_path": "/dgCABuZp2HBehCT84O4WBp7KIoe.jpg"
+      },
+      {
+        "id": 3799,
+        "name": "Billy Dee Williams",
+        "character": "Self",
+        "profile_path": "/AwFFWuXJbGCXb0cA5uZvCNtg68H.jpg"
+      },
+      {
+        "id": 522,
+        "name": "Rod Steiger",
+        "character": "Self",
+        "profile_path": "/70bE5PZJbRHxG4th6gDvXGgXu4Z.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 943183,
+        "name": "James Baldwin",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Belgium",
+      "France",
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "society",
+      "race politics",
+      "interview",
+      "martin luther king",
+      "racism",
+      "1950s",
+      "1960s",
+      "malcom x",
+      "negritude",
+      "contestation"
+    ],
+    "trailerKey": "rNUYdgIyaPM",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:18.582Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819280046_78nf26",
+    "folderPath": "Z:\\Documentaries\\I Believe In Miracles (2015) [1080p] [YTS.AG]",
+    "folderName": "I Believe In Miracles (2015) [1080p] [YTS.AG]",
+    "mainFile": {
+      "name": "I.Believe.In.Miracles.2015.1080p.BluRay.x264-[YTS.AG].mp4",
+      "path": "Z:\\Documentaries\\I Believe In Miracles (2015) [1080p] [YTS.AG]\\I.Believe.In.Miracles.2015.1080p.BluRay.x264-[YTS.AG].mp4",
+      "size": 1700162677
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 363683,
+    "imdbId": "tt5098836",
+    "title": "I Believe in Miracles",
+    "originalTitle": "I Believe in Miracles",
+    "overview": "Documentary following the history making Nottingham Forest football team led by Brian Clough and Peter Taylor that won back to back European cups.",
+    "tagline": "",
+    "releaseDate": "2015-10-13",
+    "year": "2015",
+    "runtime": 104,
+    "voteAverage": 6.704,
+    "voteCount": 27,
+    "popularity": 0.1878,
+    "posterPath": "/pax0dLGXHhfvEmJAuPtRJbsHb57.jpg",
+    "backdropPath": "/ilM6h2JW411tvk3mSXRInQwv91r.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 119909,
+        "name": "Jonny Owen",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 1837458,
+        "name": "Brian Clough",
+        "character": "Himself (Archive Material)",
+        "profile_path": "/94eVa00IfjWHRp8SlzLgJfNv6gB.jpg"
+      },
+      {
+        "id": 1837460,
+        "name": "Peter Taylor",
+        "character": "Himself (Archive Material)",
+        "profile_path": "/qZSyED1LjmFnjQ8uPXVc29DUyOa.jpg"
+      },
+      {
+        "id": 1837461,
+        "name": "Jimmy Gordon",
+        "character": "Himself (Archive Material)",
+        "profile_path": null
+      },
+      {
+        "id": 1522036,
+        "name": "John McGovern",
+        "character": "Himself",
+        "profile_path": "/ksm1Vd8dzpvU74akxrSlqWqeedS.jpg"
+      },
+      {
+        "id": 1234015,
+        "name": "Peter Shilton",
+        "character": "Himself",
+        "profile_path": "/qPFCRMXVIKkUp7E2yIEovuXUVfz.jpg"
+      },
+      {
+        "id": 1522032,
+        "name": "Viv Anderson",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1522038,
+        "name": "John Robertson",
+        "character": "Himself",
+        "profile_path": "/xw00RMgzq5LKJ5m5I6LOIqNwYrX.jpg"
+      },
+      {
+        "id": 1522033,
+        "name": "Garry Birtles",
+        "character": "Himself",
+        "profile_path": "/6ern8yMBX8hVvT62umusNhdwjIT.jpg"
+      },
+      {
+        "id": 1522034,
+        "name": "Trevor Francis",
+        "character": "Himself",
+        "profile_path": "/7CqpTT4QQfu5Zr39Cv2GClcvXWF.jpg"
+      },
+      {
+        "id": 1522035,
+        "name": "Larry Lloyd",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1522037,
+        "name": "Martin O'Neill",
+        "character": "Himself",
+        "profile_path": "/3G6qGe8jszkq6ylaubtOFuCB12G.jpg"
+      },
+      {
+        "id": 1837462,
+        "name": "Colin Barrett",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1837463,
+        "name": "Frank Clark",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1837464,
+        "name": "John O'Hare",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1837465,
+        "name": "Archie Gemmell",
+        "character": "Himself",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 119909,
+        "name": "Jonny Owen",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United Kingdom"
+    ],
+    "language": "en",
+    "keywords": [
+      "sports",
+      "biography",
+      "football (soccer)"
+    ],
+    "trailerKey": "d4_6hVPyKZw",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:20.046Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819282715_hflw84",
+    "folderPath": "Z:\\Documentaries\\Inside Job (2010) [1080p]",
+    "folderName": "Inside Job (2010) [1080p]",
+    "mainFile": {
+      "name": "Inside.Job.2010.1080p.BluRay.x264.YIFY.mp4",
+      "path": "Z:\\Documentaries\\Inside Job (2010) [1080p]\\Inside.Job.2010.1080p.BluRay.x264.YIFY.mp4",
+      "size": 1766120843
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 44639,
+    "imdbId": "tt1645089",
+    "title": "Inside Job",
+    "originalTitle": "Inside Job",
+    "overview": "A film that exposes the shocking truth behind the economic crisis of 2008. The global financial meltdown, at a cost of over $20 trillion, resulted in millions of people losing their homes and jobs. Through extensive research and interviews with major financial insiders, politicians and journalists, Inside Job traces the rise of a rogue industry and unveils the corrosive relationships which have corrupted politics, regulation and academia.",
+    "tagline": "The film that cost over $20,000,000,000,000 to make.",
+    "releaseDate": "2010-10-08",
+    "year": "2010",
+    "runtime": 109,
+    "voteAverage": 7.7,
+    "voteCount": 1013,
+    "popularity": 2.1216,
+    "posterPath": "/7yXXIWec24htucjsZS1sDuPLqw8.jpg",
+    "backdropPath": "/1yFmxvVYgVrFKL2ksFzgX0MrWOM.jpg",
+    "genres": [
+      "Documentary",
+      "Crime"
+    ],
+    "directors": [
+      {
+        "id": 74058,
+        "name": "Charles Ferguson",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 1892,
+        "name": "Matt Damon",
+        "character": "Narrator",
+        "profile_path": "/At3JgvaNeEN4Z4ESKlhhes85Xo3.jpg"
+      },
+      {
+        "id": 1331425,
+        "name": "Bill Ackman",
+        "character": "Self - Hedge Fund Manager",
+        "profile_path": "/3dhggbSU9W39CyMMgurTGZPuTPk.jpg"
+      },
+      {
+        "id": 1331426,
+        "name": "Jonathan Alpert",
+        "character": "Self - Therapist",
+        "profile_path": null
+      },
+      {
+        "id": 1220627,
+        "name": "Christine Lagarde",
+        "character": "Self - Finance Minister, France",
+        "profile_path": "/9ou1fse0iUSNxhtkNohGypMycdG.jpg"
+      },
+      {
+        "id": 1059479,
+        "name": "Daniel Alpert",
+        "character": "Self - Managing Director, Westwood Capital",
+        "profile_path": null
+      },
+      {
+        "id": 1331427,
+        "name": "Sigridur Benediktsdottir",
+        "character": "Self - Special Investigative Committee, Icelandic Parliament",
+        "profile_path": null
+      },
+      {
+        "id": 1954178,
+        "name": "Gylfi Zoega",
+        "character": "Self - Professor of Economics, University of Iceland",
+        "profile_path": null
+      },
+      {
+        "id": 1954179,
+        "name": "Andri Snær Magnason",
+        "character": "Self - Writer & Filmmaker",
+        "profile_path": "/yd6HGEogUX5KKAkFDDvFEzs9BiW.jpg"
+      },
+      {
+        "id": 1954180,
+        "name": "Paul Volcker",
+        "character": "Self - Former Federal Reserve Chairman",
+        "profile_path": null
+      },
+      {
+        "id": 1295545,
+        "name": "Dominique Strauss-Kahn",
+        "character": "Self - Managing Director, International Monetary Fund",
+        "profile_path": "/avaKmzIdaCkV4HCpzS9axq1UbL4.jpg"
+      },
+      {
+        "id": 1954181,
+        "name": "George Soros",
+        "character": "Self - Chairman, Soros Fund Management",
+        "profile_path": "/wNWuUFEPRCb6tW29sYgD6Yjkp8p.jpg"
+      },
+      {
+        "id": 1229136,
+        "name": "Barney Frank",
+        "character": "Self - Chairman, Financial Services Committee",
+        "profile_path": "/u5r3vdh4AnjLx5VB1COFUJOrf9a.jpg"
+      },
+      {
+        "id": 1954182,
+        "name": "Scott Talbott",
+        "character": "Self - Chief Lobbyist, Financial Services Roundtable",
+        "profile_path": null
+      },
+      {
+        "id": 1954183,
+        "name": "Andrew Sheng",
+        "character": "Self - Chief Adviser, China Banking Regulatory Commission",
+        "profile_path": null
+      },
+      {
+        "id": 1954184,
+        "name": "Lee Hsien Loong",
+        "character": "Self - Prime Minister, Singapore",
+        "profile_path": "/xXA6swH6yVHCFzC3kTvtqAkiD8P.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 74058,
+        "name": "Charles Ferguson",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "banker",
+      "corruption",
+      "capitalism",
+      "globalization",
+      "bank",
+      "crisis",
+      "fraud",
+      "banking",
+      "wall street",
+      "based on true story"
+    ],
+    "trailerKey": "FzrBurlJUNk",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:22.715Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819283829_zrp9mh",
+    "folderPath": "Z:\\Documentaries\\Nazi Concentration Camps",
+    "folderName": "Nazi Concentration Camps",
+    "mainFile": {
+      "name": "Nazi Concentration Camps.mp4",
+      "path": "Z:\\Documentaries\\Nazi Concentration Camps\\Nazi Concentration Camps.mp4",
+      "size": 1857525268
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 207659,
+    "imdbId": "tt0247568",
+    "title": "Nazi Concentration Camps",
+    "originalTitle": "Nazi Concentration Camps",
+    "overview": "Produced and presented as evidence at the Nuremberg war crimes trial of Hermann Göring and twenty other Nazi leaders, this film consists primarily of dead and surviving prisoners and of facilities used to kill and torture during the World War II.",
+    "tagline": "August 28, 1945. This is an Official Documentary Report compiled from Films made by Military Photographers ordered by General Dwight H. Eisenhower, Supreme Commander.",
+    "releaseDate": "1945-11-29",
+    "year": "1945",
+    "runtime": 59,
+    "voteAverage": 7.742,
+    "voteCount": 60,
+    "popularity": 0.2452,
+    "posterPath": "/ihhIITb37XmCPf6ST31fkToUjei.jpg",
+    "backdropPath": "/cNRVhZ2PFUnqaDNPZW7qbjxImbP.jpg",
+    "genres": [
+      "Documentary",
+      "History",
+      "War"
+    ],
+    "directors": [
+      {
+        "id": 18738,
+        "name": "George Stevens",
+        "profile_path": "/mblM3Kg4YbD4Jxil1aCs9qBNt7s.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 120575,
+        "name": "Dwight D. Eisenhower",
+        "character": "Self",
+        "profile_path": "/ouTr8dJZrNkuJUkkqEqR7r6mNSa.jpg"
+      },
+      {
+        "id": 1190536,
+        "name": "Jack Taylor",
+        "character": "Self – Inmate",
+        "profile_path": null
+      },
+      {
+        "id": 68583,
+        "name": "Omar N. Bradley",
+        "character": "Self – US Army Commander of Ground Forces",
+        "profile_path": null
+      },
+      {
+        "id": 1566208,
+        "name": "George S. Patton",
+        "character": "Self – US Army General",
+        "profile_path": "/23ZdKmalhlv5KaIAscWvv8UuH84.jpg"
+      },
+      {
+        "id": 4570142,
+        "name": "Hayden Sears",
+        "character": "Self – US Army Colonel",
+        "profile_path": null
+      },
+      {
+        "id": 4570143,
+        "name": "Herman Bolker",
+        "character": "Self – US Army Major",
+        "profile_path": null
+      },
+      {
+        "id": 4570144,
+        "name": "Adolf Wahlmann",
+        "character": "Self – Chief Physician, Hadamar Euthanasia Centre",
+        "profile_path": null
+      },
+      {
+        "id": 4570146,
+        "name": "Karl Willig",
+        "character": "Self – Chief Male Nurse, Hadamar Euthanasia Centre",
+        "profile_path": null
+      },
+      {
+        "id": 2072382,
+        "name": "Josef Kramer",
+        "character": "Self – Commandant, Bergen-Belsen Concentration Camp",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 18738,
+        "name": "George Stevens",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "nazi",
+      "concentration camp",
+      "world war ii",
+      "nsdap (nazi party)",
+      "1940s",
+      "documentary short"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:23.829Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819285287_5z1ko8",
+    "folderPath": "Z:\\Documentaries\\Night and Fog (1955) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 French r00t)",
+    "folderName": "Night and Fog (1955) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 French r00t)",
+    "mainFile": {
+      "name": "Night and Fog (1955) (1080p BluRay x265 r00t).mkv",
+      "path": "Z:\\Documentaries\\Night and Fog (1955) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 French r00t)\\Night and Fog (1955) (1080p BluRay x265 r00t).mkv",
+      "size": 1264986740
+    },
+    "extras": [
+      {
+        "name": "Archival Audio Excerpt Alain Resnais",
+        "fileName": "Archival Audio Excerpt - Alain Resnais.mkv",
+        "path": "Z:\\Documentaries\\Night and Fog (1955) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 French r00t)\\Featurettes\\Archival Audio Excerpt - Alain Resnais.mkv",
+        "size": 5883240
+      },
+      {
+        "name": "Documentary Face aux Fantômes (Facing Ghosts)",
+        "fileName": "Documentary - Face aux Fantômes (Facing Ghosts).mkv",
+        "path": "Z:\\Documentaries\\Night and Fog (1955) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 French r00t)\\Featurettes\\Documentary - Face aux Fantômes (Facing Ghosts).mkv",
+        "size": 3792537433
+      },
+      {
+        "name": "Video Interview Joshua Oppenheimer",
+        "fileName": "Video Interview - Joshua Oppenheimer.mkv",
+        "path": "Z:\\Documentaries\\Night and Fog (1955) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 French r00t)\\Featurettes\\Video Interview - Joshua Oppenheimer.mkv",
+        "size": 412323929
+      }
+    ],
+    "mediaType": "movie",
+    "tmdbId": 803,
+    "imdbId": "tt0048434",
+    "title": "Night and Fog",
+    "originalTitle": "Nuit et Brouillard",
+    "overview": "Filmmaker Alain Resnais documents the atrocities behind the walls of Hitler's concentration camps.",
+    "tagline": "",
+    "releaseDate": "1956-01-29",
+    "year": "1956",
+    "runtime": 32,
+    "voteAverage": 8.2,
+    "voteCount": 546,
+    "popularity": 0.5309,
+    "posterPath": "/c0eZtYCYOe4XV55dOZ016XesKg3.jpg",
+    "backdropPath": "/cnl95VtUon66J1PLRPpsgYgwHF7.jpg",
+    "genres": [
+      "Documentary",
+      "History"
+    ],
+    "directors": [
+      {
+        "id": 11983,
+        "name": "Alain Resnais",
+        "profile_path": "/q5LF4OZ7BhNH44Jb9UDg3af57R9.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 11989,
+        "name": "Michel Bouquet",
+        "character": "Narrator (voice) (uncredited)",
+        "profile_path": "/gO5k3d51j7rvYatUUo3WvgvgACO.jpg"
+      },
+      {
+        "id": 11990,
+        "name": "Reinhard Heydrich",
+        "character": "Self (archive footage) (uncredited)",
+        "profile_path": "/rUzM67pzMO71JwHeDjhrXBvsxA8.jpg"
+      },
+      {
+        "id": 11991,
+        "name": "Heinrich Himmler",
+        "character": "Self (archive footage) (uncredited)",
+        "profile_path": "/Aljparz5AOPTPrgVFDFahutWBak.jpg"
+      },
+      {
+        "id": 10279,
+        "name": "Adolf Hitler",
+        "character": "Self (archive footage) (uncredited)",
+        "profile_path": "/n6f81IUSes1a8jTzUIF7rJ5zZnP.jpg"
+      },
+      {
+        "id": 11992,
+        "name": "Julius Streicher",
+        "character": "Self (archive footage) (uncredited)",
+        "profile_path": "/2C649ovCwt0aPkr3MFHTCevMosM.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 11984,
+        "name": "Jean Cayrol",
+        "job": "Screenplay"
+      }
+    ],
+    "productionCountries": [
+      "France"
+    ],
+    "language": "fr",
+    "keywords": [
+      "destruction of a civilization",
+      "nazi",
+      "germany",
+      "world war ii",
+      "prisoner of war",
+      "auschwitz-birkenau concentration camp",
+      "torture",
+      "short film"
+    ],
+    "trailerKey": "wTBwpKB16gA",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:25.287Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819286748_q6cabz",
+    "folderPath": "Z:\\Documentaries\\Russian Revolution in Color (2007 Documentary)",
+    "folderName": "Russian Revolution in Color (2007 Documentary)",
+    "mainFile": {
+      "name": "Russian Revolution in Color (2007 Documentary).avi",
+      "path": "Z:\\Documentaries\\Russian Revolution in Color (2007 Documentary)\\Russian Revolution in Color (2007 Documentary).avi",
+      "size": 1471583012
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 73978,
+    "imdbId": null,
+    "title": "Russian Revolution in Color",
+    "originalTitle": "Russian Revolution in Color",
+    "overview": "The Russian Revolution is the collective term for a series of revolutions in Russia in 1917, which destroyed the Tsarist autocracy and led to the creation of the Soviet Union. The Tsar was deposed and replaced by a provisional government in the first revolution of February 1917 (March in the Gregorian calendar; the older Julian calendar was in use in Russia at the time). In the second revolution, during October, the Provisional Government was removed and replaced with a Bolshevik (Communist) government.",
+    "tagline": "",
+    "releaseDate": "2007-03-08",
+    "year": "2007",
+    "runtime": 94,
+    "voteAverage": 4,
+    "voteCount": 2,
+    "popularity": 0.1632,
+    "posterPath": "/iPUNoSutbmCKeUuSWfNdMfCRGEd.jpg",
+    "backdropPath": "/5DVmgVaqjZJYNKhoCjvWEsT0sOg.jpg",
+    "genres": [
+      "Documentary",
+      "History"
+    ],
+    "directors": [
+      {
+        "id": 2308919,
+        "name": "Ian Lilley",
+        "profile_path": null
+      }
+    ],
+    "cast": [],
+    "writers": [],
+    "productionCountries": [
+      "United Kingdom"
+    ],
+    "language": "en",
+    "keywords": [],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:26.748Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819288564_nm0a4g",
+    "folderPath": "Z:\\Documentaries\\S21 The Khmer Rouge Killing Machine [2003] .x264",
+    "folderName": "S21 The Khmer Rouge Killing Machine [2003] .x264",
+    "mainFile": {
+      "name": "S21 The Khmer Rouge Killing Machine.mkv",
+      "path": "Z:\\Documentaries\\S21 The Khmer Rouge Killing Machine [2003] .x264\\S21 The Khmer Rouge Killing Machine.mkv",
+      "size": 883945027
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 43936,
+    "imdbId": "tt0368954",
+    "title": "S21: The Khmer Rouge Killing Machine",
+    "originalTitle": "S-21, la machine de mort Khmère rouge",
+    "overview": "Documentary of the S-21 genocide prison in Phnom Penh with interviews of prisoners and guards. On the search for reasons why this could have happened.",
+    "tagline": "",
+    "releaseDate": "2003-05-17",
+    "year": "2003",
+    "runtime": 101,
+    "voteAverage": 7.4,
+    "voteCount": 33,
+    "popularity": 0.377,
+    "posterPath": "/wB2en0QIQH6Ohv19IhnJHykRKuN.jpg",
+    "backdropPath": "/sTN649ZUR6AfMvxnTWRCpqMDHyn.jpg",
+    "genres": [
+      "Documentary",
+      "History",
+      "War"
+    ],
+    "directors": [
+      {
+        "id": 129896,
+        "name": "Rithy Panh",
+        "profile_path": "/fMfHlfQMTGbg17DfDR0WSyg9xOj.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 129901,
+        "name": "Chum Mey",
+        "character": "Himself (Survivor)",
+        "profile_path": null
+      },
+      {
+        "id": 129902,
+        "name": "Khieu 'Poev' Ches",
+        "character": "Himself (Guard)",
+        "profile_path": null
+      },
+      {
+        "id": 129903,
+        "name": "Yeay Cheu",
+        "character": "Herself - Him Houy's Mother",
+        "profile_path": null
+      },
+      {
+        "id": 129905,
+        "name": "Nhiem Ein",
+        "character": "Himself - Photographer",
+        "profile_path": null
+      },
+      {
+        "id": 129906,
+        "name": "Houy Him",
+        "character": "Himself - Security deputy",
+        "profile_path": null
+      },
+      {
+        "id": 129907,
+        "name": "Ta Him",
+        "character": "Himself - Him Houy's Father",
+        "profile_path": null
+      },
+      {
+        "id": 129908,
+        "name": "Nhieb Ho",
+        "character": "Himself - Guard",
+        "profile_path": null
+      },
+      {
+        "id": 129909,
+        "name": "Prakk Kahn",
+        "character": "Himself - the Torturer",
+        "profile_path": null
+      },
+      {
+        "id": 129910,
+        "name": "Peng Kry",
+        "character": "Himself - Driver",
+        "profile_path": null
+      },
+      {
+        "id": 129911,
+        "name": "Som Meth",
+        "character": "Himself - Guard",
+        "profile_path": null
+      },
+      {
+        "id": 129912,
+        "name": "Vann Nath",
+        "character": "Himself - Survivor",
+        "profile_path": null
+      },
+      {
+        "id": 129913,
+        "name": "Top Pheap",
+        "character": "Himself - Interrogator & Typist",
+        "profile_path": null
+      },
+      {
+        "id": 129914,
+        "name": "Tcheam Seur",
+        "character": "Himself - Guard",
+        "profile_path": null
+      },
+      {
+        "id": 129915,
+        "name": "Mak Thim",
+        "character": "Himself - S21 Doctor",
+        "profile_path": null
+      },
+      {
+        "id": 129916,
+        "name": "Sours Thi",
+        "character": "Himself - Head of Registers",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 129896,
+        "name": "Rithy Panh",
+        "job": "Screenplay"
+      }
+    ],
+    "productionCountries": [
+      "Australia",
+      "Belgium",
+      "Cambodia",
+      "Canada",
+      "Czech Republic",
+      "Finland",
+      "France",
+      "Switzerland"
+    ],
+    "language": "fr",
+    "keywords": [
+      "cambodia",
+      "red khmer",
+      "khmer rouge"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:28.564Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819290477_h8yay1",
+    "folderPath": "Z:\\Documentaries\\Sans Soleil (1983) Criterion (1080p BluRay x265 HEVC 10bit AAC 1.0 French Silence)",
+    "folderName": "Sans Soleil (1983) Criterion (1080p BluRay x265 HEVC 10bit AAC 1.0 French Silence)",
+    "mainFile": {
+      "name": "Sans Soleil (1983) Criterion (1080p BluRay x265 Silence).mkv",
+      "path": "Z:\\Documentaries\\Sans Soleil (1983) Criterion (1080p BluRay x265 HEVC 10bit AAC 1.0 French Silence)\\Sans Soleil (1983) Criterion (1080p BluRay x265 Silence).mkv",
+      "size": 4893271052
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 1563,
+    "imdbId": "tt0084628",
+    "title": "Sans Soleil",
+    "originalTitle": "Sans soleil",
+    "overview": "A woman narrates the thoughts of a world traveler, meditations on time and memory expressed in words and images from places as far-flung as Japan, Guinea-Bissau, Iceland, and San Francisco.",
+    "tagline": "He wrote me...",
+    "releaseDate": "1983-03-02",
+    "year": "1983",
+    "runtime": 100,
+    "voteAverage": 7.435,
+    "voteCount": 260,
+    "popularity": 0.8566,
+    "posterPath": "/7gZC2ardRuFBB6qyQDw7HaLa921.jpg",
+    "backdropPath": "/lns7roobSPQQTF54oSPzkT3qH1q.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 9956,
+        "name": "Chris Marker",
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 222259,
+        "name": "Florence Delay",
+        "character": "Narrator (voice)",
+        "profile_path": "/ci10iGFWeStka54O1TjS5E6suW9.jpg"
+      },
+      {
+        "id": 3220622,
+        "name": "Amílcar Cabral",
+        "character": "Self (archive footage)",
+        "profile_path": "/9XRYlS2octNVDiydmhsDnLsrjzj.jpg"
+      },
+      {
+        "id": 28626,
+        "name": "Arielle Dombasle",
+        "character": "Self",
+        "profile_path": "/yzrLz3f4uXsiEJeG5FRiIqbGKPS.jpg"
+      },
+      {
+        "id": 4153165,
+        "name": "Bin Akao",
+        "character": "Self (uncredited)",
+        "profile_path": null
+      },
+      {
+        "id": 238869,
+        "name": "David Coverdale",
+        "character": "Self / Deep Purple Singer (uncredited)",
+        "profile_path": "/yO85hLAzX6yQ66x5bHOXwvB5Z5w.jpg"
+      },
+      {
+        "id": 9956,
+        "name": "Chris Marker",
+        "character": "Self (uncredited)",
+        "profile_path": "/f3WALvrJGu829oq8N467DnGJuer.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 9956,
+        "name": "Chris Marker",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "France"
+    ],
+    "language": "fr",
+    "keywords": [
+      "travelogue",
+      "ethnography",
+      "poetic documentary"
+    ],
+    "trailerKey": "WbvAe3vmQs8",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:30.477Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819292505_w1biae",
+    "folderPath": "Z:\\Documentaries\\Searching for Sugar Man (2012) (1080p BluRay x265 HEVC 10bit AAC 5.1 Silence)",
+    "folderName": "Searching for Sugar Man (2012) (1080p BluRay x265 HEVC 10bit AAC 5.1 Silence)",
+    "mainFile": {
+      "name": "Searching for Sugar Man (2012) (1080p BluRay x265 Silence).mkv",
+      "path": "Z:\\Documentaries\\Searching for Sugar Man (2012) (1080p BluRay x265 HEVC 10bit AAC 5.1 Silence)\\Searching for Sugar Man (2012) (1080p BluRay x265 Silence).mkv",
+      "size": 4325213809
+    },
+    "extras": [
+      {
+        "name": "Making Sugar Man",
+        "fileName": "Making Sugar Man.mkv",
+        "path": "Z:\\Documentaries\\Searching for Sugar Man (2012) (1080p BluRay x265 HEVC 10bit AAC 5.1 Silence)\\Featurettes\\Making Sugar Man.mkv",
+        "size": 514702075
+      }
+    ],
+    "mediaType": "movie",
+    "tmdbId": 84334,
+    "imdbId": "tt2125608",
+    "title": "Searching for Sugar Man",
+    "originalTitle": "Searching for Sugar Man",
+    "overview": "Two South Africans set out to discover what happened to their unlikely musical hero, the mysterious 1970s rock 'n' roller, Rodriguez.",
+    "tagline": "Great Art Always Survives",
+    "releaseDate": "2012-06-30",
+    "year": "2012",
+    "runtime": 85,
+    "voteAverage": 7.897,
+    "voteCount": 1002,
+    "popularity": 0.8128,
+    "posterPath": "/ucM98HuBHSWmn44oiE83hIDc6VB.jpg",
+    "backdropPath": "/8RafTGqYqAN9FJzvC75USKmJCso.jpg",
+    "genres": [
+      "Music",
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 930708,
+        "name": "Malik Bendjelloul",
+        "profile_path": "/uSaIvsfguot1sxSwH5xX5Jq6Afs.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1133583,
+        "name": "Stephen Segerman",
+        "character": "Self",
+        "profile_path": "/5a5kK7I3Mo0LbWAGjHxTPRHHp58.jpg"
+      },
+      {
+        "id": 1133582,
+        "name": "Rodriguez",
+        "character": "Self",
+        "profile_path": "/cFxLnQIg146h6DOcVLXIvnW2rG9.jpg"
+      },
+      {
+        "id": 1852402,
+        "name": "Regan Rodriguez",
+        "character": "Self",
+        "profile_path": "/hFKFCFrj0vqstVYOA26VBc7VXQI.jpg"
+      },
+      {
+        "id": 1852405,
+        "name": "Eva Rodriguez",
+        "character": "Self",
+        "profile_path": "/9JIPxLxwVP3doaUPYWFZGYNFUN3.jpg"
+      },
+      {
+        "id": 1181323,
+        "name": "Mike Theodore",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1132085,
+        "name": "Dennis Coffey",
+        "character": "Self",
+        "profile_path": "/hctibAY3O9FXpHA1CGT09BDb4Do.jpg"
+      },
+      {
+        "id": 1852410,
+        "name": "Sandra Rodriguez-Kennedy",
+        "character": "Self",
+        "profile_path": "/ydn5tSdEa7TAXda6Q1vCDrMU2yu.jpg"
+      },
+      {
+        "id": 1413203,
+        "name": "Clarence Avant",
+        "character": "Self",
+        "profile_path": "/lX0lMZXVDhw6lGDUIQrExzKo2PA.jpg"
+      },
+      {
+        "id": 115463,
+        "name": "Steve Rowland",
+        "character": "Self",
+        "profile_path": "/2OGmCUTtsXeG0SIGTITDh6z1VVK.jpg"
+      },
+      {
+        "id": 930708,
+        "name": "Malik Bendjelloul",
+        "character": "Self (uncredited)",
+        "profile_path": "/uSaIvsfguot1sxSwH5xX5Jq6Afs.jpg"
+      },
+      {
+        "id": 2903521,
+        "name": "Dan DiMaggio",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 2903523,
+        "name": "Jerome Ferretti",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 2903527,
+        "name": "Willem Möller",
+        "character": "Self",
+        "profile_path": "/7qMgtBAj4IT99jhEPmuBrYsOsDr.jpg"
+      },
+      {
+        "id": 1411735,
+        "name": "Craig Bartholomew Strydom",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 2903530,
+        "name": "Ilse Assmann",
+        "character": "Self",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 930708,
+        "name": "Malik Bendjelloul",
+        "job": "Writer"
+      },
+      {
+        "id": 1133583,
+        "name": "Stephen Segerman",
+        "job": "Story"
+      },
+      {
+        "id": 1411735,
+        "name": "Craig Bartholomew Strydom",
+        "job": "Story"
+      }
+    ],
+    "productionCountries": [
+      "Sweden",
+      "United Kingdom"
+    ],
+    "language": "en",
+    "keywords": [
+      "musician",
+      "1970s",
+      "mayor",
+      "south africa",
+      "icon",
+      "based on true story",
+      "music business",
+      "election",
+      "detroit, michigan",
+      "reading"
+    ],
+    "trailerKey": "tDw7OqVBT-w",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:32.505Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819294537_97poue",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[1993] Laibach - A Film From Slovenia",
+    "folderName": "[1993] Laibach - A Film From Slovenia",
+    "mainFile": {
+      "name": "[1993] Laibach - A Film From Slovenia.avi",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[1993] Laibach - A Film From Slovenia\\[1993] Laibach - A Film From Slovenia.avi",
+      "size": 735420428
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 563483,
+    "imdbId": "tt34795368",
+    "title": "Laibach ‎– A Film from Slovenia",
+    "originalTitle": "Bravo: Laibach v filmu",
+    "overview": "In the video film shots from the tour are interspersed with acted scenes, video clips and theoretical reflections of Slavoj Žižek and critic Chris Bohn. Together they form a compelling story about Laibach, controversial Slovene music group in the eighties.",
+    "tagline": "",
+    "releaseDate": "1993-02-04",
+    "year": "1993",
+    "runtime": 59,
+    "voteAverage": 7,
+    "voteCount": 1,
+    "popularity": 0.1365,
+    "posterPath": "/5LbQDCo3QnFAKZA2gA0aR6GnAQi.jpg",
+    "backdropPath": "/mzD8I61Jogmeg8ysJdKTW52k4bS.jpg",
+    "genres": [
+      "Music",
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 548400,
+        "name": "Daniel Landin",
+        "profile_path": null
+      },
+      {
+        "id": 1874878,
+        "name": "Peter Vezjak",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 1853669,
+        "name": "Milan Fras",
+        "character": "Himself",
+        "profile_path": "/m16Pe8oxRRWILZTiQGvpIBYQcPx.jpg"
+      },
+      {
+        "id": 1874881,
+        "name": "Dejan Knez",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1874882,
+        "name": "Ervin Markošek",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1853678,
+        "name": "Ivan Jani Novak",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1934216,
+        "name": "Tomaž Hostnik",
+        "character": "Himself (archive footage)",
+        "profile_path": null
+      },
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Himself",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 2180108,
+        "name": "Chris Bohn",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Slovenia",
+      "United Kingdom"
+    ],
+    "language": "en",
+    "keywords": [
+      "industrial"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:34.537Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819296443_6gs1rs",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[1996] Liebe dein Symptom wie Dich selbst!",
+    "folderName": "[1996] Liebe dein Symptom wie Dich selbst!",
+    "mainFile": {
+      "name": "[1996] Liebe dein Symptom wie Dich selbst!.avi",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[1996] Liebe dein Symptom wie Dich selbst!\\[1996] Liebe dein Symptom wie Dich selbst!.avi",
+      "size": 523952128
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 546044,
+    "imdbId": "tt6295952",
+    "title": "Thou Shalt Love thy Symptom as Thyself",
+    "originalTitle": "Liebe Dein Symptom wie Dich selbst!",
+    "overview": "Slavoj Zizek, born in 1949 in Ljubljana, psychoanalyst and professor of philosophy, started early on a group of theoreticians who sharpened their thinking of the theses of Jacques Lacan. The Slovenian Lacan School was a spiritual resistance nest in orthodox ex-Yugoslavia, and Slavoj Zizek emerged as a globally operating philosopher-entertainer.",
+    "tagline": "",
+    "releaseDate": "1996-01-01",
+    "year": "1996",
+    "runtime": 52,
+    "voteAverage": 6.6,
+    "voteCount": 7,
+    "popularity": 0.0409,
+    "posterPath": "/3jLxqCznquRHe6bv6QLuC5B5ye6.jpg",
+    "backdropPath": "/kAtSfBRe9w8i4iyEbhcys2buqk2.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 2119894,
+        "name": "Claudia Willke",
+        "profile_path": null
+      },
+      {
+        "id": 2119893,
+        "name": "Katharina Höcker",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Self",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      },
+      {
+        "id": 1890233,
+        "name": "Jacques Lacan",
+        "character": "Self (archive footage)",
+        "profile_path": "/Au9AxQ9xLmCOW1QWRS8OHjkRD1W.jpg"
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "Germany"
+    ],
+    "language": "de",
+    "keywords": [],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:36.443Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819297914_1y1dgb",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[1996] Predictions of Fire",
+    "folderName": "[1996] Predictions of Fire",
+    "mainFile": {
+      "name": "[1996] Predictions of Fire.avi",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[1996] Predictions of Fire\\[1996] Predictions of Fire.avi",
+      "size": 699047936
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 124839,
+    "imdbId": "tt0114176",
+    "title": "Predictions of Fire",
+    "originalTitle": "Prerokbe Ognja",
+    "overview": "A visceral documentary focusing on the Slovenian collective art movement known as NSK ('Neue Slowenische Kunst') and its varied branches: 'Laibach', 'Irwin', and 'Red Pilot'.",
+    "tagline": "A FILM ABOUT ART, POLITICS AND WAR",
+    "releaseDate": "1996-10-02",
+    "year": "1996",
+    "runtime": 90,
+    "voteAverage": 6.5,
+    "voteCount": 6,
+    "popularity": 0.0741,
+    "posterPath": "/Atv5pWLVmGZW2GfLnnVU2REXdvy.jpg",
+    "backdropPath": null,
+    "genres": [
+      "Music",
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 319627,
+        "name": "Michael Benson",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 1312407,
+        "name": "Peter Mlakar",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Self",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 319627,
+        "name": "Michael Benson",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Slovenia",
+      "United States of America"
+    ],
+    "language": "sl",
+    "keywords": [
+      "politics",
+      "philosophy",
+      "art",
+      "nsk"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:37.914Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819299451_ym6sct",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2003] The Reality of the Virtual",
+    "folderName": "[2003] The Reality of the Virtual",
+    "mainFile": {
+      "name": "[2003] The Reality of the Virtual.mp4",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2003] The Reality of the Virtual\\[2003] The Reality of the Virtual.mp4",
+      "size": 280616217
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 69054,
+    "imdbId": "tt0419142",
+    "title": "Slavoj Zizek: The Reality of the Virtual",
+    "originalTitle": "Slavoj Žižek: The Reality of the Virtual",
+    "overview": "In this tour de force filmed lecture, Slavoj Žižek lucidly and compellingly reflects on belief - which takes him from Father Christmas to democracy - and on the various forms that belief takes, drawing on Lacanian categories of thought. In a radical dismissal of todays so called post-political era, he mobilizes the paradox of universal truth urging us to dare to enact the impossible. It is a characteristic virtuoso performance, moving promiscuously from subject to subject but keeping the larger argument in view.",
+    "tagline": "A cinematic experience of Žižek's interpretations of reality and virtual reality.",
+    "releaseDate": "2004-03-23",
+    "year": "2004",
+    "runtime": 71,
+    "voteAverage": 6.6,
+    "voteCount": 15,
+    "popularity": 0.217,
+    "posterPath": "/xLAExxADuHxB7OCMcfBTIcB70T8.jpg",
+    "backdropPath": "/lN9XxQwWrinvtRR47Dp0d9p7xO3.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 2794368,
+        "name": "Ben Wright",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Self",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United Kingdom"
+    ],
+    "language": "en",
+    "keywords": [],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:39.451Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819300913_42ma3i",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2005] Žižek!",
+    "folderName": "[2005] Žižek!",
+    "mainFile": {
+      "name": "[2005] Žižek!.avi",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2005] Žižek!\\[2005] Žižek!.avi",
+      "size": 734179328
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 16190,
+    "imdbId": "tt0478338",
+    "title": "Žižek!",
+    "originalTitle": "Žižek!",
+    "overview": "ŽIŽEK! trails the thinker as he crisscrosses the globe, racing from New York City lecture halls, through the streets of Buenos Aires, and even stopping at home in Ljubljana, Slovenia. All the while Žižek obsessively reveals the invisible workings of ideology through his unique blend of Lacanian psychoanalysis, Marxism, and critique of pop culture.",
+    "tagline": "",
+    "releaseDate": "2005-11-18",
+    "year": "2005",
+    "runtime": 71,
+    "voteAverage": 6.8,
+    "voteCount": 35,
+    "popularity": 1.6841,
+    "posterPath": "/uInmp8gcdIZksJJMTPIGDOE5MIM.jpg",
+    "backdropPath": null,
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 112206,
+        "name": "Astra Taylor",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Self",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      },
+      {
+        "id": 112206,
+        "name": "Astra Taylor",
+        "character": "Self",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 112206,
+        "name": "Astra Taylor",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Canada",
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "woman director"
+    ],
+    "trailerKey": "rbl74xHJDnQ",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:40.913Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819302404_vwqfxz",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2006] Alien, Marx & Co. - Slavoj Žižek im Porträt",
+    "folderName": "[2006] Alien, Marx & Co. - Slavoj Žižek im Porträt",
+    "mainFile": {
+      "name": "[2006] Alien, Marx & Co. - Slavoj Žižek im Porträt.wmv",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2006] Alien, Marx & Co. - Slavoj Žižek im Porträt\\[2006] Alien, Marx & Co. - Slavoj Žižek im Porträt.wmv",
+      "size": 353340875
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 372851,
+    "imdbId": "tt9590300",
+    "title": "Alien, Marx & Co.  - Zizek Portrait",
+    "originalTitle": "Alien, Marx & Co. - Slavoj Zizek im Porträt",
+    "overview": "A conversation with Slavoj Zizek about Marx and Hollywood.",
+    "tagline": "",
+    "releaseDate": "2009-01-01",
+    "year": "2009",
+    "runtime": 100,
+    "voteAverage": 5,
+    "voteCount": 3,
+    "popularity": 0.1307,
+    "posterPath": "/9icgTQvz7GqS1LGpwvTxOgji61z.jpg",
+    "backdropPath": "/tQOBy8las2bZ8QD6DSp9tCGFrqI.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 2031358,
+        "name": "Susan Chales de Beaulieu",
+        "profile_path": null
+      },
+      {
+        "id": 2294755,
+        "name": "Jean-Baptiste Farkas",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Self",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      },
+      {
+        "id": 149987,
+        "name": "Alain Badiou",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 2294754,
+        "name": "Jacques Rancière",
+        "character": "Self",
+        "profile_path": "/vhVei0u0YJ4iy7hgT5g4RD76RyW.jpg"
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "Germany"
+    ],
+    "language": "de",
+    "keywords": [],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:42.404Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819303926_3rijgq",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2006] The Pervert's Guide To Cinema\\The.Perverts.Guide.To.Cinema.2006.1080p.WEBRip.x265-LAMA[TGx]",
+    "folderName": "The.Perverts.Guide.To.Cinema.2006.1080p.WEBRip.x265-LAMA[TGx]",
+    "mainFile": {
+      "name": "The.Perverts.Guide.To.Cinema.2006.1080p.WEBRip.x265-LAMA.mp4",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2006] The Pervert's Guide To Cinema\\The.Perverts.Guide.To.Cinema.2006.1080p.WEBRip.x265-LAMA[TGx]\\The.Perverts.Guide.To.Cinema.2006.1080p.WEBRip.x265-LAMA.mp4",
+      "size": 2514159190
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 34283,
+    "imdbId": "tt0828154",
+    "title": "The Pervert's Guide to Cinema",
+    "originalTitle": "The Pervert's Guide to Cinema",
+    "overview": "A hilarious introduction, using as examples some of the best films ever made, to some of Slovenian philosopher and psychoanalyst Slavoj Žižek's most exciting ideas on personal subjectivity, fantasy and reality, desire and sexuality.",
+    "tagline": "",
+    "releaseDate": "2006-10-06",
+    "year": "2006",
+    "runtime": 151,
+    "voteAverage": 7.351,
+    "voteCount": 171,
+    "popularity": 0.5777,
+    "posterPath": "/tvJQWlX1vobMu8O0W9ptQfI65zO.jpg",
+    "backdropPath": "/gsUS2ngyoOmbPDioUsHNXWPhD7Q.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 112201,
+        "name": "Sophie Fiennes",
+        "profile_path": "/4sRncoZd4MG3a1syXU9S7Hr9ZHw.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Self - Host / Philosopher",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      },
+      {
+        "id": 2636,
+        "name": "Alfred Hitchcock",
+        "character": "Self - Filmmaker (archive footage)",
+        "profile_path": "/108fiNM6poRieMg7RIqLJRxdAwG.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United Kingdom",
+      "Austria",
+      "Netherlands"
+    ],
+    "language": "en",
+    "keywords": [
+      "cinema on cinema",
+      "philosophy",
+      "pop culture",
+      "psychoanalysis",
+      "sigmund freud",
+      "documentary filmmaking",
+      "woman director",
+      "cinema history"
+    ],
+    "trailerKey": "mL5McgLd-xw",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:43.926Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819305443_fcynli",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2008] Examined Life",
+    "folderName": "[2008] Examined Life",
+    "mainFile": {
+      "name": "[2008] Examined Life.avi",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2008] Examined Life\\[2008] Examined Life.avi",
+      "size": 733964288
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 24566,
+    "imdbId": "tt1279083",
+    "title": "Examined Life",
+    "originalTitle": "Examined Life",
+    "overview": "Examined Life pulls philosophy out of academic journals and classrooms, and puts it back on the streets. Offering privileged moments with great thinkers from fields ranging from moral philosophy to cultural theory, Examined Life reveals philosophy's power to transform the way we see the world around us and imagine our place in it.",
+    "tagline": "",
+    "releaseDate": "2008-09-05",
+    "year": "2008",
+    "runtime": 87,
+    "voteAverage": 6.482,
+    "voteCount": 28,
+    "popularity": 0.2395,
+    "posterPath": "/safs2eMlCyHo0J9qtRKGNzXTRkw.jpg",
+    "backdropPath": "/dYrHQb15gYIcHtJ6bwe9fNtEjtu.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 112206,
+        "name": "Astra Taylor",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 537506,
+        "name": "Cornel West",
+        "character": "Self",
+        "profile_path": "/eyLtTHcC3InxVPTyRus1pNfa0pK.jpg"
+      },
+      {
+        "id": 556158,
+        "name": "Judith Butler",
+        "character": "Self",
+        "profile_path": "/ijoBAhitgqH8eJ6RR8BNKeGI0zn.jpg"
+      },
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Self",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      },
+      {
+        "id": 556159,
+        "name": "Peter Singer",
+        "character": "Self",
+        "profile_path": "/cGCczFAU0OWXLpENZ7GwCtq1Ojt.jpg"
+      },
+      {
+        "id": 556160,
+        "name": "Michael Hardt",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1808456,
+        "name": "Kwame Anthony Appiah",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1952142,
+        "name": "Martha C. Nussbaum",
+        "character": "Self",
+        "profile_path": "/rm2nvvNMh3440neE5tTVvtLJol5.jpg"
+      },
+      {
+        "id": 1952143,
+        "name": "Avital Ronell",
+        "character": "Self",
+        "profile_path": "/d1y4JTA5H8vvaFURvIPbMWNKBy3.jpg"
+      },
+      {
+        "id": 1952146,
+        "name": "Sunaura Taylor",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 112206,
+        "name": "Astra Taylor",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 102786,
+        "name": "Barack Obama",
+        "character": "Self (floating on a boat in central park)",
+        "profile_path": "/reEkbvLlNknpCo2I37Vim6XpqGu.jpg"
+      },
+      {
+        "id": 964843,
+        "name": "Michelle Obama",
+        "character": "Self (floating on a boat in central park)",
+        "profile_path": "/aoumtex4PjUmG2sYp3VaLrarmBl.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 112206,
+        "name": "Astra Taylor",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Canada"
+    ],
+    "language": "en",
+    "keywords": [
+      "philosophy",
+      "woman director"
+    ],
+    "trailerKey": "1zwmum5_ofU",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:45.443Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819306955_gsz7wx",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2009] Terror! Robespierre and the French Revolution",
+    "folderName": "[2009] Terror! Robespierre and the French Revolution",
+    "mainFile": {
+      "name": "[2009] Terror! Robespierre and the French Revolution.mp4",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2009] Terror! Robespierre and the French Revolution\\[2009] Terror! Robespierre and the French Revolution.mp4",
+      "size": 453587088
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 411356,
+    "imdbId": "tt1468876",
+    "title": "Terror! Robespierre and the French Revolution",
+    "originalTitle": "Terror! Robespierre and the French Revolution",
+    "overview": "In 1794, French revolutionary Maximilien Robespierre produced the world's first defense of \"state terror\" - claiming that the road to virtue lay through political violence. This film combines drama, archive and documentary interviews to examine Robespierre's year in charge of the Committee Of Public Safety - the powerful state machine at the heart of Revolutionary France. Contesting Robespierre's legacy is Slavoj Zizek, who argues that terror in the cause of virtue is justifiable, and Simon Schama, who believes the road from Robespierre ran straight to the gulag and the 20th-century concentration camp. The drama, based on original sources, follows the life-and-death politics of the Committee during \"Year Two\" of the new Republic.",
+    "tagline": "",
+    "releaseDate": "2009-07-11",
+    "year": "2009",
+    "runtime": null,
+    "voteAverage": 6.5,
+    "voteCount": 6,
+    "popularity": 0.2044,
+    "posterPath": "/jmlJTSr6i6quLpk7zuMfePEOAqq.jpg",
+    "backdropPath": null,
+    "genres": [
+      "Documentary",
+      "History"
+    ],
+    "directors": [
+      {
+        "id": 1666035,
+        "name": "Carl Hindmarch",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 4147670,
+        "name": "Jan Pearson",
+        "character": "Narrator (voice)",
+        "profile_path": null
+      },
+      {
+        "id": 76415,
+        "name": "Stephen Hogan",
+        "character": "Maximillian Robespierre",
+        "profile_path": "/wLmVf0LGfYsgH5PNDxRGO7MlzwK.jpg"
+      },
+      {
+        "id": 6640,
+        "name": "Ed Stoppard",
+        "character": "Herault",
+        "profile_path": "/jnLSiFipp0K5ROJblLCISC7ezzO.jpg"
+      },
+      {
+        "id": 97165,
+        "name": "Brian Pettifer",
+        "character": "Couthon",
+        "profile_path": "/swfTMwupWIBc1JixOydX812kQOE.jpg"
+      },
+      {
+        "id": 1666034,
+        "name": "David Andress",
+        "character": "Self - Author 'The Terror'",
+        "profile_path": null
+      },
+      {
+        "id": 28158,
+        "name": "Martin Hancock",
+        "character": "Collot",
+        "profile_path": "/39jwadj5Df1tpxHUD10KmkvDWqK.jpg"
+      },
+      {
+        "id": 1470148,
+        "name": "Colin Jones",
+        "character": "Self - Author 'The Great Nation'",
+        "profile_path": null
+      },
+      {
+        "id": 8547,
+        "name": "Jonny Phillips",
+        "character": "Carnot",
+        "profile_path": "/bq5ecEmED8r7lqwu5DXnKEixLd8.jpg"
+      },
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Self - Author - 'In Defence of Lost Causes'",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      },
+      {
+        "id": 1241153,
+        "name": "Simon Schama",
+        "character": "Self - Author - 'Citizens'",
+        "profile_path": "/Am8YgzAKwQkCgLlP3FfkuHaFQHN.jpg"
+      },
+      {
+        "id": 4138219,
+        "name": "Marisa Linton",
+        "character": "Self - Author - 'The Politics of Virtue'",
+        "profile_path": null
+      },
+      {
+        "id": 1398259,
+        "name": "Hilary Mantel",
+        "character": "Self - Author - 'A Place of Greater Safety'",
+        "profile_path": null
+      },
+      {
+        "id": 4138220,
+        "name": "Ruth Scurr",
+        "character": "Self - Author 'Fatal Purity'",
+        "profile_path": null
+      },
+      {
+        "id": 78051,
+        "name": "George Maguire",
+        "character": "Saint-Just",
+        "profile_path": "/r83vSwOpedTlrbbqpedBmmeWnnD.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1258028,
+        "name": "Mark Hayhurst",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United Kingdom"
+    ],
+    "language": "en",
+    "keywords": [
+      "revolution",
+      "french revolution",
+      "docudrama",
+      "18th century",
+      "robespierre"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:46.955Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819308471_d8gt4a",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2011] Marx Reloaded",
+    "folderName": "[2011] Marx Reloaded",
+    "mainFile": {
+      "name": "[2011] Marx Reloaded.mp4",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2011] Marx Reloaded\\[2011] Marx Reloaded.mp4",
+      "size": 280000983
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 139712,
+    "imdbId": "tt1884351",
+    "title": "Marx Reloaded",
+    "originalTitle": "Marx Reloaded",
+    "overview": "Marx Reloaded is a cultural documentary that examines the relevance of German socialist and philosopher Karl Marx's ideas for understanding the global economic and financial crisis of 2008-09. The crisis triggered the deepest global recession in 70 years and prompted the US government to spend more than 1 trillion dollars in order to rescue its banking system from collapse. Today the full implications of the crisis in Europe and around the world still remain unclear. Nevertheless, should we accept the crisis as an unfortunate side-effect of the free market? Or is there another explanation as to why it happened and its likely effects on our society, our economy and our whole way of life?",
+    "tagline": "Which pill will you take?",
+    "releaseDate": "2011-04-11",
+    "year": "2011",
+    "runtime": 52,
+    "voteAverage": 6.3,
+    "voteCount": 7,
+    "popularity": 0.0407,
+    "posterPath": "/7dMdikDXDhyPRukUuM1UTFR7kDp.jpg",
+    "backdropPath": "/dqOssPZZZuxcTRzomajgmHEFAeL.jpg",
+    "genres": [
+      "Documentary",
+      "Animation"
+    ],
+    "directors": [
+      {
+        "id": 1667679,
+        "name": "Alexandra Weltz",
+        "profile_path": null
+      },
+      {
+        "id": 1038108,
+        "name": "Jason Barker",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 1038108,
+        "name": "Jason Barker",
+        "character": "Karl Marx (voice)",
+        "profile_path": null
+      },
+      {
+        "id": 556160,
+        "name": "Michael Hardt",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1865839,
+        "name": "Toni Negri",
+        "character": "Self",
+        "profile_path": "/wLtkCi3LIuOl2KkqH8YtMq1fM4Z.jpg"
+      },
+      {
+        "id": 1892671,
+        "name": "Ivan Nikolić",
+        "character": "Leon Trotsky (voice)",
+        "profile_path": null
+      },
+      {
+        "id": 2296627,
+        "name": "Nina Power",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 2294754,
+        "name": "Jacques Rancière",
+        "character": "Self",
+        "profile_path": "/vhVei0u0YJ4iy7hgT5g4RD76RyW.jpg"
+      },
+      {
+        "id": 1476604,
+        "name": "Peter Sloterdijk",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 2296629,
+        "name": "Alberto Toscano",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Self",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "Germany"
+    ],
+    "language": "en",
+    "keywords": [],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:48.471Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819310006_0sy2jn",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2012] Catastroika",
+    "folderName": "[2012] Catastroika",
+    "mainFile": {
+      "name": "[2012] Catastroika.avi",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2012] Catastroika\\[2012] Catastroika.avi",
+      "size": 1702644330
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 104710,
+    "imdbId": "tt2385027",
+    "title": "Catastroika",
+    "originalTitle": "Catastroika",
+    "overview": "The creators of Debtocracy, analyze the shifting of state assets to private hands. They travel round the world gathering data on privatization and search for clues on the day after Greece's massive privatization program.",
+    "tagline": "Privatization goes public.",
+    "releaseDate": "2012-04-26",
+    "year": "2012",
+    "runtime": 87,
+    "voteAverage": 6.6,
+    "voteCount": 21,
+    "popularity": 0.1432,
+    "posterPath": "/erEUBLBZiDW7FMbJSBq30QN05W7.jpg",
+    "backdropPath": "/uUuJlNKbhI7cpcVDjTop2SkBQy2.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 933199,
+        "name": "Katerina Kitidi",
+        "profile_path": "/yRPqvrzPgWfrYNxVX9D0saf3rIc.jpg"
+      },
+      {
+        "id": 1036805,
+        "name": "Aris Chatzistefanou",
+        "profile_path": "/xx3vZuxqeq2iohounQlsEi1VJM8.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1149080,
+        "name": "Dean Baker",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1149081,
+        "name": "Alex Callinicos",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1149082,
+        "name": "Costas Douzinas",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1149083,
+        "name": "Ben Fine",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 125505,
+        "name": "Naomi Klein",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 15488,
+        "name": "Ken Loach",
+        "character": "Self",
+        "profile_path": "/vGtkrPgNeK3xkbbKTQ4vWD1VsEm.jpg"
+      },
+      {
+        "id": 31661,
+        "name": "Greg Palast",
+        "character": "Self",
+        "profile_path": "/7ZPTHaK0CG3lU9SwJWsGk9dsMsi.jpg"
+      },
+      {
+        "id": 1149084,
+        "name": "Dani Rodrik",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1149085,
+        "name": "Luis Sepulveda",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Self",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 933199,
+        "name": "Katerina Kitidi",
+        "job": "Writer"
+      },
+      {
+        "id": 1036805,
+        "name": "Aris Chatzistefanou",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Greece"
+    ],
+    "language": "el",
+    "keywords": [],
+    "trailerKey": "aEtzx6NJrIo",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:50.006Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819311583_5l7xmj",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2013] Balkan Spirit (French Dub)",
+    "folderName": "[2013] Balkan Spirit (French Dub)",
+    "mainFile": {
+      "name": "[2013] Balkan Spirit (French Dub).mp4",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2013] Balkan Spirit (French Dub)\\[2013] Balkan Spirit (French Dub).mp4",
+      "size": 241241645
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 482768,
+    "imdbId": "tt2993636",
+    "title": "Balkan Spirit",
+    "originalTitle": "Balkan Spirit",
+    "overview": "Filmmaker Hermann Vaske explores the creative Balkan world in the hopes of understanding the meaning of \"Balkan spirit\".",
+    "tagline": "",
+    "releaseDate": "2013-04-08",
+    "year": "2013",
+    "runtime": 60,
+    "voteAverage": 6.6,
+    "voteCount": 5,
+    "popularity": 0.2548,
+    "posterPath": "/oA3XFtOE2jbeXCXz2zAd1d4wpPz.jpg",
+    "backdropPath": null,
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "directors": [
+      {
+        "id": 1267531,
+        "name": "Hermann Vaske",
+        "profile_path": null
+      }
+    ],
+    "cast": [
+      {
+        "id": 1060565,
+        "name": "Marina Abramović",
+        "character": "Self - Performance Artist",
+        "profile_path": "/acyUmjRy0bLQgHk8Utpg88oCwAl.jpg"
+      },
+      {
+        "id": 2147750,
+        "name": "Eleni Angelopoulos",
+        "character": "Self - Director",
+        "profile_path": null
+      },
+      {
+        "id": 2147751,
+        "name": "Adrian Botan",
+        "character": "Self - Creative Director",
+        "profile_path": null
+      },
+      {
+        "id": 2147752,
+        "name": "Osman Bozkurt",
+        "character": "Self - Artist",
+        "profile_path": null
+      },
+      {
+        "id": 53908,
+        "name": "Goran Bregović",
+        "character": "Self - Musician",
+        "profile_path": "/vadorxEfR1KvgulmHvVJwCxO0u.jpg"
+      },
+      {
+        "id": 56214,
+        "name": "Nuri Bilge Ceylan",
+        "character": "Self - Director",
+        "profile_path": "/32Xm1HyO2GuwoefCoTJchPsXV7L.jpg"
+      },
+      {
+        "id": 125278,
+        "name": "Ada Condeescu",
+        "character": "Self - Actress",
+        "profile_path": "/a0vnzLXnTx6c0HR4zSkYdR35gIb.jpg"
+      },
+      {
+        "id": 1267486,
+        "name": "Taraf de Haidouks",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 2147753,
+        "name": "Dimitar Dereliev",
+        "character": "Self - Producer",
+        "profile_path": null
+      },
+      {
+        "id": 111058,
+        "name": "Nikola Đuričko",
+        "character": "Self - Actor",
+        "profile_path": "/l4DVpaIFJDJ6SJRXEPeFCz0KTCh.jpg"
+      },
+      {
+        "id": 2147754,
+        "name": "Murat Ertel",
+        "character": "Self - Musician",
+        "profile_path": null
+      },
+      {
+        "id": 39104,
+        "name": "Abel Ferrara",
+        "character": "Self - Director",
+        "profile_path": "/wdOxXWyxE3HjrtdeOJvc9xB5eUv.jpg"
+      },
+      {
+        "id": 2147755,
+        "name": "Flakan Haliti",
+        "character": "Self - Artist",
+        "profile_path": null
+      },
+      {
+        "id": 548633,
+        "name": "Renos Haralambidis",
+        "character": "Self - Actor & Director",
+        "profile_path": "/oGR0Z2L3Y78lyoIbYObuR0hO2An.jpg"
+      },
+      {
+        "id": 17882,
+        "name": "Isabelle Huppert",
+        "character": "Self - Actress",
+        "profile_path": "/eVmZiUBZQOjfqaK50OLfske0SFb.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1267531,
+        "name": "Hermann Vaske",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Germany"
+    ],
+    "language": "en",
+    "keywords": [],
+    "trailerKey": "Yr8AXUAq0rw",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:51.583Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819313155_3oqyhi",
+    "folderPath": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2013] The Pervert's Guide to Ideology",
+    "folderName": "[2013] The Pervert's Guide to Ideology",
+    "mainFile": {
+      "name": "[2013] The Pervert's Guide to Ideology.mp4",
+      "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2013] The Pervert's Guide to Ideology\\[2013] The Pervert's Guide to Ideology.mp4",
+      "size": 1927517866
+    },
+    "extras": [
+      {
+        "name": "The Perverts Guide To Ideology 2012 1080p WEBRip x265 LAMA",
+        "fileName": "The.Perverts.Guide.To.Ideology.2012.1080p.WEBRip.x265-LAMA.mp4",
+        "path": "Z:\\Documentaries\\Slavoj Zizek documentary films 1993-2013 with english subtitles\\[2013] The Pervert's Guide to Ideology\\The.Perverts.Guide.To.Ideology.2012.1080p.WEBRip.x265-LAMA[TGx]\\The.Perverts.Guide.To.Ideology.2012.1080p.WEBRip.x265-LAMA.mp4",
+        "size": 2270407192
+      }
+    ],
+    "mediaType": "movie",
+    "tmdbId": 128190,
+    "imdbId": "tt2152198",
+    "title": "The Pervert's Guide to Ideology",
+    "originalTitle": "The Pervert's Guide to Ideology",
+    "overview": "A journey into the labyrinthine heart of ideology, which shapes and justifies both collective and personal beliefs and practices: with an infectious zeal and voracious appetite for popular culture, Slovenian philosopher and psychoanalyst Slavoj Žižek analyzes several of the most important films in the history of cinema to explain how cinematic narrative helps to reinforce prevailing ethics and political ideas.",
+    "tagline": "We are responsible for our dreams",
+    "releaseDate": "2012-11-15",
+    "year": "2012",
+    "runtime": 131,
+    "voteAverage": 7.341,
+    "voteCount": 145,
+    "popularity": 0.3557,
+    "posterPath": "/tGmLQzLuok7qB0xVLv7s6rvUdl3.jpg",
+    "backdropPath": "/pwXov1z8E2VcTr0MbKrD6BkyMg1.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 112201,
+        "name": "Sophie Fiennes",
+        "profile_path": "/4sRncoZd4MG3a1syXU9S7Hr9ZHw.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "character": "Self - Host / Philosopher",
+        "profile_path": "/p7otWg1LyOF4rWpc0uWzbFIu7BU.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 112200,
+        "name": "Slavoj Žižek",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Ireland",
+      "United Kingdom"
+    ],
+    "language": "en",
+    "keywords": [
+      "cinema on cinema",
+      "philosophy",
+      "pop culture",
+      "psychoanalysis",
+      "ideology",
+      "woman director",
+      "ethics",
+      "cinema history"
+    ],
+    "trailerKey": "SzrpPgnZ71o",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:53.156Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819314278_xbi9bf",
+    "folderPath": "Z:\\Documentaries\\The Accountant of Auschwitz",
+    "folderName": "The Accountant of Auschwitz",
+    "mainFile": {
+      "name": "The Accountant of Auschwitz.mp4",
+      "path": "Z:\\Documentaries\\The Accountant of Auschwitz\\The Accountant of Auschwitz.mp4",
+      "size": 2407391989
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 520789,
+    "imdbId": "tt8148018",
+    "title": "The Accountant of Auschwitz",
+    "originalTitle": "The Accountant of Auschwitz",
+    "overview": "Oskar Gröning, known as the \"Accountant of Auschwitz,\" was charged with the murder of 300,000 Jews. When he took the stand in 2015, at the age of 94, his trial made headlines worldwide.",
+    "tagline": "",
+    "releaseDate": "2018-04-29",
+    "year": "2018",
+    "runtime": 78,
+    "voteAverage": 6.992,
+    "voteCount": 66,
+    "popularity": 0.2322,
+    "posterPath": "/4uriaKkq1DgIZcBVRjJcU1xqs7Z.jpg",
+    "backdropPath": "/q8jAxDl8PafvKBad0OWZjDZE8Hh.jpg",
+    "genres": [
+      "Documentary",
+      "History",
+      "Crime"
+    ],
+    "directors": [
+      {
+        "id": 2056264,
+        "name": "Matthew Shoychet",
+        "profile_path": "/23JHUhYgl0qimQ6LSkYOVxBdOZj.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 2290515,
+        "name": "Jeff Ansell",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 2290517,
+        "name": "Hedy Bohm",
+        "character": "Herself",
+        "profile_path": null
+      },
+      {
+        "id": 2290518,
+        "name": "Hans-Jürgen Brennecke",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 2290519,
+        "name": "John Demjanjuk",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 585015,
+        "name": "Alan Dershowitz",
+        "character": "Himself",
+        "profile_path": "/db6q6R2gsmrtPRXs1097gTxOE2a.jpg"
+      },
+      {
+        "id": 2290523,
+        "name": "Lawrence Douglas",
+        "character": "Himself",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 2290079,
+        "name": "Ricki Gurwitz",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "Canada"
+    ],
+    "language": "en",
+    "keywords": [],
+    "trailerKey": "GzwDqFPRSLo",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:54.278Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819315802_wipj9t",
+    "folderPath": "Z:\\Documentaries\\The Thin Blue Line (1988) Criterion (1080p BluRay x265 HEVC 10bit AAC 2.0 Tigole)",
+    "folderName": "The Thin Blue Line (1988) Criterion (1080p BluRay x265 HEVC 10bit AAC 2.0 Tigole)",
+    "mainFile": {
+      "name": "The Thin Blue Line (1988) Criterion (1080p BluRay x265 10bit Tigole).mkv",
+      "path": "Z:\\Documentaries\\The Thin Blue Line (1988) Criterion (1080p BluRay x265 HEVC 10bit AAC 2.0 Tigole)\\The Thin Blue Line (1988) Criterion (1080p BluRay x265 10bit Tigole).mkv",
+      "size": 3944736619
+    },
+    "extras": [
+      {
+        "name": "Interview Errol Morris",
+        "fileName": "Interview - Errol Morris.mkv",
+        "path": "Z:\\Documentaries\\The Thin Blue Line (1988) Criterion (1080p BluRay x265 HEVC 10bit AAC 2.0 Tigole)\\Featurettes\\Interview - Errol Morris.mkv",
+        "size": 479901052
+      },
+      {
+        "name": "Interview Joshua Oppenheimer",
+        "fileName": "Interview - Joshua Oppenheimer.mkv",
+        "path": "Z:\\Documentaries\\The Thin Blue Line (1988) Criterion (1080p BluRay x265 HEVC 10bit AAC 2.0 Tigole)\\Featurettes\\Interview - Joshua Oppenheimer.mkv",
+        "size": 166200159
+      }
+    ],
+    "mediaType": "movie",
+    "tmdbId": 14285,
+    "imdbId": "tt0096257",
+    "title": "The Thin Blue Line",
+    "originalTitle": "The Thin Blue Line",
+    "overview": "This unique documentary dramatically re-enacts the crime scene and investigation of a police officer's murder in Dallas.",
+    "tagline": "Erases the border between art and activism.",
+    "releaseDate": "1988-08-28",
+    "year": "1988",
+    "runtime": 103,
+    "voteAverage": 7.641,
+    "voteCount": 404,
+    "popularity": 0.5368,
+    "posterPath": "/4w4BJk3l8y9gYwPPLRs6uPHOmGL.jpg",
+    "backdropPath": "/9ndhlUu1VQ44pX5dVFo5Y19KqAl.jpg",
+    "genres": [
+      "Crime",
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 18533,
+        "name": "Errol Morris",
+        "profile_path": "/p0OVTOHWNOaEfK8eUjvey6uEbRp.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1414776,
+        "name": "Randall Adams",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 206088,
+        "name": "David Harris",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1414777,
+        "name": "Gus Rose",
+        "character": "Self - Homicide Detective in Dallas",
+        "profile_path": null
+      },
+      {
+        "id": 1697857,
+        "name": "Jackie Johnson",
+        "character": "Self - Homicide Detective in Dallas",
+        "profile_path": null
+      },
+      {
+        "id": 4778712,
+        "name": "Marshall Touchton",
+        "character": "Self - Homicide Detective in Dallas",
+        "profile_path": null
+      },
+      {
+        "id": 4778713,
+        "name": "Dale Holt",
+        "character": "Self - Internal Affairs Investigator in Dallas",
+        "profile_path": null
+      },
+      {
+        "id": 4778714,
+        "name": "Sam Kittrell",
+        "character": "Self - Police Detective in Vidor",
+        "profile_path": null
+      },
+      {
+        "id": 4778715,
+        "name": "Hootie Nelson",
+        "character": "Self - Friend of David Harris in Vidor",
+        "profile_path": null
+      },
+      {
+        "id": 2646458,
+        "name": "Dennis Johnson",
+        "character": "Self - Friend of David Harris in Vidor",
+        "profile_path": null
+      },
+      {
+        "id": 4778717,
+        "name": "Floyd Jackson",
+        "character": "Self - Friend of David Harris in Vidor",
+        "profile_path": null
+      },
+      {
+        "id": 4778718,
+        "name": "Edith James",
+        "character": "Self - Defense Attorney",
+        "profile_path": null
+      },
+      {
+        "id": 4778719,
+        "name": "Dennis White",
+        "character": "Self - Defense Attorney",
+        "profile_path": null
+      },
+      {
+        "id": 4778720,
+        "name": "Don Metcalfe",
+        "character": "Self - The Judge",
+        "profile_path": null
+      },
+      {
+        "id": 4778721,
+        "name": "Emily Miller",
+        "character": "Self - Surprise Eyewitness",
+        "profile_path": null
+      },
+      {
+        "id": 4778723,
+        "name": "R.L. Miller",
+        "character": "Self - Surprise Eyewitness",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 18533,
+        "name": "Errol Morris",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "death penalty",
+      "texas",
+      "investigation",
+      "dallas, texas",
+      "trial",
+      "murder",
+      "police officer",
+      "miscarriage of justice"
+    ],
+    "trailerKey": "MzZROKde8Nc",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:55.802Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819317249_kgfarv",
+    "folderPath": "Z:\\Documentaries\\The True Cost (2015) [1080p]",
+    "folderName": "The True Cost (2015) [1080p]",
+    "mainFile": {
+      "name": "The.True.Cost.2015.1080p.BluRay.x264.YIFY.mp4",
+      "path": "Z:\\Documentaries\\The True Cost (2015) [1080p]\\The.True.Cost.2015.1080p.BluRay.x264.YIFY.mp4",
+      "size": 1541748046
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 339065,
+    "imdbId": "tt3162938",
+    "title": "The True Cost",
+    "originalTitle": "The True Cost",
+    "overview": "Film from Andrew Morgan.  The True Cost is a documentary film exploring the impact of fashion on people and the planet.",
+    "tagline": "Who Pays the Price for Our Clothing?",
+    "releaseDate": "2015-05-29",
+    "year": "2015",
+    "runtime": 92,
+    "voteAverage": 7.543,
+    "voteCount": 230,
+    "popularity": 0.5583,
+    "posterPath": "/x7oDFes0HCWAYAwlEA5b3TCqX9S.jpg",
+    "backdropPath": "/pBx0E5y6E59d2u5u6x60mDVfHJD.jpg",
+    "genres": [
+      "Documentary",
+      "Drama"
+    ],
+    "directors": [
+      {
+        "id": 1471748,
+        "name": "Andrew Morgan",
+        "profile_path": "/gk9Syns1zC68FazNWMMHMVa8Mtc.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 149288,
+        "name": "Vandana Shiva",
+        "character": "Self",
+        "profile_path": "/knwbovedVTC2cAEXjVLvRGWgrUa.jpg"
+      },
+      {
+        "id": 1250729,
+        "name": "Stella McCartney",
+        "character": "Self",
+        "profile_path": "/4br4cq93UZUh64qs4IveHg55O5y.jpg"
+      },
+      {
+        "id": 58769,
+        "name": "Stephen Colbert",
+        "character": "Self",
+        "profile_path": "/zQ6pvfqIqYiV4TB7lDoaJL52H93.jpg"
+      },
+      {
+        "id": 84292,
+        "name": "John Oliver",
+        "character": "Self",
+        "profile_path": "/wI7LRInWUT3RgCByYx69wRMqgsy.jpg"
+      },
+      {
+        "id": 1306357,
+        "name": "Richard Wolff",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 549977,
+        "name": "Mark Crispin Miller",
+        "character": "Self",
+        "profile_path": "/3vqbxXwJ1a9L9t914UkKDrDdvuI.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1471748,
+        "name": "Andrew Morgan",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "factory worker",
+      "capitalism",
+      "globalization",
+      "textile industry",
+      "consumerism",
+      "economics",
+      "fashion",
+      "oppression",
+      "landfill",
+      "textile worker"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:57.249Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819318708_ru8fxn",
+    "folderPath": "Z:\\Documentaries\\Three Identical Strangers (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Tigole)",
+    "folderName": "Three Identical Strangers (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Tigole)",
+    "mainFile": {
+      "name": "Three Identical Strangers (2018) (1080p BluRay x265 10bit Tigole).mkv",
+      "path": "Z:\\Documentaries\\Three Identical Strangers (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Tigole)\\Three Identical Strangers (2018) (1080p BluRay x265 10bit Tigole).mkv",
+      "size": 3343261838
+    },
+    "extras": [
+      {
+        "name": "Opening Weekend Q&A",
+        "fileName": "Opening Weekend Q&A.mkv",
+        "path": "Z:\\Documentaries\\Three Identical Strangers (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Tigole)\\Featurettes\\Opening Weekend Q&A.mkv",
+        "size": 123060233
+      }
+    ],
+    "mediaType": "movie",
+    "tmdbId": 489988,
+    "imdbId": "tt7664504",
+    "title": "Three Identical Strangers",
+    "originalTitle": "Three Identical Strangers",
+    "overview": "New York, 1980. Three complete strangers accidentally discover that they're identical triplets, separated at birth. The 19-year-olds' joyous reunion catapults them to international fame, but also unlocks an extraordinary and disturbing secret that goes beyond their own lives – and could transform our understanding of human nature forever.",
+    "tagline": "The most amazing, incredible, remarkable true story ever told.",
+    "releaseDate": "2018-06-29",
+    "year": "2018",
+    "runtime": 97,
+    "voteAverage": 7.312,
+    "voteCount": 789,
+    "popularity": 1.0499,
+    "posterPath": "/esPoJNMBsgWXahv8gILIl5K6sFk.jpg",
+    "backdropPath": "/2shn4Kiq7qInZgKZhqM5BKie1zL.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 1252910,
+        "name": "Tim Wardle",
+        "profile_path": "/uOyvCAyGfPpO6QDTTpdNotx9e2f.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1961942,
+        "name": "David Kellman",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1961943,
+        "name": "Robert Shafran",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 59978,
+        "name": "Lawrence Wright",
+        "character": "Self",
+        "profile_path": "/oemzri6fzfymVklgXsuUZ4D8kMw.jpg"
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "United Kingdom"
+    ],
+    "language": "en",
+    "keywords": [
+      "adoption",
+      "twins",
+      "triplet",
+      "mental illness",
+      "adopted",
+      "shocking",
+      "nature vs nurture",
+      "separated at birth",
+      "introspective",
+      "intense"
+    ],
+    "trailerKey": "uM5TQ4f7ycw",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:01:58.708Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819320171_jlx6fv",
+    "folderPath": "Z:\\Documentaries\\Tickled.2016.1080p.NF.WEB-DL.DDP5.1.x264-NTG[EtHD]",
+    "folderName": "Tickled.2016.1080p.NF.WEB-DL.DDP5.1.x264-NTG[EtHD]",
+    "mainFile": {
+      "name": "Tickled.2016.1080p.NF.WEB-DL.DDP5.1.x264-NTG[EtHD].mkv",
+      "path": "Z:\\Documentaries\\Tickled.2016.1080p.NF.WEB-DL.DDP5.1.x264-NTG[EtHD]\\Tickled.2016.1080p.NF.WEB-DL.DDP5.1.x264-NTG[EtHD].mkv",
+      "size": 4676613329
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 373072,
+    "imdbId": "tt5278506",
+    "title": "Tickled",
+    "originalTitle": "Tickled",
+    "overview": "Journalist David Farrier stumbles upon a mysterious tickling competition online. As he delves deeper he comes up against fierce resistance, but that doesn’t stop him getting to the bottom of a story stranger than fiction.",
+    "tagline": "It's not what you think.",
+    "releaseDate": "2016-05-26",
+    "year": "2016",
+    "runtime": 92,
+    "voteAverage": 7.172,
+    "voteCount": 430,
+    "popularity": 0.7889,
+    "posterPath": "/qxUbPwyhzNEyUZYOZm6t8yYSQf.jpg",
+    "backdropPath": "/1ZtTi3s6IYtYMpKJbbrCJKfnNib.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 1473954,
+        "name": "David Farrier",
+        "profile_path": "/ugvUGx8reE4aQ7rWPkRCB6G0Jm2.jpg"
+      },
+      {
+        "id": 1550515,
+        "name": "Dylan Reeve",
+        "profile_path": "/l2LTvoli0QjBpOqOQhVm1q9OMxu.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1473954,
+        "name": "David Farrier",
+        "character": "Himself",
+        "profile_path": "/ugvUGx8reE4aQ7rWPkRCB6G0Jm2.jpg"
+      },
+      {
+        "id": 1550515,
+        "name": "Dylan Reeve",
+        "character": "Himself",
+        "profile_path": "/l2LTvoli0QjBpOqOQhVm1q9OMxu.jpg"
+      },
+      {
+        "id": 1689848,
+        "name": "David Starr",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1689851,
+        "name": "Hal Karp",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1892067,
+        "name": "Marko Realmonte",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1892068,
+        "name": "Kevin Clarke",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1892069,
+        "name": "T.J. Gretzner",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1892070,
+        "name": "Richard Ivey",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1892071,
+        "name": "Debbie Scoblionkov",
+        "character": "Herself",
+        "profile_path": null
+      },
+      {
+        "id": 1892072,
+        "name": "Jordan Schillaci",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1892073,
+        "name": "David D'Amato",
+        "character": "Himself",
+        "profile_path": null
+      },
+      {
+        "id": 1892074,
+        "name": "Romeo Salta",
+        "character": "Himself",
+        "profile_path": null
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "New Zealand"
+    ],
+    "language": "en",
+    "keywords": [
+      "journalist",
+      "sports",
+      "secret identity",
+      "fetish",
+      "fetishism",
+      "bullying",
+      "torture",
+      "homoeroticism",
+      "criminal investigation",
+      "fictitious sport"
+    ],
+    "trailerKey": "6w6Lijk73Q0",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:02:00.171Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819321854_pg7au2",
+    "folderPath": "Z:\\Documentaries\\Triumph.of.the.Will.1935.1080p.BluRay.x264-MELiTE",
+    "folderName": "Triumph.of.the.Will.1935.1080p.BluRay.x264-MELiTE",
+    "mainFile": {
+      "name": "m-totw-1080p.mkv",
+      "path": "Z:\\Documentaries\\Triumph.of.the.Will.1935.1080p.BluRay.x264-MELiTE\\m-totw-1080p.mkv",
+      "size": 8529455591
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 39266,
+    "imdbId": "tt0025913",
+    "title": "Triumph of the Will",
+    "originalTitle": "Triumph des Willens",
+    "overview": "A showcase of German chancellor and Nazi Party leader Adolf Hitler at the 1934 Nuremberg Rally.",
+    "tagline": "",
+    "releaseDate": "1935-03-28",
+    "year": "1935",
+    "runtime": 114,
+    "voteAverage": 6.872,
+    "voteCount": 300,
+    "popularity": 0.9174,
+    "posterPath": "/nzUH1O4ZaI0myiYhnSIlFNvVl5G.jpg",
+    "backdropPath": "/x57PAMkSURMbNZUk25lecXkJEWu.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 10139,
+        "name": "Leni Riefenstahl",
+        "profile_path": "/6qBz8IVXankocpDP6pLQJFAIYYp.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 10279,
+        "name": "Adolf Hitler",
+        "character": "Self",
+        "profile_path": "/n6f81IUSes1a8jTzUIF7rJ5zZnP.jpg"
+      },
+      {
+        "id": 1090805,
+        "name": "Max Amann",
+        "character": "Self",
+        "profile_path": "/zO8qN4WC6uG9c8e68CizUPEqsao.jpg"
+      },
+      {
+        "id": 1255425,
+        "name": "Hermann Göring",
+        "character": "Self",
+        "profile_path": "/srlxYR4WbfBH4KpoBptWSRduqTO.jpg"
+      },
+      {
+        "id": 1090806,
+        "name": "Martin Bormann",
+        "character": "Self",
+        "profile_path": "/ckJG2YkLr7BC8TmESV3f1Ta8DZP.jpg"
+      },
+      {
+        "id": 1029815,
+        "name": "Hans Frank",
+        "character": "Self",
+        "profile_path": "/dY9uxXMV8Dqz94LDTozXuFHbwk4.jpg"
+      },
+      {
+        "id": 1090807,
+        "name": "Sepp Dietrich",
+        "character": "Self",
+        "profile_path": "/a7LArgblYbptoxEnKCJNYbqxWPP.jpg"
+      },
+      {
+        "id": 1090808,
+        "name": "Joseph Goebbels",
+        "character": "Self",
+        "profile_path": "/qdvjL4rLbrumPxUwL1VGX8GYP1R.jpg"
+      },
+      {
+        "id": 1090809,
+        "name": "Erich Raeder",
+        "character": "Self",
+        "profile_path": "/71Vx5nNXLOD2Bw6eNvhFW643smc.jpg"
+      },
+      {
+        "id": 10280,
+        "name": "Rudolf Hess",
+        "character": "Self",
+        "profile_path": "/zwz9KJjaN2Ui2KbcjgQnJk55QI8.jpg"
+      },
+      {
+        "id": 1022762,
+        "name": "Robert Ley",
+        "character": "Self",
+        "profile_path": "/oTx6Jgvf80hPy33ZYyxjK3mK9EH.jpg"
+      },
+      {
+        "id": 2382744,
+        "name": "Viktor Lutze",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 11992,
+        "name": "Julius Streicher",
+        "character": "Self",
+        "profile_path": "/2C649ovCwt0aPkr3MFHTCevMosM.jpg"
+      },
+      {
+        "id": 1491035,
+        "name": "Baldur von Schirach",
+        "character": "Self",
+        "profile_path": "/3O1OtsvG1DhIJ6mQZUa0FjJY5RN.jpg"
+      },
+      {
+        "id": 2435184,
+        "name": "Alfred Rosenberg",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1141813,
+        "name": "Richard Walther Darré",
+        "character": "Self",
+        "profile_path": "/x48IBFn2ENTMLAFQkrlcOd1H82t.jpg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 120987,
+        "name": "Eberhard Taubert",
+        "job": "Screenplay"
+      },
+      {
+        "id": 2798,
+        "name": "Walter Ruttmann",
+        "job": "Screenplay"
+      },
+      {
+        "id": 10139,
+        "name": "Leni Riefenstahl",
+        "job": "Screenplay"
+      }
+    ],
+    "productionCountries": [
+      "Germany"
+    ],
+    "language": "de",
+    "keywords": [
+      "propaganda",
+      "nuremberg, germany",
+      "third reich (iii reich 1933-45)",
+      "woman director",
+      "nsdap (nazi party)",
+      "1920s",
+      "1930s",
+      "rally",
+      "adolf hitler",
+      "historical documentary"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:02:01.854Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819645450_yu1c2b",
+    "folderPath": "Z:\\Documentaries\\Citizenfour (2014) 1080p",
+    "folderName": "Citizenfour (2014) 1080p",
+    "mainFile": {
+      "name": "Citizenfour (2014) 1080p.mp4",
+      "path": "Z:\\Documentaries\\Citizenfour (2014) 1080p\\Citizenfour (2014) 1080p.mp4",
+      "size": 3551437778
+    },
+    "extras": [
+      {
+        "name": "A Scandal Is What It Is",
+        "fileName": "A Scandal Is What It Is.mkv",
+        "path": "Z:\\Documentaries\\Citizenfour (2014) 1080p\\Citizenfour Extras\\Featurettes\\Deleted Scenes\\A Scandal Is What It Is.mkv",
+        "size": 39001888
+      },
+      {
+        "name": "Methods Can't Be Questioned",
+        "fileName": "Methods Can't Be Questioned.mkv",
+        "path": "Z:\\Documentaries\\Citizenfour (2014) 1080p\\Citizenfour Extras\\Featurettes\\Deleted Scenes\\Methods Can't Be Questioned.mkv",
+        "size": 63855827
+      },
+      {
+        "name": "Strength of Your Beliefs",
+        "fileName": "Strength of Your Beliefs.mkv",
+        "path": "Z:\\Documentaries\\Citizenfour (2014) 1080p\\Citizenfour Extras\\Featurettes\\Deleted Scenes\\Strength of Your Beliefs.mkv",
+        "size": 20464491
+      },
+      {
+        "name": "Film Society of Lincoln Center Q&A",
+        "fileName": "Film Society of Lincoln Center Q&A.mkv",
+        "path": "Z:\\Documentaries\\Citizenfour (2014) 1080p\\Citizenfour Extras\\Featurettes\\Film Society of Lincoln Center Q&A.mkv",
+        "size": 325179166
+      },
+      {
+        "name": "The New York Times TimesTalks Roundtable Discussion",
+        "fileName": "The New York Times TimesTalks Roundtable Discussion.mkv",
+        "path": "Z:\\Documentaries\\Citizenfour (2014) 1080p\\Citizenfour Extras\\Featurettes\\The New York Times TimesTalks Roundtable Discussion.mkv",
+        "size": 589337459
+      },
+      {
+        "name": "The Program",
+        "fileName": "The Program.mkv",
+        "path": "Z:\\Documentaries\\Citizenfour (2014) 1080p\\Citizenfour Extras\\Featurettes\\The Program.mkv",
+        "size": 89445940
+      }
+    ],
+    "mediaType": "movie",
+    "tmdbId": 293310,
+    "imdbId": "tt4044364",
+    "title": "Citizenfour",
+    "originalTitle": "Citizenfour",
+    "overview": "In June 2013, Laura Poitras and reporter Glenn Greenwald flew to Hong Kong for the first of many meetings with Edward Snowden. She brought her camera with her.",
+    "tagline": "",
+    "releaseDate": "2014-10-10",
+    "year": "2014",
+    "runtime": 113,
+    "voteAverage": 7.7,
+    "voteCount": 1382,
+    "popularity": 1.1175,
+    "posterPath": "/nOVhX69EAxtSKEEnr5UcSd5UVci.jpg",
+    "backdropPath": "/godZeVdLEH6YFOBPajdLkAvhy5l.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      {
+        "id": 220691,
+        "name": "Laura Poitras",
+        "profile_path": "/gRCQMBVyEy7FlA6MAUJ0ESVobLp.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1386089,
+        "name": "Edward Snowden",
+        "character": "Self",
+        "profile_path": "/q2n2J4HVxty15I9vPJ4j8yX6gdu.jpg"
+      },
+      {
+        "id": 1326448,
+        "name": "Glenn Greenwald",
+        "character": "Self",
+        "profile_path": "/5brjEHa8LOLwPnk2NbVN3ahjSVN.jpg"
+      },
+      {
+        "id": 220691,
+        "name": "Laura Poitras",
+        "character": "Self",
+        "profile_path": "/gRCQMBVyEy7FlA6MAUJ0ESVobLp.jpg"
+      },
+      {
+        "id": 1417334,
+        "name": "William Binney",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 102786,
+        "name": "Barack Obama",
+        "character": "Self",
+        "profile_path": "/reEkbvLlNknpCo2I37Vim6XpqGu.jpg"
+      },
+      {
+        "id": 1417332,
+        "name": "Jacob Appelbaum",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 150882,
+        "name": "Julian Assange",
+        "character": "Self",
+        "profile_path": "/v5RJRSLHISrQsToSMMw8ixMml5w.jpg"
+      },
+      {
+        "id": 529913,
+        "name": "Jeremy Scahill",
+        "character": "Self",
+        "profile_path": "/wsOBQd25xiAZ11pfSwmjtvCho5L.jpg"
+      },
+      {
+        "id": 1417333,
+        "name": "Kevin Bankston",
+        "character": "Self",
+        "profile_path": "/Ai5WdXxjSSh7oel5wyyPcW1wZHQ.jpg"
+      },
+      {
+        "id": 1417336,
+        "name": "Ewen MacAskill",
+        "character": "Self",
+        "profile_path": "/o9556P54iRLyeE5lRN8uhbDXi3U.jpg"
+      },
+      {
+        "id": 1417337,
+        "name": "Lindsay Mills",
+        "character": "Self",
+        "profile_path": null
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "Germany",
+      "United Kingdom",
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "biography",
+      "national security agency (nsa)",
+      "woman director",
+      "investigative journalism",
+      "whistleblower",
+      "surveillance state",
+      "observational documentary",
+      "mass surveillance",
+      "fbi surveillance"
+    ],
+    "trailerKey": "PX2uyP9QGjs",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:07:25.450Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771819646950_a58boh",
+    "folderPath": "Z:\\Documentaries\\Risk (2016) 1080p",
+    "folderName": "Risk (2016) 1080p",
+    "mainFile": {
+      "name": "Risk (2016) 1080p.mp4",
+      "path": "Z:\\Documentaries\\Risk (2016) 1080p\\Risk (2016) 1080p.mp4",
+      "size": 2860205953
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 393561,
+    "imdbId": "tt4964772",
+    "title": "Risk",
+    "originalTitle": "Risk",
+    "overview": "Capturing the story of WikiLeaks founder Julian Assange with unprecedented access, director Laura Poitras finds herself caught between the motives and contradictions of Assange and his inner circle in a documentary portrait of power, betrayal, truth and sacrifice.",
+    "tagline": "How much of your own life are you willing to risk",
+    "releaseDate": "2017-05-05",
+    "year": "2017",
+    "runtime": 91,
+    "voteAverage": 6.6,
+    "voteCount": 75,
+    "popularity": 0.3936,
+    "posterPath": "/rxrkcyNNughClOL8j8qwNgY9xI5.jpg",
+    "backdropPath": "/8jn2hq7AsXi4XW064vmokPnIBCV.jpg",
+    "genres": [
+      "Documentary",
+      "Crime"
+    ],
+    "directors": [
+      {
+        "id": 220691,
+        "name": "Laura Poitras",
+        "profile_path": "/gRCQMBVyEy7FlA6MAUJ0ESVobLp.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 150882,
+        "name": "Julian Assange",
+        "character": "Self",
+        "profile_path": "/v5RJRSLHISrQsToSMMw8ixMml5w.jpg"
+      },
+      {
+        "id": 1608319,
+        "name": "Sarah Harrison",
+        "character": "Self",
+        "profile_path": "/fTcFxvew18NZGk0l7TuDxcUEISy.jpg"
+      },
+      {
+        "id": 1417332,
+        "name": "Jacob Appelbaum",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1833187,
+        "name": "Joseph Farrell",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "id": 1833188,
+        "name": "Renata Avila",
+        "character": "Self - Lawyer",
+        "profile_path": null
+      },
+      {
+        "id": 1833189,
+        "name": "Jennifer Robinson",
+        "character": "Self - Lawyer",
+        "profile_path": "/eeoQEimC5si5UDernYDLAWeZP5s.jpg"
+      },
+      {
+        "id": 1833190,
+        "name": "Erinn Clark",
+        "character": "Self - Tor Project developer",
+        "profile_path": null
+      },
+      {
+        "id": 220691,
+        "name": "Laura Poitras",
+        "character": "Self (voice)",
+        "profile_path": "/gRCQMBVyEy7FlA6MAUJ0ESVobLp.jpg"
+      },
+      {
+        "id": 1833191,
+        "name": "Ana Alban",
+        "character": "Self - Ecuadorian ambassador",
+        "profile_path": null
+      },
+      {
+        "id": 1833192,
+        "name": "Christine Assange",
+        "character": "Self - Julian's mother",
+        "profile_path": null
+      },
+      {
+        "id": 1833193,
+        "name": "Louis Bladel",
+        "character": "Self - FBI counterintelligence",
+        "profile_path": null
+      },
+      {
+        "id": 1833194,
+        "name": "Amal Clooney",
+        "character": "Self",
+        "profile_path": "/cXQtCkL0OFz38C4Sxd1XnQ5E4P7.jpg"
+      },
+      {
+        "id": 1833195,
+        "name": "Roger Dingledine",
+        "character": "Self - Tor Project",
+        "profile_path": null
+      },
+      {
+        "id": 112580,
+        "name": "Daniel Ellsberg",
+        "character": "Self",
+        "profile_path": "/sEv8SOfcMzOKiVOlM5OQxOk5qf0.jpg"
+      },
+      {
+        "id": 1833196,
+        "name": "Tamer Gadalla",
+        "character": "Self - TE Data Managing Director",
+        "profile_path": null
+      }
+    ],
+    "writers": [],
+    "productionCountries": [
+      "Germany",
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "asylum",
+      "national security agency (nsa)",
+      "information leak",
+      "investigative journalism",
+      "semi-biographical",
+      "fake news",
+      "surveillance state",
+      "observational documentary",
+      "julian assange",
+      "immersive"
+    ],
+    "trailerKey": "1teM525rVlc",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T04:07:26.950Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771827214146_0b8osm",
+    "folderPath": "Z:\\Directors\\F. W. Murnau\\Tabu A Story of the South Seas 1931 1080p BluRay x264-OFT",
+    "folderName": "Tabu A Story of the South Seas 1931 1080p BluRay x264-OFT",
+    "mainFile": {
+      "name": "Tabu A Story of the South Seas 1931 1080p BluRay x264-OFT.mkv",
+      "path": "Z:\\Directors\\F. W. Murnau\\Tabu A Story of the South Seas 1931 1080p BluRay x264-OFT\\Tabu A Story of the South Seas 1931 1080p BluRay x264-OFT.mkv",
+      "size": 3765436632
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 977,
+    "imdbId": "tt0022458",
+    "title": "Tabu: A Story of the South Seas",
+    "originalTitle": "Tabu: A Story of the South Seas",
+    "overview": "On the South Pacific island of Bora Bora, a young couple's love is threatened when the tribal chief declares the girl a sacred virgin.",
+    "tagline": "",
+    "releaseDate": "1931-07-30",
+    "year": "1931",
+    "runtime": 86,
+    "voteAverage": 7.067,
+    "voteCount": 178,
+    "popularity": 0.7169,
+    "posterPath": "/c4zfawkB8Jsp5lhWl62QCzczR3M.jpg",
+    "backdropPath": "/jLtiBuYhQoqAEACLyyhO3mo4JHx.jpg",
+    "genres": [
+      "Romance",
+      "Drama",
+      "Adventure"
+    ],
+    "directors": [
+      {
+        "id": 9076,
+        "name": "F. W. Murnau",
+        "profile_path": "/keLp43iiIkkllroUwExIJITeR7a.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 14582,
+        "name": "Matahi",
+        "character": "The Boy",
+        "profile_path": null
+      },
+      {
+        "id": 14583,
+        "name": "Anne Chevalier",
+        "character": "The Girl (as Reri)",
+        "profile_path": "/1BFbKmo4Xz2zwKMrJudy4AAxyxE.jpg"
+      },
+      {
+        "id": 14584,
+        "name": "Bill Bambridge",
+        "character": "The Policeman (as Jean)",
+        "profile_path": null
+      },
+      {
+        "id": 14585,
+        "name": "Hitu",
+        "character": "The Old Warrior",
+        "profile_path": null
+      },
+      {
+        "id": 14586,
+        "name": "Jules",
+        "character": "The Captain (uncredited)",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 9076,
+        "name": "F. W. Murnau",
+        "job": "Screenplay"
+      },
+      {
+        "id": 10092,
+        "name": "Robert Flaherty",
+        "job": "Screenplay"
+      },
+      {
+        "id": 5030,
+        "name": "Edgar G. Ulmer",
+        "job": "Screenplay"
+      }
+    ],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "exotic island",
+      "love of one's life",
+      "escape",
+      "sacrifice",
+      "south seas",
+      "civilization",
+      "tahiti",
+      "romance",
+      "black and white",
+      "shark"
+    ],
+    "trailerKey": "BmHQjE_YCGw",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T06:13:34.146Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771828194030_junwy6",
+    "folderPath": "Z:\\Documentaries\\BIOS",
+    "folderName": "BIOS",
+    "mainFile": {
+      "name": "T2.E2 ∙ Luis Alberto Spinetta.mp4",
+      "path": "Z:\\Documentaries\\BIOS\\T2.E2 ∙ Luis Alberto Spinetta.mp4",
+      "size": 8058836298
+    },
+    "extras": [
+      {
+        "name": "T1 E1 ∙ Charly Garcia",
+        "fileName": "T1.E1 ∙ Charly Garcia.mp4",
+        "path": "Z:\\Documentaries\\BIOS\\T1.E1 ∙ Charly Garcia.mp4",
+        "size": 745575355
+      },
+      {
+        "name": "T1 E3 ∙ Gustavo Cerati",
+        "fileName": "T1.E3 ∙ Gustavo Cerati.mp4",
+        "path": "Z:\\Documentaries\\BIOS\\T1.E3 ∙ Gustavo Cerati.mp4",
+        "size": 772868270
+      }
+    ],
+    "mediaType": "tv",
+    "tmdbId": 89619,
+    "imdbId": null,
+    "title": "Bios",
+    "originalTitle": "Bios: Vidas que marcaron la tuya",
+    "overview": "A fascinating journey through the life and work of many Latin American music idols, by the curious gaze of young chroniclers, with access to exclusive footage.",
+    "tagline": "",
+    "releaseDate": "2018-11-11",
+    "year": "2018",
+    "runtime": 47,
+    "voteAverage": 2,
+    "voteCount": 1,
+    "popularity": 0.4238,
+    "posterPath": "/gZc3A5nuO72lqyrIqyqxlAQpdAA.jpg",
+    "backdropPath": "/qo1BYpQItnxPwdmAqQIHz8GL4VB.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [],
+    "cast": [],
+    "writers": [],
+    "productionCountries": [
+      "Argentina",
+      "Brazil",
+      "Mexico"
+    ],
+    "language": "es",
+    "keywords": [
+      "biography"
+    ],
+    "trailerKey": null,
+    "numberOfSeasons": 2,
+    "numberOfEpisodes": 6,
+    "status": "Ended",
+    "seasons": null,
+    "dateAdded": "2026-02-23T06:29:54.030Z",
+    "watched": false,
+    "watchedDate": null,
+    "rating": null,
+    "favorite": false,
+    "notes": ""
+  },
+  {
+    "id": "mu_1771830286802_sr58j0",
+    "folderPath": "Z:\\Unsorted Movies\\Cat.on.a.Hot.Tin.Roof.1958.1080p.BluRay.X264-AMIABLE",
+    "folderName": "Cat.on.a.Hot.Tin.Roof.1958.1080p.BluRay.X264-AMIABLE",
+    "mainFile": {
+      "name": "Cat.on.a.Hot.Tin.Roof.1958.1080p.BluRay.X264-AMIABLE.mkv",
+      "path": "Z:\\Unsorted Movies\\Cat.on.a.Hot.Tin.Roof.1958.1080p.BluRay.X264-AMIABLE\\Cat.on.a.Hot.Tin.Roof.1958.1080p.BluRay.X264-AMIABLE.mkv",
+      "size": 11740021273
+    },
+    "extras": [],
+    "mediaType": "movie",
+    "tmdbId": 261,
+    "imdbId": "tt0051459",
+    "title": "Cat on a Hot Tin Roof",
+    "originalTitle": "Cat on a Hot Tin Roof",
+    "overview": "An alcoholic ex-football player drinks his days away, having failed to come to terms with his sexuality and his real feelings for his football buddy who died after an ambiguous accident. His wife is crucified by her desperation to make him desire her: but he resists the affections of his wife. His reunion with his father—who is dying of cancer—jogs a host of memories and revelations for both father and son.",
+    "tagline": "Just one pillow on her bed... and just one desire in her heart.",
+    "releaseDate": "1958-08-29",
+    "year": "1958",
+    "runtime": 108,
+    "voteAverage": 7.631,
+    "voteCount": 819,
+    "popularity": 1.1856,
+    "posterPath": "/5djZZECgqDGuSI1INmrdAcGRBb0.jpg",
+    "backdropPath": "/3Yz8IcUBPZ8zDff0ktHZk24Rot0.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "directors": [
+      {
+        "id": 3632,
+        "name": "Richard Brooks",
+        "profile_path": "/2ugZnGBTTK6CA9GEiScX4QHuFkl.jpg"
+      }
+    ],
+    "cast": [
+      {
+        "id": 3636,
+        "name": "Paul Newman",
+        "character": "Brick",
+        "profile_path": "/bP2fByqNR7BorsUNuD6nSm0u2vJ.jpg"
+      },
+      {
+        "id": 3635,
+        "name": "Elizabeth Taylor",
+        "character": "Maggie",
+        "profile_path": "/pIq0rsj0XHKFemnvMjq5q6nAseo.jpg"
+      },
+      {
+        "id": 2753,
+        "name": "Burl Ives",
+        "character": "Harvey 'Big Daddy' Pollitt",
+        "profile_path": "/qRefQVFPdXwkHLLgDLFPeRgcLu4.jpg"
+      },
+      {
+        "id": 3362,
+        "name": "Judith Anderson",
+        "character": "Big Momma",
+        "profile_path": "/33Ree0GhYJoxQuh1vAjyGsoKiS4.jpg"
+      },
+      {
+        "id": 2672,
+        "name": "Jack Carson",
+        "character": "Gooper",
+        "profile_path": "/lOYGfx1zbsrhpqzL1svLE1LmFYe.jpg"
+      },
+      {
+        "id": 3639,
+        "name": "Madeleine Sherwood",
+        "character": "Mae",
+        "profile_path": "/bDwZn45GRRb4eS99bFrYLcdofAA.jpg"
+      },
+      {
+        "id": 3641,
+        "name": "Vaughn Taylor",
+        "character": "Deacon Davis",
+        "profile_path": "/qX7jGnLyveGDBRy9nRgzBJFMqTH.jpg"
+      },
+      {
+        "id": 3640,
+        "name": "Larry Gates",
+        "character": "Dr. Baugh",
+        "profile_path": "/g9ovDZYmccbsuDNsdzaHEcjz3Zl.jpg"
+      },
+      {
+        "id": 195830,
+        "name": "Brian Corcoran",
+        "character": "Boy",
+        "profile_path": "/7BgaSOzYPDvBwz8TyxRT05XvukN.jpg"
+      },
+      {
+        "id": 3752,
+        "name": "Zelda Cleaver",
+        "character": "Servant",
+        "profile_path": null
+      },
+      {
+        "id": 274868,
+        "name": "Robert 'Rusty' Stevens",
+        "character": "Sonny Pollitt",
+        "profile_path": "/47OCUlSlkyVGo9G57fW4R67cps0.jpg"
+      },
+      {
+        "id": 193032,
+        "name": "Hugh Corcoran",
+        "character": "Buster Pollitt",
+        "profile_path": null
+      }
+    ],
+    "writers": [
+      {
+        "id": 3632,
+        "name": "Richard Brooks",
+        "job": "Screenplay"
+      },
+      {
+        "id": 3638,
+        "name": "James Poe",
+        "job": "Screenplay"
+      },
+      {
+        "id": 3634,
+        "name": "Tennessee Williams",
+        "job": "Writer"
+      }
+    ],
+    "productionCountries": [
+      "United States of America"
+    ],
+    "language": "en",
+    "keywords": [
+      "dying and death",
+      "depression",
+      "individual",
+      "suicide",
+      "jealousy",
+      "husband wife relationship",
+      "southern usa",
+      "mississippi river",
+      "plantation",
+      "patriarch"
+    ],
+    "trailerKey": "SGvJZLJi9sU",
+    "numberOfSeasons": null,
+    "numberOfEpisodes": null,
+    "status": "Released",
+    "seasons": null,
+    "dateAdded": "2026-02-23T07:04:46.802Z",
     "watched": false,
     "watchedDate": null,
     "rating": null,

@@ -593,13 +593,13 @@ async function searchTMDB(apiKey, query, year = null, tvFirst = false) {
 
 async function getMovieDetails(apiKey, tmdbId) {
   try {
-    return await tmdbRequest(apiKey, `/movie/${tmdbId}?language=en-US&append_to_response=credits,videos,keywords`);
+    return await tmdbRequest(apiKey, `/movie/${tmdbId}?language=en-US&append_to_response=credits,videos,keywords,release_dates`);
   } catch (e) { return null; }
 }
 
 async function getTVDetails(apiKey, tmdbId) {
   try {
-    return await tmdbRequest(apiKey, `/tv/${tmdbId}?language=en-US&append_to_response=credits,videos,keywords`);
+    return await tmdbRequest(apiKey, `/tv/${tmdbId}?language=en-US&append_to_response=credits,videos,keywords,content_ratings`);
   } catch (e) { return null; }
 }
 
@@ -655,6 +655,26 @@ function buildEntry(mediaUnit, tmdbBasic, tmdbDetails) {
 
   const trailer = (details.videos?.results || []).find(v => v.type === 'Trailer' && v.site === 'YouTube');
 
+  // Certifications (content ratings)
+  let certificationAR = null, certificationUS = null;
+  if (mediaType === 'movie') {
+    const releaseDates = details.release_dates?.results || [];
+    const getCert = (country) => {
+      const entry = releaseDates.find(r => r.iso_3166_1 === country);
+      if (!entry) return null;
+      const preferred = entry.release_dates.find(rd => rd.type === 3 && rd.certification);
+      const fallback = entry.release_dates.find(rd => rd.certification);
+      return preferred?.certification || fallback?.certification || null;
+    };
+    certificationAR = getCert('AR');
+    certificationUS = getCert('US');
+  } else {
+    const contentRatings = details.content_ratings?.results || [];
+    const getTVRating = (country) => contentRatings.find(r => r.iso_3166_1 === country)?.rating || null;
+    certificationAR = getTVRating('AR');
+    certificationUS = getTVRating('US');
+  }
+
   // Handle TV vs Movie field differences
   const title = details.title || details.name || mediaUnit.cleanName;
   const originalTitle = details.original_title || details.original_name || '';
@@ -691,6 +711,8 @@ function buildEntry(mediaUnit, tmdbBasic, tmdbDetails) {
     language: details.original_language || '',
     keywords: (details.keywords?.keywords || details.keywords?.results || []).slice(0, 10).map(k => k.name),
     trailerKey: trailer?.key || null,
+    certificationAR: certificationAR,
+    certificationUS: certificationUS,
     // TV specific
     numberOfSeasons: details.number_of_seasons || null,
     numberOfEpisodes: details.number_of_episodes || null,
