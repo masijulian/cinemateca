@@ -73,7 +73,10 @@ input,select{font-family:inherit}
 #topbar{position:sticky;top:0;background:rgba(11,13,16,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:10px 24px;display:flex;align-items:center;gap:12px;z-index:50}
 .sbox{flex:1;max-width:480px;position:relative}
 .sbox .si{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text3);font-size:.82rem;pointer-events:none}
-#sInput{width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:9px 12px 9px 34px;color:var(--text);font-size:.84rem;outline:none;transition:all var(--t)}
+#sInput{width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:10px 32px 10px 34px;color:var(--text);font-size:.87rem;outline:none;transition:all var(--t)}
+.sbox .sx{position:absolute;right:10px;top:50%;transform:translateY(-50%);color:var(--text3);font-size:.9rem;cursor:pointer;display:none;line-height:1;padding:2px 4px;border-radius:3px}
+.sbox .sx:hover{color:var(--text);background:var(--surface)}
+.sbox.has-val .sx{display:block}
 #sInput::placeholder{color:var(--text3)}
 #sInput:focus{border-color:var(--accent);background:var(--surface);box-shadow:0 0 0 3px var(--accent-glow)}
 .sdd{position:absolute;top:calc(100% + 5px);left:0;right:0;background:var(--bg2);border:1px solid var(--border2);border-radius:var(--r2);max-height:400px;overflow-y:auto;display:none;z-index:200;box-shadow:0 16px 48px rgba(0,0,0,.7)}
@@ -130,6 +133,7 @@ input,select{font-family:inherit}
 /* GRID */
 #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px 12px}
 #grid.lm{grid-template-columns:1fr;gap:5px}
+#grid.uid-mode{display:block}
 .mc{cursor:pointer;animation:fu .3s var(--ease) both}
 @keyframes fu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 .mp{position:relative;aspect-ratio:2/3;background:var(--surface);border-radius:var(--r);overflow:hidden;border:1px solid var(--border);transition:all .25s var(--ease)}
@@ -295,24 +299,25 @@ input,select{font-family:inherit}
 .rm-close button{padding:6px 14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);color:var(--text2);font-size:.78rem;cursor:pointer}
 
 /* UNIDENTIFIED CARDS */
-.uid-grid{display:flex;flex-direction:column;gap:8px;padding:0 24px 24px}
-.uid-intro{padding:12px 24px 4px;font-size:.82rem;color:var(--text3)}
-.uid-card{display:flex;align-items:center;gap:12px;padding:12px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--r2);transition:border-color var(--t)}
+.uid-grid{display:flex;flex-direction:column;gap:14px;padding:0 24px 24px}
+.uid-intro{padding:12px 24px 8px;font-size:.82rem;color:var(--text3)}
+.uid-card{display:flex;flex-direction:column;gap:10px;padding:16px 20px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--r2);transition:border-color var(--t)}
 .uid-card:hover{border-color:var(--border2)}
-.uid-icon{width:48px;height:48px;background:var(--surface);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;color:var(--text3)}
+.uid-top{display:flex;align-items:flex-start;gap:14px}
+.uid-icon{width:44px;height:44px;background:var(--surface);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;color:var(--text3)}
 .uid-info{flex:1;min-width:0}
-.uid-name{font-size:.88rem;font-weight:500;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.uid-path{font-size:.66rem;color:var(--text3);font-family:var(--font-m);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.uid-guess{font-size:.7rem;color:var(--orange);margin-top:3px}
-.uid-acts{display:flex;gap:6px;flex-shrink:0}
-.uid-search{display:flex;gap:4px}
-.uid-search input{width:180px;background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:6px 10px;color:var(--text);font-size:.78rem;outline:none}
+.uid-name{font-size:.92rem;font-weight:600;color:var(--text)}
+.uid-path{font-size:.74rem;color:var(--text3);font-family:var(--font-m);margin-top:5px;word-break:break-all;line-height:1.4;opacity:.8}
+.uid-guess{font-size:.72rem;color:var(--orange);margin-top:5px}
+.uid-bottom{display:flex;align-items:center;gap:8px;padding-top:6px;border-top:1px solid var(--border)}
+.uid-search{display:flex;gap:6px;flex:1}
+.uid-search input{flex:1;background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:8px 12px;color:var(--text);font-size:.8rem;outline:none}
 .uid-search input:focus{border-color:var(--accent)}
-.uid-search button{padding:6px 12px;background:var(--accent);color:var(--bg);border-radius:var(--r);font-size:.76rem;font-weight:600;cursor:pointer}
+.uid-search button{padding:8px 16px;background:var(--accent);color:var(--bg);border-radius:var(--r);font-size:.78rem;font-weight:600;cursor:pointer;white-space:nowrap}
 .uid-search button:hover{background:var(--accent2)}
-.uid-del{padding:6px 10px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);font-size:.76rem;color:var(--text3);cursor:pointer}
+.uid-del{padding:8px 12px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);font-size:.78rem;color:var(--text3);cursor:pointer;white-space:nowrap}
 .uid-del:hover{background:var(--red-bg);color:var(--red);border-color:rgba(229,56,59,.3)}
-.uid-results{margin-top:8px;display:flex;flex-direction:column;gap:4px}
+.uid-results{display:flex;flex-direction:column;gap:4px}
 .uid-results .rm-item{cursor:pointer}
 
 .macts{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}
@@ -382,9 +387,9 @@ input,select{font-family:inherit}
 @media(max-width:768px){
   #sidebar{transform:translateX(-100%);width:250px}
   #main{margin-left:0}
-  .uid-card{flex-wrap:wrap}
-  .uid-acts{width:100%}
-  .uid-search input{flex:1;width:auto}
+  .uid-card{padding:12px 14px}
+  .uid-bottom{flex-wrap:wrap}
+  .uid-search{min-width:0}
 }
 @media(max-width:640px){
   #mOverlay{padding:10px}
@@ -458,9 +463,10 @@ input,select{font-family:inherit}
 
   <main id="main">
     <header id="topbar">
-      <div class="sbox">
+      <div class="sbox" id="sBox">
         <span class="si">&#8981;</span>
         <input type="text" id="sInput" placeholder="Buscar pelicula, director, actor..." oninput="onSI(this.value)" onfocus="onSF()" autocomplete="off">
+        <span class="sx" onclick="clrS()" title="Limpiar">&#10005;</span>
         <div class="sdd" id="sDD"></div>
       </div>
       <div class="tbar-r">
@@ -704,7 +710,8 @@ function getF(){
 
 // SEARCH DROPDOWN
 let sTO=null;
-function onSI(v){sq=v;clearTimeout(sTO);if(!v.trim()){closeSDD();render();return}sTO=setTimeout(()=>{showSDD(v.trim().toLowerCase());render()},150)}
+function onSI(v){sq=v;document.getElementById('sBox').classList.toggle('has-val',!!v);clearTimeout(sTO);if(!v.trim()){closeSDD();render();return}sTO=setTimeout(()=>{showSDD(v.trim().toLowerCase());render()},150)}
+function clrS(){const i=document.getElementById('sInput');i.value='';onSI('');i.focus()}
 function onSF(){const v=document.getElementById('sInput').value.trim();if(v)showSDD(v.toLowerCase())}
 function showSDD(q){
   const dd=document.getElementById('sDD');if(!q){dd.classList.remove('open');return}
@@ -1107,7 +1114,7 @@ function slog(t,m){const l=document.getElementById('scLog'),e=document.createEle
 
 // UNIDENTIFIED VIEW
 function renUnid(){
-  const g=document.getElementById('grid');g.className='';
+  const g=document.getElementById('grid');g.className='uid-mode';
   document.getElementById('secC').textContent=`${unid.length} sin identificar`;
   renAF();
   if(!unid.length){
@@ -1118,20 +1125,22 @@ function renUnid(){
   for(const u of unid){
     const guess=u._bestGuess?`<div class="uid-guess">Posible: ${esc(u._bestGuess)}</div>`:'';
     h+=`<div class="uid-card" id="uid_${u.id}">
-      <div class="uid-icon">&#128193;</div>
-      <div class="uid-info">
-        <div class="uid-name">${esc(u.title||u.folderName)}</div>
-        <div class="uid-path">${esc(u.folderPath)}</div>
-        ${guess}
-        <div class="uid-results" id="uidR_${u.id}"></div>
+      <div class="uid-top">
+        <div class="uid-icon">&#128193;</div>
+        <div class="uid-info">
+          <div class="uid-name">${esc(u.title||u.folderName)}</div>
+          <div class="uid-path">${esc(u.folderPath)}</div>
+          ${guess}
+        </div>
       </div>
-      <div class="uid-acts">
+      <div class="uid-bottom">
         <div class="uid-search">
           <input type="text" id="uidQ_${u.id}" placeholder="Buscar en TMDB..." value="${esc(u.title||'')}" onkeydown="if(event.key==='Enter')uidSearch('${u.id}')">
           <button onclick="uidSearch('${u.id}')">Buscar</button>
         </div>
-        <button class="uid-del" onclick="uidDel('${u.id}')" title="Eliminar">&times;</button>
+        <button class="uid-del" onclick="uidDel('${u.id}')" title="Eliminar">Eliminar</button>
       </div>
+      <div class="uid-results" id="uidR_${u.id}"></div>
     </div>`;
   }
   h+=`</div>`;

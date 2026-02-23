@@ -255,6 +255,32 @@ function scanMediaUnits(dirPath, depth = 0) {
   const videoFiles = entries.filter(e => e.isFile() && isVideoFile(e.name));
   const subdirs    = entries.filter(e => e.isDirectory());
 
+  // ── Depth 0 (watch-path root): handle loose video files as individual units ──
+  if (depth === 0 && videoFiles.length > 0) {
+    const results = [];
+    // Each loose video file becomes its own media unit
+    for (const vf of videoFiles) {
+      const fullPath = path.join(dirPath, vf.name);
+      const baseName = vf.name.replace(/\.[^.]+$/, ''); // strip extension
+      const cleanName = cleanFolderName(baseName);
+      if (cleanName.length < 2) continue;
+      try {
+        const stats = fs.statSync(fullPath);
+        results.push({
+          folderPath: fullPath, // use file path as identifier
+          folderName: baseName,
+          cleanName,
+          year: extractYear(baseName),
+          mainFile: { name: vf.name, path: fullPath, size: stats.size },
+          extras: []
+        });
+      } catch (e) { /* skip */ }
+    }
+    // Also recurse into subdirectories
+    results.push(...subdirs.flatMap(s => scanMediaUnits(path.join(dirPath, s.name), depth + 1)));
+    return results;
+  }
+
   // ── Case 1: folder has direct video files ──────────────────────────────────
   if (videoFiles.length > 0) {
     // Check if most files have SxxExx episode markers → treat as series with episodes in root
