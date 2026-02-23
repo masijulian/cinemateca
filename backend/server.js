@@ -110,7 +110,8 @@ function isSeasonLike(name) {
     || /^s\d{1,4}$/i.test(n)                       // S1, S01, S001, S1940
     || /^t\d{1,2}$/i.test(n)                        // T1, T2 (Temporada)
     || /^serie[s]?\s*\d+$/i.test(n)                 // Serie 1
-    || /^part[e]?\s*\d+$/i.test(n);                 // Part 1, Parte 2
+    || /^part[e]?\s*\d+$/i.test(n)                  // Part 1, Parte 2
+    || /\bS\d{4}\b/i.test(n);                       // "... S1940" (decade-based seasons)
 }
 
 // Detect subfolders that are supplements (not content), e.g. Extras, Featurettes
@@ -146,7 +147,8 @@ function buildMediaUnit(dirPath, folderName) {
 function extractSeasonNumber(name) {
   const m = name.match(/^(?:season|temporada)\s*(\d+)$/i)
     || name.match(/^s(\d{1,4})$/i)
-    || name.match(/^t(\d{1,2})$/i);
+    || name.match(/^t(\d{1,2})$/i)
+    || name.match(/\bS(\d{4})\b/i);  // "... S1940" decade-based
   return m ? parseInt(m[1], 10) : 0;
 }
 
@@ -255,6 +257,51 @@ function scanMediaUnits(dirPath, depth = 0) {
 
   // ── Case 1: folder has direct video files ──────────────────────────────────
   if (videoFiles.length > 0) {
+    // Check if most files have SxxExx episode markers → treat as series with episodes in root
+    const epFiles = videoFiles.filter(e => /S\d{1,2}E\d{1,3}/i.test(e.name));
+    if (epFiles.length >= 3 && epFiles.length >= videoFiles.length * 0.5) {
+      // Series with episodes directly in folder (no season subfolders)
+      const episodes = [];
+      const extras = [];
+      for (const vf of videoFiles) {
+        const fullPath = path.join(dirPath, vf.name);
+        if (/S\d{1,2}E\d{1,3}/i.test(vf.name)) {
+          episodes.push({
+            number: extractEpisodeNumber(vf.name) || (episodes.length + 1),
+            name: cleanEpisodeName(vf.name),
+            fileName: vf.name,
+            path: fullPath
+          });
+        } else {
+          try {
+            const stats = fs.statSync(fullPath);
+            extras.push({ name: cleanExtraName(vf.name), fileName: vf.name, path: fullPath, size: stats.size });
+          } catch (e) { /* skip */ }
+        }
+      }
+      episodes.sort((a, b) => a.number - b.number);
+      // Collect extras from supplement subfolders too
+      for (const sd of subdirs.filter(s => isSupplementFolder(s.name))) {
+        for (const v of collectVideos(path.join(dirPath, sd.name))) {
+          extras.push({ name: cleanExtraName(v.name), fileName: v.name, path: v.path, size: v.size });
+        }
+      }
+      const cleanName = cleanFolderName(folderName);
+      if (cleanName.length < 2 || episodes.length === 0) {
+        // Fallback to movie
+        const unit = buildMediaUnit(dirPath, folderName);
+        return unit ? [unit] : [];
+      }
+      return [{
+        folderPath: dirPath, folderName, cleanName,
+        year: extractYear(folderName),
+        mainFile: { name: episodes[0].fileName, path: episodes[0].path, size: 0 },
+        extras,
+        seasons: [{ number: 1, name: 'Season 1', episodes }],
+        isSeriesFolder: true,
+        localEpisodeCount: episodes.length
+      }];
+    }
     const unit = buildMediaUnit(dirPath, folderName);
     return unit ? [unit] : [];
   }
@@ -682,13 +729,21 @@ app.post('/api/scan', (req, res) => {
   const existing = loadLibrary();
 
   if (force) {
-    // Full rescan: remove all entries that belong to any watch path
+    // Full rescan: remove entries from watch paths EXCEPT manually matched ones
+    const manual = existing.filter(e =>
+      e.manualMatch && dirs.some(d => e.folderPath && e.folderPath.startsWith(d.trim()))
+    );
     const kept = existing.filter(e =>
       !dirs.some(d => e.folderPath && e.folderPath.startsWith(d.trim()))
     );
+    // Re-add manual entries
+    kept.push(...manual);
     saveLibrary(kept);
-    console.log(`  Rescan completo: ${allUnits.length} unidades encontradas`);
-    return res.json({ units: allUnits, total: allUnits.length, new: allUnits.length, forced: true });
+    // Don't re-scan manually matched folders
+    const manualPaths = new Set(manual.map(e => e.folderPath));
+    const toScan = allUnits.filter(u => !manualPaths.has(u.folderPath));
+    console.log(`  Rescan completo: ${allUnits.length} unidades, ${manual.length} manuales preservadas, ${toScan.length} a re-identificar`);
+    return res.json({ units: toScan, total: allUnits.length, new: toScan.length, forced: true, preserved: manual.length });
   }
 
   // Incremental scan
@@ -707,6 +762,8 @@ app.post('/api/scan', (req, res) => {
   }
 
   const validFolders = new Set(valid.map(e => e.folderPath));
+  // Also include version folder paths
+  valid.forEach(e => { if (e.versions) e.versions.forEach(v => { if (v.folderPath) validFolders.add(v.folderPath); }); });
   const newUnits = allUnits.filter(u => !validFolders.has(u.folderPath));
   console.log(`  Total: ${allUnits.length} | Nuevos: ${newUnits.length}`);
   res.json({ units: newUnits, total: allUnits.length, new: newUnits.length });
@@ -716,12 +773,31 @@ app.post('/api/scan', (req, res) => {
 app.post('/api/identify', async (req, res) => {
   const cfg = loadConfig();
   if (!cfg.tmdbApiKey) return res.status(400).json({ error: 'Falta API key de TMDB' });
-  const { mediaUnit, searchQuery } = req.body;
+  const { mediaUnit, searchQuery, autoMode } = req.body;
   const query = searchQuery || mediaUnit.cleanName;
   // Series folders: search TV first for better accuracy
   const tvFirst = !searchQuery && !!mediaUnit.isSeriesFolder;
   const basic = await searchTMDB(cfg.tmdbApiKey, query, mediaUnit.year, tvFirst);
-  if (!basic) return res.json({ found: false, mediaUnit });
+
+  // If no result found, return unidentified placeholder
+  if (!basic) {
+    if (autoMode) {
+      // In auto scan mode, return an unidentified placeholder
+      return res.json({ found: false, unidentified: true, mediaUnit });
+    }
+    return res.json({ found: false, mediaUnit });
+  }
+
+  // Calculate confidence from the scoring system
+  const score = scoreResult(query, basic, mediaUnit.year);
+  const confidence = score.total;
+
+  // In auto mode with low confidence, mark as unidentified instead of guessing wrong
+  if (autoMode && confidence < 50) {
+    console.log(`    → Baja confianza (${confidence}) para "${query}" → "${basic.title || basic.name}" — marcado sin identificar`);
+    return res.json({ found: false, unidentified: true, lowConfidence: true, mediaUnit,
+      bestGuess: { title: basic.title || basic.name, year: (basic.release_date || basic.first_air_date || '').substring(0, 4), confidence } });
+  }
 
   let details;
   if (basic.mediaType === 'tv') {
@@ -753,7 +829,7 @@ app.post('/api/identify', async (req, res) => {
     }
   }
 
-  res.json({ found: true, entry, episodeWarning });
+  res.json({ found: true, entry, confidence, episodeWarning });
 });
 
 // Search TMDB manually (returns multiple results for user to choose)
@@ -837,6 +913,7 @@ app.post('/api/rematch', async (req, res) => {
     entry.notes = existing.notes;
     entry.dateAdded = existing.dateAdded;
     entry.versions = existing.versions || null;
+    entry.manualMatch = true; // Protect from rescan overwrite
 
     // Original language poster
     const origLang = details.original_language;
@@ -845,10 +922,46 @@ app.post('/api/rematch', async (req, res) => {
       if (origPoster) entry.posterPath = origPoster;
     }
 
-    lib[idx] = entry;
-    saveLibrary(lib);
-    console.log(`  Rematch: "${existing.title}" → "${entry.title}" (${entry.year}) [${mediaType}]`);
-    res.json({ ok: true, entry });
+    // Check if another entry already exists with the same tmdbId (different folder = duplicate version)
+    const dupIdx = lib.findIndex((e, i) => i !== idx && e.mediaType === mediaType && e.tmdbId === tmdbId);
+
+    if (dupIdx >= 0) {
+      // Merge: absorb this entry's folder as a version of the existing duplicate
+      const primary = lib[dupIdx];
+
+      // Build versions list from both entries' folders
+      const allVersions = [
+        ...(primary.versions || [{ folderPath: primary.folderPath, folderName: primary.folderName, mainFile: primary.mainFile, extras: primary.extras || [] }]),
+        ...(existing.versions || [{ folderPath: existing.folderPath, folderName: existing.folderName, mainFile: existing.mainFile, extras: existing.extras || [] }])
+      ];
+      // Deduplicate versions by folderPath
+      const seenPaths = new Set();
+      primary.versions = allVersions.filter(v => {
+        if (seenPaths.has(v.folderPath)) return false;
+        seenPaths.add(v.folderPath);
+        return true;
+      });
+      // Merge extras
+      const allExtras = [...(primary.extras || [])];
+      for (const v of existing.versions || [{ extras: existing.extras || [] }]) {
+        if (v.extras) allExtras.push(...v.extras);
+      }
+      primary.extras = allExtras;
+      // Preserve "best" user data (watched/favorite from either)
+      if (existing.watched) { primary.watched = true; primary.watchedDate = primary.watchedDate || existing.watchedDate; }
+      if (existing.favorite) primary.favorite = true;
+
+      // Remove the corrected entry (it's now absorbed into primary)
+      lib.splice(idx, 1);
+      saveLibrary(lib);
+      console.log(`  Rematch+merge: "${existing.title}" → merged into "${primary.title}" (${primary.versions.length} versiones)`);
+      res.json({ ok: true, entry: primary, merged: true });
+    } else {
+      lib[idx] = entry;
+      saveLibrary(lib);
+      console.log(`  Rematch: "${existing.title}" → "${entry.title}" (${entry.year}) [${mediaType}]`);
+      res.json({ ok: true, entry });
+    }
   } catch (e) {
     res.status(500).json({ error: e.message });
   }

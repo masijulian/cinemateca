@@ -294,6 +294,27 @@ input,select{font-family:inherit}
 .rm-close{margin-top:10px;text-align:right}
 .rm-close button{padding:6px 14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);color:var(--text2);font-size:.78rem;cursor:pointer}
 
+/* UNIDENTIFIED CARDS */
+.uid-grid{display:flex;flex-direction:column;gap:8px;padding:0 24px 24px}
+.uid-intro{padding:12px 24px 4px;font-size:.82rem;color:var(--text3)}
+.uid-card{display:flex;align-items:center;gap:12px;padding:12px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--r2);transition:border-color var(--t)}
+.uid-card:hover{border-color:var(--border2)}
+.uid-icon{width:48px;height:48px;background:var(--surface);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;color:var(--text3)}
+.uid-info{flex:1;min-width:0}
+.uid-name{font-size:.88rem;font-weight:500;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.uid-path{font-size:.66rem;color:var(--text3);font-family:var(--font-m);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.uid-guess{font-size:.7rem;color:var(--orange);margin-top:3px}
+.uid-acts{display:flex;gap:6px;flex-shrink:0}
+.uid-search{display:flex;gap:4px}
+.uid-search input{width:180px;background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:6px 10px;color:var(--text);font-size:.78rem;outline:none}
+.uid-search input:focus{border-color:var(--accent)}
+.uid-search button{padding:6px 12px;background:var(--accent);color:var(--bg);border-radius:var(--r);font-size:.76rem;font-weight:600;cursor:pointer}
+.uid-search button:hover{background:var(--accent2)}
+.uid-del{padding:6px 10px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);font-size:.76rem;color:var(--text3);cursor:pointer}
+.uid-del:hover{background:var(--red-bg);color:var(--red);border-color:rgba(229,56,59,.3)}
+.uid-results{margin-top:8px;display:flex;flex-direction:column;gap:4px}
+.uid-results .rm-item{cursor:pointer}
+
 .macts{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}
 .abtn{display:flex;align-items:center;gap:5px;padding:8px 14px;border-radius:var(--r);font-size:.8rem;font-weight:500;transition:all var(--t) var(--ease);border:1px solid var(--border)}
 .abtn.p{background:var(--accent);color:var(--bg);border-color:var(--accent)}
@@ -355,12 +376,15 @@ input,select{font-family:inherit}
 /* TOAST */
 #toast{position:fixed;bottom:20px;right:20px;background:var(--surface2);border:1px solid var(--border2);border-radius:var(--r);padding:10px 18px;font-size:.82rem;color:var(--text);z-index:600;opacity:0;transform:translateY(8px);transition:all .25s;pointer-events:none;max-width:360px}
 #toast.show{opacity:1;transform:translateY(0)}
-#toast.success{border-left:3px solid var(--green)}
+#toast.success,#toast.ok{border-left:3px solid var(--green)}
 #toast.error{border-left:3px solid var(--red)}
 
 @media(max-width:768px){
   #sidebar{transform:translateX(-100%);width:250px}
   #main{margin-left:0}
+  .uid-card{flex-wrap:wrap}
+  .uid-acts{width:100%}
+  .uid-search input{flex:1;width:auto}
 }
 @media(max-width:640px){
   #mOverlay{padding:10px}
@@ -416,6 +440,7 @@ input,select{font-family:inherit}
       <div class="nav" data-v="series" onclick="setView('series')"><span class="ic">&#128250;</span>Series<span class="ct" id="cS">0</span></div>
       <div class="nav" data-v="directors" onclick="setView('directors')"><span class="ic">&#127916;</span>Por director</div>
       <div class="nav" data-v="actors" onclick="setView('actors')"><span class="ic">&#127917;</span>Por actor</div>
+      <div class="nav" data-v="unidentified" onclick="setView('unidentified')" id="navUnid" style="display:none"><span class="ic">&#10067;</span>Sin identificar<span class="ct" id="cUnid">0</span></div>
     </div>
     <div class="sb-f" id="sbFilters">
       <div class="fg" id="fG"><div class="fg-t">Genero<span class="clr" onclick="clrF('g')">limpiar</span></div><div class="tags" id="tG"></div></div>
@@ -529,7 +554,7 @@ input,select{font-family:inherit}
 
 <script>
 const API='http://localhost:3737/api',BASE=API.replace('/api','');
-let lib=[],filt=[],view='all',sq='',dm='grid',heroM=null,curM=null;
+let lib=[],unid=[],filt=[],view='all',sq='',dm='grid',heroM=null,curM=null;
 let fG=new Set(),fD=new Set(),fC=new Set(),fL=new Set(),fR=0;
 let scQ=[],scI=0,scRes=[],scCur=null;
 // Expanded director view
@@ -583,6 +608,7 @@ async function loadLib(){
   try{
     const raw=await fetch(`${API}/library`).then(r=>r.json());
     lib=raw.filter(m=>m.tmdbId);
+    unid=raw.filter(m=>!m.tmdbId);
     updStats();buildFilters();render();
     if(lib.length>0)setHero();
   }catch(e){console.error(e)}
@@ -597,6 +623,10 @@ function updStats(){
   document.getElementById('cU').textContent=lib.length-w;
   document.getElementById('cF').textContent=f;
   document.getElementById('cS').textContent=s;
+  // Show/hide unidentified nav
+  const unidNav=document.getElementById('navUnid');
+  document.getElementById('cUnid').textContent=unid.length;
+  unidNav.style.display=unid.length>0?'flex':'none';
 }
 
 // FILTERS
@@ -699,7 +729,7 @@ function filterAct(n){sq=n;document.getElementById('sInput').value=n;setView('ac
 function setView(v){
   view=v;expandedDir=null;
   document.querySelectorAll('.nav[data-v]').forEach(el=>el.classList.toggle('on',el.dataset.v===v));
-  const t={all:'Toda la coleccion',watched:'Vistos',unwatched:'Sin ver',favorites:'Favoritos',series:'Series',directors:'Por director',actors:'Por actor'};
+  const t={all:'Toda la coleccion',watched:'Vistos',unwatched:'Sin ver',favorites:'Favoritos',series:'Series',directors:'Por director',actors:'Por actor',unidentified:'Sin identificar'};
   document.getElementById('secT').textContent=t[v]||v;
   document.getElementById('hero').style.display=(v==='all'&&lib.length>0)?'block':'none';
   render();
@@ -708,6 +738,7 @@ function setDM(m){dm=m;document.getElementById('vG').classList.toggle('on',m==='
 
 // RENDER
 function render(){
+  if(view==='unidentified'){renUnid();return}
   const items=getF();filt=items;renAF();
   document.getElementById('secC').textContent=`${items.length} titulo${items.length!==1?'s':''}`;
   const g=document.getElementById('grid');
@@ -932,12 +963,19 @@ async function rmSelect(tmdbId,mediaType){
     const r=await fetch(`${API}/rematch`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({entryId:curM.id,tmdbId,mediaType})});
     const d=await r.json();
     if(d.ok&&d.entry){
-      const idx=lib.findIndex(x=>x.id===curM.id);
-      if(idx>=0)lib[idx]=d.entry;
+      if(d.merged){
+        // Entry was absorbed into an existing duplicate — remove the old one, update the primary
+        lib=lib.filter(x=>x.id!==curM.id);
+        const pidx=lib.findIndex(x=>x.id===d.entry.id);
+        if(pidx>=0)lib[pidx]=d.entry;else lib.push(d.entry);
+      }else{
+        const idx=lib.findIndex(x=>x.id===curM.id);
+        if(idx>=0)lib[idx]=d.entry;
+      }
       closeRM();clsMB();
       render();
       openMod(d.entry.id);
-      toast('Corregido: '+d.entry.title);
+      toast(d.merged?'Fusionado con: '+d.entry.title:'Corregido: '+d.entry.title);
     }else{rEl.innerHTML='<div style="color:red;font-size:.8rem;padding:10px">Error: '+(d.error||'desconocido')+'</div>'}
   }catch(e){rEl.innerHTML='<div style="color:red;font-size:.8rem;padding:10px">Error: '+e.message+'</div>'}
 }
@@ -975,7 +1013,7 @@ async function playFile(fp,name){
 
 // SCAN
 async function openScan(force=false){
-  if(force&&!confirm('Rescanear completo: se van a re-identificar TODAS las carpetas desde cero.\n\n¿Continuar?'))return;
+  if(force&&!confirm('Rescanear completo: se van a re-identificar las carpetas.\nLas que corregiste manualmente se mantienen.\n\n¿Continuar?'))return;
   document.getElementById('scanM').classList.add('open');
   document.getElementById('pBar').style.width='0%';
   document.getElementById('pLbl').textContent=force?'Rescan completo - escaneando...':'Escaneando carpetas...';
@@ -987,12 +1025,13 @@ async function openScan(force=false){
     const r=await fetch(`${API}/scan`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({force})});
     const d=await r.json();
     if(!d.units?.length){slog('nfo',d.message||'No hay carpetas nuevas');document.getElementById('pLbl').textContent='Sin novedades';document.getElementById('scClose').classList.add('show');return}
+    if(d.preserved)slog('nfo',`${d.preserved} entradas corregidas manualmente preservadas`);
     slog('nfo',`${d.total} carpetas${force?' (rescan completo)':''}, ${d.new} a identificar`);
     scQ=d.units;scI=0;scRes=[];await procScan();
   }catch(e){slog('er','Error: '+e.message);document.getElementById('scClose').classList.add('show')}
 }
 async function procScan(){
-  let sk=0;
+  let sk=0,unidCount=0;
   for(scI=0;scI<scQ.length;scI++){
     scCur=scQ[scI];
     document.getElementById('pBar').style.width=`${(scI/scQ.length)*100}%`;
@@ -1004,23 +1043,49 @@ async function procScan(){
     document.getElementById('orIn').value='';
     slog('',scCur.cleanName+' ('+scCur.folderName.substring(0,50)+')');
     try{
-      const r=await fetch(`${API}/identify`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({mediaUnit:scCur})});
+      const r=await fetch(`${API}/identify`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({mediaUnit:scCur,autoMode:true})});
       const d=await r.json();
       if(d.found){
         const e=d.entry;
         slog('ok',`${e.title} (${e.year}) [${e.mediaType}]`);
-        if(d.episodeWarning) slog('sk',`⚠ ${d.episodeWarning}`);
+        if(d.episodeWarning) slog('sk',`\u26a0 ${d.episodeWarning}`);
         document.getElementById('scFQ').textContent=`${e.title} (${e.year})`;
         if(e.posterPath)document.getElementById('scPI').src=`${BASE}/api/poster?path=${e.posterPath}&size=w92`;
         scRes.push(e);
-      }else{sk++;slog('sk',`Omitido: ${scCur.cleanName}`);document.getElementById('scFQ').textContent='No encontrado - omitido'}
+      }else{
+        // Save as unidentified placeholder
+        unidCount++;
+        const placeholder={
+          id:`mu_${Date.now()}_${Math.random().toString(36).slice(2,8)}`,
+          folderPath:scCur.folderPath,folderName:scCur.folderName,
+          mainFile:scCur.mainFile,extras:scCur.extras||[],
+          seasons:scCur.seasons||null,
+          mediaType:'movie',tmdbId:null,title:scCur.cleanName||scCur.folderName,
+          year:scCur.year||'',posterPath:null,backdropPath:null,
+          genres:[],directors:[],cast:[],writers:[],
+          overview:'',tagline:'',releaseDate:'',runtime:null,
+          voteAverage:null,voteCount:0,popularity:0,
+          productionCountries:[],language:'',keywords:[],
+          trailerKey:null,numberOfSeasons:null,numberOfEpisodes:null,
+          status:null,imdbId:null,originalTitle:'',
+          dateAdded:new Date().toISOString(),
+          watched:false,watchedDate:null,rating:null,favorite:false,notes:''
+        };
+        if(d.bestGuess) placeholder._bestGuess=`${d.bestGuess.title} (${d.bestGuess.year})`;
+        scRes.push(placeholder);
+        const guessInfo=d.bestGuess?` (posible: ${d.bestGuess.title} ${d.bestGuess.year})`:'';
+        slog('sk',`Sin identificar: ${scCur.cleanName}${guessInfo}`);
+        document.getElementById('scFQ').textContent='Sin identificar - agregar manualmente';
+      }
     }catch(e){slog('er','Error: '+e.message);sk++}
     await slp(400);
   }
   document.getElementById('pBar').style.width='100%';
-  document.getElementById('pLbl').textContent=`Guardando ${scRes.length} titulos...`;
+  const identCount=scRes.filter(e=>e.tmdbId).length;
+  document.getElementById('pLbl').textContent=`Guardando ${scRes.length} entradas...`;
   if(scRes.length>0)await fetch(`${API}/library/bulk`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({entries:scRes})});
-  slog('nfo',`${scRes.length} guardados${sk>0?`, ${sk} omitidos`:''}`);
+  slog('nfo',`${identCount} identificados, ${unidCount} sin identificar${sk>0?`, ${sk} errores`:''}`);
+  if(unidCount>0)slog('nfo','Las carpetas sin identificar aparecen en "Sin identificar" en el sidebar.');
   document.getElementById('scClose').classList.add('show');
   document.getElementById('scCur').style.display='none';
   document.getElementById('pLbl').textContent='Escaneo completo';
@@ -1039,6 +1104,84 @@ async function retrySc(){
 function skipSc(){slog('sk','Saltado')}
 async function closeSc(){document.getElementById('scanM').classList.remove('open');await loadLib()}
 function slog(t,m){const l=document.getElementById('scLog'),e=document.createElement('div');e.className='le '+t;e.textContent=m;l.appendChild(e);l.scrollTop=l.scrollHeight}
+
+// UNIDENTIFIED VIEW
+function renUnid(){
+  const g=document.getElementById('grid');g.className='';
+  document.getElementById('secC').textContent=`${unid.length} sin identificar`;
+  renAF();
+  if(!unid.length){
+    g.innerHTML=`<div class="empty"><div class="big">&#10003;</div><h2>Todo identificado</h2><p>No hay carpetas sin identificar.</p></div>`;
+    return;
+  }
+  let h=`<div class="uid-intro">Estas carpetas no se pudieron identificar automaticamente. Busca el titulo correcto para cada una.</div><div class="uid-grid">`;
+  for(const u of unid){
+    const guess=u._bestGuess?`<div class="uid-guess">Posible: ${esc(u._bestGuess)}</div>`:'';
+    h+=`<div class="uid-card" id="uid_${u.id}">
+      <div class="uid-icon">&#128193;</div>
+      <div class="uid-info">
+        <div class="uid-name">${esc(u.title||u.folderName)}</div>
+        <div class="uid-path">${esc(u.folderPath)}</div>
+        ${guess}
+        <div class="uid-results" id="uidR_${u.id}"></div>
+      </div>
+      <div class="uid-acts">
+        <div class="uid-search">
+          <input type="text" id="uidQ_${u.id}" placeholder="Buscar en TMDB..." value="${esc(u.title||'')}" onkeydown="if(event.key==='Enter')uidSearch('${u.id}')">
+          <button onclick="uidSearch('${u.id}')">Buscar</button>
+        </div>
+        <button class="uid-del" onclick="uidDel('${u.id}')" title="Eliminar">&times;</button>
+      </div>
+    </div>`;
+  }
+  h+=`</div>`;
+  g.innerHTML=h;
+}
+
+async function uidSearch(id){
+  const q=document.getElementById('uidQ_'+id)?.value?.trim();
+  if(!q)return;
+  const rc=document.getElementById('uidR_'+id);
+  rc.innerHTML='<div style="font-size:.76rem;color:var(--text3);padding:4px">Buscando...</div>';
+  try{
+    const r=await fetch(`${API}/tmdb-search`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({query:q,mediaType:'both'})});
+    const d=await r.json();
+    if(!d.results?.length){rc.innerHTML='<div style="font-size:.76rem;color:var(--text3);padding:4px">Sin resultados</div>';return}
+    rc.innerHTML=d.results.map(r=>{
+      const img=r.posterPath?`<img src="${BASE}/api/poster?path=${r.posterPath}&size=w92">`:`<div class="rm-noimg">&#127916;</div>`;
+      const typeLabel=r.mediaType==='tv'?'<span style="color:var(--blue);font-size:.65rem;font-weight:600"> TV</span>':'';
+      return`<div class="rm-item" onclick="uidSelect('${id}',${r.id},'${r.mediaType}')">
+        ${img}<div class="rm-info"><div class="rm-title">${esc(r.title)}${typeLabel} <span style="color:var(--text3)">(${r.year})</span></div>
+        <div class="rm-desc">${esc(r.overview||'')}</div></div></div>`;
+    }).join('');
+  }catch(e){rc.innerHTML='<div style="color:var(--red);font-size:.76rem;padding:4px">Error de busqueda</div>'}
+}
+
+async function uidSelect(id,tmdbId,mediaType){
+  const entry=unid.find(u=>u.id===id);
+  if(!entry)return;
+  const card=document.getElementById('uid_'+id);
+  if(card)card.style.opacity='.5';
+  try{
+    const r=await fetch(`${API}/rematch`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({entryId:id,tmdbId,mediaType})});
+    const d=await r.json();
+    if(d.ok){
+      toast(`Identificado: ${d.entry.title}`,'ok');
+      await loadLib();
+      if(view==='unidentified')render();
+    }else{toast(d.error||'Error','error')}
+  }catch(e){toast('Error de conexion','error')}
+  if(card)card.style.opacity='1';
+}
+
+async function uidDel(id){
+  if(!confirm('Eliminar esta entrada?'))return;
+  try{
+    await fetch(`${API}/library/${id}`,{method:'DELETE'});
+    await loadLib();
+    if(view==='unidentified')render();
+  }catch(e){toast('Error','error')}
+}
 
 // SETTINGS
 async function openCfg(){const c=await fetch(`${API}/config`).then(r=>r.json());cfgP.length=0;(c.watchPaths||[]).forEach(p=>cfgP.push(p));showCfg(c)}
