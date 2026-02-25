@@ -437,14 +437,11 @@ input,select{font-family:inherit}
     <div class="sb-logo"><h1>CINEMATECA</h1><p>Coleccion personal</p></div>
     <div class="sb-stats">
       <div class="sb-st"><b id="stT">0</b><small>Films</small></div>
-      <div class="sb-st"><b id="stW">0</b><small>Vistos</small></div>
       <div class="sb-st"><b id="stF">0</b><small>Favs</small></div>
     </div>
     <div class="sb-sec">
       <div class="sb-sec-t">Vistas</div>
       <div class="nav on" data-v="all" onclick="setView('all')"><span class="ic">&#9673;</span>Toda la coleccion<span class="ct" id="cA">0</span></div>
-      <div class="nav" data-v="watched" onclick="setView('watched')"><span class="ic">&#10003;</span>Vistos<span class="ct" id="cW">0</span></div>
-      <div class="nav" data-v="unwatched" onclick="setView('unwatched')"><span class="ic">&#9675;</span>Sin ver<span class="ct" id="cU">0</span></div>
       <div class="nav" data-v="favorites" onclick="setView('favorites')"><span class="ic">&#9829;</span>Favoritos<span class="ct" id="cF">0</span></div>
       <div class="nav" data-v="series" onclick="setView('series')"><span class="ic">&#128250;</span>Series<span class="ct" id="cS">0</span></div>
       <div class="nav" data-v="directors" onclick="setView('directors')"><span class="ic">&#127916;</span>Por director</div>
@@ -456,7 +453,7 @@ input,select{font-family:inherit}
       <div class="fg" id="fD"><div class="fg-t">Decada<span class="clr" onclick="clrF('d')">limpiar</span></div><div class="tags" id="tD"></div></div>
       <div class="fg" id="fC"><div class="fg-t">Pais<span class="clr" onclick="clrF('c')">limpiar</span></div><div class="tags" id="tC"></div></div>
       <div class="fg" id="fL"><div class="fg-t">Idioma<span class="clr" onclick="clrF('l')">limpiar</span></div><div class="tags" id="tL"></div></div>
-      <div class="fg" id="fR"><div class="fg-t">Rating<span class="clr" onclick="clrF('r')">limpiar</span></div><div class="tags" id="tR"></div></div>
+      <div class="fg" id="fAR"><div class="fg-t">Clasificacion<span class="clr" onclick="clrF('ar')">limpiar</span></div><div class="tags" id="tAR"></div></div>
     </div>
     <div class="sb-bot">
       <button class="btn-scan" onclick="openScan(false)">Escanear disco</button>
@@ -565,7 +562,16 @@ input,select{font-family:inherit}
 <script>
 const API='http://localhost:3737/api',BASE=API.replace('/api','');
 let lib=[],unid=[],filt=[],view='all',sq='',dm='grid',heroM=null,curM=null;
-let fG=new Set(),fD=new Set(),fC=new Set(),fL=new Set(),fR=0;
+let fG=new Set(),fD=new Set(),fC=new Set(),fL=new Set(),fAR=new Set();
+function getAgeCategory(m){
+  const c=m.certificationAR||m.certificationUS;if(!c)return null;
+  const cl=c.toLowerCase().replace(/[^a-z0-9]/g,'');
+  if(['atp','g','tvg','tvy','passed','approved'].includes(cl))return'ATP';
+  if(['13','14','pg','pg13','tvpg','tv14','m','sam13'].includes(cl))return'+13';
+  if(['16','r','sam16'].includes(cl))return'+16';
+  if(['18','x','nc17','tvma'].includes(cl))return'+18';
+  return null;
+}
 let scQ=[],scI=0,scRes=[],scCur=null;
 // Expanded director view
 let expandedDir=null;
@@ -624,13 +630,10 @@ async function loadLib(){
   }catch(e){console.error(e)}
 }
 function updStats(){
-  const w=lib.filter(m=>m.watched).length,f=lib.filter(m=>m.favorite).length,s=lib.filter(m=>m.mediaType==='tv').length;
+  const f=lib.filter(m=>m.favorite).length,s=lib.filter(m=>m.mediaType==='tv').length;
   document.getElementById('stT').textContent=lib.length;
-  document.getElementById('stW').textContent=w;
   document.getElementById('stF').textContent=f;
   document.getElementById('cA').textContent=lib.length;
-  document.getElementById('cW').textContent=w;
-  document.getElementById('cU').textContent=lib.length-w;
   document.getElementById('cF').textContent=f;
   document.getElementById('cS').textContent=s;
   // Show/hide unidentified nav
@@ -655,13 +658,14 @@ function buildFilters(){
   const lc={};lib.forEach(m=>{if(m.language)lc[m.language]=(lc[m.language]||0)+1});
   document.getElementById('tL').innerHTML=Object.entries(lc).sort((a,b)=>b[1]-a[1]).slice(0,12).map(([l])=>`<div class="tag${fL.has(l)?' on':''}" onclick="togF('l',this)" data-v="${esc(l)}">${ln(l)}</div>`).join('');
 
-  document.getElementById('tR').innerHTML=[9,8,7,6,5].map(r=>`<div class="tag${fR===r?' on':''}" onclick="togF('r',this)" data-v="${r}">${r}+</div>`).join('');
+  const ageCats=['ATP','+13','+16','+18'];
+  document.getElementById('tAR').innerHTML=ageCats.map(a=>`<div class="tag${fAR.has(a)?' on':''}" onclick="togF('ar',this)" data-v="${a}">${a}</div>`).join('');
 
   document.querySelector('#fG .clr').classList.toggle('v',fG.size>0);
   document.querySelector('#fD .clr').classList.toggle('v',fD.size>0);
   document.querySelector('#fC .clr').classList.toggle('v',fC.size>0);
   document.querySelector('#fL .clr').classList.toggle('v',fL.size>0);
-  document.querySelector('#fR .clr').classList.toggle('v',fR>0);
+  document.querySelector('#fAR .clr').classList.toggle('v',fAR.size>0);
 }
 function togF(t,el){
   const v=el.dataset.v;
@@ -669,15 +673,15 @@ function togF(t,el){
   else if(t==='d'){const n=parseInt(v);fD.has(n)?fD.delete(n):fD.add(n)}
   else if(t==='c'){fC.has(v)?fC.delete(v):fC.add(v)}
   else if(t==='l'){fL.has(v)?fL.delete(v):fL.add(v)}
-  else if(t==='r'){const n=parseInt(v);fR=fR===n?0:n}
+  else if(t==='ar'){fAR.has(v)?fAR.delete(v):fAR.add(v)}
   buildFilters();render();
 }
 function clrF(t){
-  if(t==='g')fG.clear();else if(t==='d')fD.clear();else if(t==='c')fC.clear();else if(t==='l')fL.clear();else if(t==='r')fR=0;
+  if(t==='g')fG.clear();else if(t==='d')fD.clear();else if(t==='c')fC.clear();else if(t==='l')fL.clear();else if(t==='ar')fAR.clear();
   buildFilters();render();
 }
-function clrAll(){fG.clear();fD.clear();fC.clear();fL.clear();fR=0;sq='';document.getElementById('sInput').value='';buildFilters();render()}
-function hasF(){return fG.size>0||fD.size>0||fC.size>0||fL.size>0||fR>0||sq}
+function clrAll(){fG.clear();fD.clear();fC.clear();fL.clear();fAR.clear();sq='';document.getElementById('sInput').value='';buildFilters();render()}
+function hasF(){return fG.size>0||fD.size>0||fC.size>0||fL.size>0||fAR.size>0||sq}
 
 function renAF(){
   const b=document.getElementById('afBar');
@@ -688,7 +692,7 @@ function renAF(){
   fD.forEach(d=>h.push(`<span class="af">${d}s<span class="x" onclick="fD.delete(${d});buildFilters();render()">&times;</span></span>`));
   fC.forEach(c=>h.push(`<span class="af">${c}<span class="x" onclick="fC.delete('${esc(c)}');buildFilters();render()">&times;</span></span>`));
   fL.forEach(l=>h.push(`<span class="af">${ln(l)}<span class="x" onclick="fL.delete('${esc(l)}');buildFilters();render()">&times;</span></span>`));
-  if(fR>0)h.push(`<span class="af">Rating ${fR}+<span class="x" onclick="fR=0;buildFilters();render()">&times;</span></span>`);
+  fAR.forEach(a=>h.push(`<span class="af">${a}<span class="x" onclick="fAR.delete('${a}');buildFilters();render()">&times;</span></span>`));
   if(sq)h.push(`<span class="af">"${esc(sq)}"<span class="x" onclick="clrAll()">&times;</span></span>`);
   h.push(`<span class="af-clr" onclick="clrAll()">Limpiar todo</span>`);
   b.innerHTML=h.join('');
@@ -705,7 +709,7 @@ function getF(){
   if(fD.size>0)it=it.filter(m=>{const y=parseInt(m.year);return y&&fD.has(Math.floor(y/10)*10)});
   if(fC.size>0)it=it.filter(m=>(m.productionCountries||[]).some(c=>fC.has(c)));
   if(fL.size>0)it=it.filter(m=>fL.has(m.language));
-  if(fR>0)it=it.filter(m=>(m.voteAverage||0)>=fR);
+  if(fAR.size>0)it=it.filter(m=>fAR.has(getAgeCategory(m)));
   if(sq){const q=sq.toLowerCase();it=it.filter(m=>(m.title||'').toLowerCase().includes(q)||(m.originalTitle||'').toLowerCase().includes(q)||(m.directors||[]).some(d=>d.name.toLowerCase().includes(q))||(m.cast||[]).some(c=>c.name.toLowerCase().includes(q))||(m.genres||[]).some(g=>g.toLowerCase().includes(q))||(m.year||'').includes(q)||(m.keywords||[]).some(k=>k.toLowerCase().includes(q)))}
   const s=document.getElementById('sortS').value;
   it.sort((a,b)=>{switch(s){case'title':return(a.title||'').localeCompare(b.title||'');case'year-desc':return(parseInt(b.year)||0)-(parseInt(a.year)||0);case'year-asc':return(parseInt(a.year)||0)-(parseInt(b.year)||0);case'rating':return(b.voteAverage||0)-(a.voteAverage||0);case'added':return new Date(b.dateAdded)-new Date(a.dateAdded);case'director':{const da=(a.directors||[])[0]?.name||'zzz',db=(b.directors||[])[0]?.name||'zzz';return da.localeCompare(db)}default:return 0}});
@@ -740,7 +744,7 @@ function filterAct(n){sq=n;document.getElementById('sInput').value=n;setView('ac
 function setView(v){
   view=v;expandedDir=null;
   document.querySelectorAll('.nav[data-v]').forEach(el=>el.classList.toggle('on',el.dataset.v===v));
-  const t={all:'Toda la coleccion',watched:'Vistos',unwatched:'Sin ver',favorites:'Favoritos',series:'Series',directors:'Por director',actors:'Por actor',unidentified:'Sin identificar'};
+  const t={all:'Toda la coleccion',favorites:'Favoritos',series:'Series',directors:'Por director',actors:'Por actor',unidentified:'Sin identificar'};
   document.getElementById('secT').textContent=t[v]||v;
   document.getElementById('hero').style.display=(v==='all'&&lib.length>0)?'block':'none';
   render();
