@@ -879,11 +879,8 @@ function openMod(id){
   const certLink=m.imdbId?`https://www.imdb.com/title/${m.imdbId}/parentalguide`:'';
   const certClick=certLink?`window.open('${certLink}','_blank')`:'';
   let certH='';
-  if(m.certificationAR||m.certificationUS){
-    const ar=m.certificationAR?`<span class="mcert"${certClick?` onclick="${certClick}"`:''}  title="Clasificación Argentina"><span class="mcert-cc">AR</span>${esc(m.certificationAR)}</span>`:'';
-    const us=m.certificationUS?`<span class="mcert"${certClick?` onclick="${certClick}"`:''}  title="Clasificación EE.UU."><span class="mcert-cc">US</span>${esc(m.certificationUS)}</span>`:'';
-    certH=ar+us;
-  }
+  if(m.certificationAR)certH=`<span class="mcert"${certClick?` onclick="${certClick}"`:''} title="Clasificación Argentina"><span class="mcert-cc">AR</span>${esc(m.certificationAR)}</span>`;
+  else if(m.certificationUS)certH=`<span class="mcert"${certClick?` onclick="${certClick}"`:''} title="Clasificación EE.UU."><span class="mcert-cc">US</span>${esc(m.certificationUS)}</span>`;
   let tvBadge=m.mediaType==='tv'?`<span class="mchip tv-badge">Serie TV</span>`:'';
   let tvInfo='';
   if(m.mediaType==='tv'){
@@ -917,7 +914,7 @@ ${s.episodes.map(ep=>`<div class="ep-item" onclick="playFile('${escP(ep.path)}',
   document.getElementById('mIN').innerHTML=`
     <div class="minf-t">${esc(m.title)}</div>
     ${m.originalTitle&&m.originalTitle!==m.title?`<div class="minf-ot">${esc(m.originalTitle)}</div>`:''}
-    <div class="minf-meta">${ratingH}${m.year?`<span>${m.year}</span>`:''}${m.runtime?`<span>${m.runtime} min</span>`:''}${countries?`<span>${countries}</span>`:''}${m.language?`<span class="mchip">${ln(m.language)}</span>`:''}${tvBadge}${tvInfo}${imdbH}${genres}</div>
+    <div class="minf-meta">${ratingH}${m.year?`<span>${m.year}</span>`:''}${m.runtime?`<span>${m.runtime} min</span>`:''}${countries?`<span>${countries}</span>`:''}${m.language?`<span class="mchip">${ln(m.language)}</span>`:''}${tvBadge}${tvInfo}${imdbH}${genres}${certH}</div>
     ${m.tagline?`<div class="mtag">"${esc(m.tagline)}"</div>`:''}
     ${m.overview?`<div class="mover">${esc(m.overview)}</div>`:''}
     ${crew?`<div class="mcrew">${crew}</div>`:''}
