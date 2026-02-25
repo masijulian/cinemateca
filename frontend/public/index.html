@@ -329,6 +329,7 @@ input,select{font-family:inherit}
 .abtn.sc:hover{background:var(--surface2);color:var(--text)}
 .abtn.w.on{background:var(--green-bg);color:var(--green2);border-color:rgba(0,184,67,.3)}
 .abtn.fv.on{background:var(--red-bg);color:var(--red);border-color:rgba(229,56,59,.3)}
+.abtn.del:hover{background:var(--red-bg);color:var(--red);border-color:rgba(229,56,59,.3)}
 .mfp{margin-top:6px;padding:8px 12px;background:var(--bg);border:1px solid var(--border);border-radius:var(--r);font-family:var(--font-m);font-size:.68rem;color:var(--text3);word-break:break-all}
 .mimdb{display:inline-flex;padding:2px 8px;background:#f5c518;color:#000;border-radius:3px;font-size:.7rem;font-weight:700;cursor:pointer;transition:opacity var(--t)}
 .mimdb:hover{opacity:.85}
@@ -929,6 +930,7 @@ ${s.episodes.map(ep=>`<div class="ep-item" onclick="playFile('${escP(ep.path)}',
       <button class="abtn sc fv ${m.favorite?'on':''}" id="fB" onclick="togFv('${m.id}')">${m.favorite?'&#9829; Favorito':'&#9825; Favorito'}</button>
       ${m.trailerKey?`<button class="abtn sc" onclick="window.open('https://www.youtube.com/watch?v=${m.trailerKey}','_blank')">&#9655; Trailer</button>`:''}
       <button class="abtn sc" onclick="openRM()" style="margin-left:auto;opacity:.7">&#9998; Corregir</button>
+      <button class="abtn sc del" onclick="delM('${m.id}')" title="Eliminar de la librería">&#128465; Eliminar</button>
     </div>
     ${versionsH}
     ${seasonsH}
@@ -1016,6 +1018,17 @@ async function togFv(id){
   await fetch(`${API}/library/${id}`,{method:'PATCH',headers:{'Content-Type':'application/json'},body:JSON.stringify({favorite:m.favorite})});
   const b=document.getElementById('fB');if(b){b.classList.toggle('on',m.favorite);b.innerHTML=m.favorite?'&#9829; Favorito':'&#9825; Favorito'}
   updStats();render();toast(m.favorite?`"${m.title}" es favorito`:`"${m.title}" quitado`,'success');
+}
+async function delM(id){
+  const m=lib.find(x=>x.id===id);if(!m)return;
+  if(!confirm(`Eliminar "${m.title}" de la librería?`))return;
+  try{
+    await fetch(`${API}/library/${id}`,{method:'DELETE'});
+    clsMB();
+    lib=lib.filter(x=>x.id!==id);
+    updStats();render();
+    toast(`"${m.title}" eliminado de la librería`,'success');
+  }catch(e){toast('Error al eliminar','error')}
 }
 function playMod(){if(curM&&curM.mainFile)playFile(curM.mainFile.path,curM.title)}
 

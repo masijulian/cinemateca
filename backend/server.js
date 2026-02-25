@@ -797,13 +797,15 @@ app.post('/api/scan', (req, res) => {
   // Incremental scan
   // Detect series units that now subsume previously-scanned season subfolders
   // Remove old entries whose folderPath is a child of a detected series unit
+  // NEVER touch manualMatch entries — they are protected from all automatic cleanup
   const seriesPaths = allUnits.filter(u => u.isSeriesFolder).map(u => u.folderPath);
   const withoutSubsumed = existing.filter(e =>
-    !seriesPaths.some(sp => e.folderPath !== sp && e.folderPath.startsWith(sp + path.sep))
+    e.manualMatch || !seriesPaths.some(sp => e.folderPath !== sp && e.folderPath.startsWith(sp + path.sep))
   );
 
   // Remove orphaned entries (folders no longer on disk)
-  const valid = withoutSubsumed.filter(e => !e.folderPath || fs.existsSync(e.folderPath));
+  // manualMatch entries are kept even if their folder is gone (manual delete only)
+  const valid = withoutSubsumed.filter(e => e.manualMatch || !e.folderPath || fs.existsSync(e.folderPath));
   if (valid.length < existing.length) {
     console.log(`  Limpiando ${existing.length - valid.length} entradas obsoletas`);
     saveLibrary(valid);
@@ -1032,12 +1034,16 @@ app.post('/api/library/bulk', (req, res) => {
     const { entries } = req.body;
     const lib = loadLibrary();
 
-    // Add new entries by folderPath
-    const pathMap = new Map(lib.map(e => [e.folderPath, e]));
-    for (const entry of entries) pathMap.set(entry.folderPath, entry);
-    let all = Array.from(pathMap.values());
+    // ── Protect manualMatch entries: they are NEVER touched by any deduplication ──
+    const manual = lib.filter(e => e.manualMatch);
+    const nonManual = lib.filter(e => !e.manualMatch);
 
-    // Deduplicate by tmdbId: merge different versions of the same movie
+    // New entries replace non-manual entries with the same folderPath
+    const newPaths = new Set(entries.map(e => e.folderPath));
+    const kept = nonManual.filter(e => !newPaths.has(e.folderPath));
+    let all = [...kept, ...entries];
+
+    // Deduplicate by tmdbId: merge different versions of the same movie (non-manual only)
     const tmdbGroups = new Map();
     const noTmdb = [];
     for (const entry of all) {
@@ -1071,7 +1077,8 @@ app.post('/api/library/bulk', (req, res) => {
       deduped.push(primary);
     }
 
-    saveLibrary(deduped);
+    // Re-add manualMatch entries untouched
+    saveLibrary([...deduped, ...manual]);
     res.json({ ok: true, count: deduped.length, merged: all.length - deduped.length });
   } catch (e) { res.status(500).json({ error: e.message }); }
 });
